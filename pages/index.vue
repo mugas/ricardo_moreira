@@ -8,6 +8,11 @@
       <h2 class="posts-list-title">Posts</h2>
       <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
     </div>
+    <div class="posts-list">
+      <h2 class="posts-list-title">Pages</h2>
+      <p class="post-link" v-for="page in allPages"><n-link :to="page._path">{{page.title}}</n-link></p>
+
+    </div>
   </div>
 </template>
 
@@ -19,9 +24,12 @@ export default {
     },
     siteInfo() {
       return this.$store.state.siteInfo;
+    },
+    allPages() {
+      return this.$store.state.allPages;
     }
   }
-}
+};
 </script>
 
 <style lang="css" scoped>
