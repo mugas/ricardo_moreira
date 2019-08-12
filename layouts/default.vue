@@ -3,6 +3,7 @@
     <div class="header">
       <!-- This link is an n-link because it links to another Nuxt route -->
       <n-link class="logo" to="/"><Logo/></n-link>
+      <a href="/blog">Blog</a>
     </div>
     <nuxt class="content" />
     <div class="footer">

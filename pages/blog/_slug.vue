@@ -4,6 +4,9 @@
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
+   <div>
+     <img :src="thumbnail">
+     </div>
   </div>
 </template>
 
@@ -19,18 +22,22 @@ export default {
     you're bringing in from the JSON.
     */
     let post = await import(`~/content/blog/${params.slug}.json`);
+    console.log(post);
     return {
       date: post.date,
       body: post.body,
       title: post.title,
       author: post.author,
+      thumbnail: post.thumbnail
     };
   }
-}
+};
 </script>
 
 <style lang="css" scoped>
-.back, .date, .body {
+.back,
+.date,
+.body {
   padding-top: 10px;
 }
 .back-link {
