@@ -12,7 +12,6 @@
       <p><n-link :to="post._path">{{post.title}}</n-link></p>
       <p>{{post.date}}</p>
       <p>{{post.body}}</p>
-      
       <div class="one">
       <img class="text" :src="post.thumbnail">
       
