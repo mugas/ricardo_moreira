@@ -6,7 +6,7 @@
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
    <div>
      <img :src="thumbnail">
-     </div>
+    </div>
   </div>
 </template>
 

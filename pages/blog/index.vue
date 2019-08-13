@@ -1,14 +1,21 @@
 <template lang="html">
   <div class="main">
     
-    <div class="posts-list">
+    <!-- <div class="posts-list">
       <h2 class="posts-list-title">Posts</h2>
       <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
-      <p v-for="post in blogPosts">{{post.body}}</p>
+      <p v-for="post in blogPosts">{{post.date}}</p>
         
-    </div>
-    <div>
-     <img :src="thumbnail">
+    </div> -->
+
+    <div class="posts-list" v-for="post in blogPosts">
+      <p><n-link :to="post._path">{{post.title}}</n-link></p>
+      <p>{{post.date}}</p>
+      <p>{{post.body}}</p>
+      
+      <div class="one">
+      <img class="text" :src="post.thumbnail">
+      </div>
     </div>
     
   </div>
