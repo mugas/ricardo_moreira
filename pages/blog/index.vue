@@ -15,6 +15,7 @@
       
       <div class="one">
       <img class="text" :src="post.thumbnail">
+      
       </div>
     </div>
     

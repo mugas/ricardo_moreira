@@ -4,6 +4,7 @@
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
+    <p>{{tags}}</p>
    <div>
      <img :src="thumbnail">
     </div>
@@ -28,7 +29,8 @@ export default {
       body: post.body,
       title: post.title,
       author: post.author,
-      thumbnail: post.thumbnail
+      thumbnail: post.thumbnail,
+      tags: post.tags
     };
   }
 };
