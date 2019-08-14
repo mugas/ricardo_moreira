@@ -4,7 +4,8 @@
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
-    <p>{{tag[0]}}</p>
+   <!--  <p>{{tag[0]}}</p> -->
+   <p>{{ tag }}</p>
    <div>
      <img :src="thumbnail">
     </div>
@@ -23,11 +24,8 @@ export default {
     you're bringing in from the JSON.
     */
     let post = await import(`~/content/blog/${params.slug}.json`);
-    console.log(post.tags);
-    let tag = post.tags.split(",");
-    console.log(tag);
+
     return {
-      tag,
       date: post.date,
       body: post.body,
       title: post.title,
@@ -35,6 +33,17 @@ export default {
       thumbnail: post.thumbnail,
       tags: post.tags
     };
+  },
+  computed: {
+    tag: function() {
+      let vm = this;
+      let tag = vm.tags.split(",");
+      console.log(tag[0]);
+      /* let vm = this;
+      console.log(vm.post.tags);
+      let tag = post.tags.split(",");
+      console.log(tag); */
+    }
   }
 };
 </script>
