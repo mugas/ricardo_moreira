@@ -20,12 +20,7 @@ collections:
           widget: "date",
           format: "Do MMM YYYY",
         }
-      - {
-          label: "Author",
-          name: "author",
-          widget: "string",
-          field: { label: "Tag", name: "tag_name", widget: "string" },
-        }
+      - { label: "Author", name: "author", widget: "string" }
       - {
           label: "Featured Image",
           name: "thumbnail",
@@ -33,7 +28,12 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          field: { label: "Tag", name: "tag_name", widget: "string" },
+        }
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "content/pages" # The path to the folder where the documents are stored
