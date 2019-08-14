@@ -32,7 +32,7 @@ collections:
           label: "Tags",
           name: "tags",
           widget: "list",
-          field: { label: "Tag", name: "tag_name", widget: "string" },
+          default:["javascript"],
         }
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
