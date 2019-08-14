@@ -39,10 +39,6 @@ export default {
       let vm = this;
       let tag = vm.tags.split(",");
       console.log(tag[0]);
-      /* let vm = this;
-      console.log(vm.post.tags);
-      let tag = post.tags.split(",");
-      console.log(tag); */
     }
   }
 };
