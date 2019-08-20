@@ -6,6 +6,8 @@
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
    <!--  <p>{{tag[0]}}</p> -->
    <p>{{ tag }}</p>
+  <button v-on:click="hasTag()">Javascript</button>
+
    <div>
      <img :src="thumbnail">
     </div>
@@ -34,13 +36,25 @@ export default {
       tags: post.tags
     };
   },
+  methods: {
+    hasTag: function() {
+      console.log(this);
+      let hasTag = this;
+      if (this.tags.includes("javascript")) {
+        console.log("true");
+      }
+    }
+  },
   computed: {
     tag: function() {
+      //console.log(this);
       let vm = this;
-      let tag = vm.tags.split(",");
-      console.log(tag[0]);
+      let tag = vm.tags;
+      console.log(tag);
     }
   }
+  //1-gather all same tags together and
+  //present them in one array
 };
 </script>
 
