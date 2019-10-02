@@ -1,16 +1,9 @@
 <template lang="html">
-  <div class="post">
-    <h1 class="title">{{title}}</h1>
-    <p class="date">Posted by {{author}} on {{date}}</p>
-    <div class="body" v-html="$md.render(body)"/>
-    <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
-   <!--  <p>{{tag[0]}}</p> -->
-   <p>{{ tag }}</p>
-  <button v-on:click="hasTag()">Javascript</button>
+  
+  
+   <button v-on:click="hasTag()">Javascript</button> 
 
-   <div>
-     <img :src="thumbnail">
-    </div>
+   
   </div>
 </template>
 
@@ -25,15 +18,15 @@ export default {
     However, I like the code more this way anyway--it's more explicit what
     you're bringing in from the JSON.
     */
-    let post = await import(`@/content/blog/${params.slug}.json`);
-
+    let post = await import(`~/content/blog/${params.slug}.json`);
+    console.log(post);
     return {
       date: post.date,
       body: post.body,
       title: post.title,
       author: post.author,
       thumbnail: post.thumbnail,
-      tags: post.tags
+     
     };
   },
 
@@ -45,11 +38,16 @@ export default {
 
   methods: {
     hasTag: function() {
-      console.log(this);
+      //console.log(this);
       let hasTag = this;
-      if (this.tags.includes("javascript")) {
+      if (tags.includes("javascript")) {
         console.log("true");
       }
+    }
+  },
+  computed: {
+    blogPosts() {
+      return this.$store.state.blogPosts;
     }
   }
 };

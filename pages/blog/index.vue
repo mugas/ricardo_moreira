@@ -8,6 +8,7 @@
         
     </div> -->
   <Tags/>
+ 
     <div class="posts-list" v-for="post in blogPosts">
       <p><n-link :to="post._path">{{post.title}}</n-link></p>
       <p>{{post.date}}</p>
@@ -22,7 +23,7 @@
 </template>
 
 <script>
-import Tags from "@/components/Tags";
+import Tags from "@/components/Tags/Tags";
 export default {
   components: {
     Tags

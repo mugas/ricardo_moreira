@@ -5,7 +5,7 @@
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
    <!--  <p>{{tag[0]}}</p> -->
-   <p>{{ tag }}</p>
+  <!-- <p>{{ tag }}</p>  -->
   <button v-on:click="hasTag()">Javascript</button>
 
    <div>
@@ -35,8 +35,8 @@ export default {
       thumbnail: post.thumbnail,
       tags: post.tags
     };
-  },
-  methods: {
+  },/* ,
+   methods: {
     hasTag: function() {
       console.log(this);
       let hasTag = this;
@@ -44,14 +44,24 @@ export default {
         console.log("true");
       }
     }
-  },
+  }, */
   computed: {
-    tag: function() {
+   /*  tag: function() {
       //console.log(this);
       let vm = this;
       let tag = vm.tags;
       console.log(tag);
+    }, */
+    
+    
+    hasTag: function() {
+      //console.log(this);
+      let hasTag = this;
+      if (hasTag.includes("javascript")) {
+        console.log("true");
+      }
     }
+
   }
   //1-gather all same tags together and
   //present them in one array
