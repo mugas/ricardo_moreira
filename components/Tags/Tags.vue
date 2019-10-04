@@ -26,7 +26,7 @@ export default {
       title: post.title,
       author: post.author,
       thumbnail: post.thumbnail,
-     
+      tags: post.tags
     };
   },
 
@@ -39,8 +39,8 @@ export default {
   methods: {
     hasTag: function() {
       //console.log(this);
-      let hasTag = this;
-      if (tags.includes("javascript")) {
+      //let hasTag = this;
+      if (this.tags.includes("javascript")) {
         console.log("true");
       }
     }

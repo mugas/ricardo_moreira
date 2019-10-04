@@ -18,7 +18,7 @@ export default {
     However, I like the code more this way anyway--it's more explicit what
     you're bringing in from the JSON.
     */
-    let page = await import(`~/content/pages/${params.slug}.json`);
+    let page = await import(`~/content/projects/${params.slug}.json`);
     return {
       date: page.date,
       body: page.body,
