@@ -5,6 +5,7 @@
       <n-link to="/">Home</n-link>
       <n-link to="/blog">Blog</n-link>
       <n-link to="/projects">Projects</n-link>
+      <n-link to="/about">About</n-link>
     </div>
     <nuxt class="content" />
     <div class="footer">
