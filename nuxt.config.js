@@ -1,9 +1,9 @@
-import pkg from "./package";
-import info from "./content/setup/info";
 import path from "path";
 import glob from "glob";
+import pkg from "./package";
+import info from "./content/setup/info";
 
-var dynamicRoutes = getDynamicPaths({
+const dynamicRoutes = getDynamicPaths({
   "/blog": "blog/*.json",
   "/projects": "projects/*.json"
 });
@@ -24,7 +24,14 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: pkg.description }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      }
+    ]
   },
 
   /*
@@ -84,7 +91,7 @@ export default {
 function getDynamicPaths(urlFilepathTable) {
   return [].concat(
     ...Object.keys(urlFilepathTable).map(url => {
-      var filepathGlob = urlFilepathTable[url];
+      const filepathGlob = urlFilepathTable[url];
       return glob
         .sync(filepathGlob, { cwd: "content" })
         .map(filepath => `${url}/${path.basename(filepath, ".json")}`);
