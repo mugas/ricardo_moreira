@@ -1,26 +1,26 @@
 <template>
   <div>
-    <TheHeader />
+    <TheHeader/>
     <main class="main_content">
       <nuxt/>
     </main>
   </div>
 </template> 
 
-
 <script>
 
-import TheHeader from '../components/TheHeader/TheHeader'
-
+import TheHeader from '../components/TheHeader/TheHeader';
 
 export default {
-  components: {
-    TheHeader
-  }
+components:{
+  TheHeader
+ }  
 }
 </script>
 
-<style>
+
+
+<style lang="css" scoped>
 *{
   box-sizing: border-box
 }
