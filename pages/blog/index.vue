@@ -33,9 +33,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+/*
 .posts-list {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: red;
   padding: 20px;
   margin-top: 35px;
 }
@@ -50,5 +51,19 @@ export default {
 }
 .main-header {
   text-align: center;
+}
+*/
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.posts-list{
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+  width:90%;
+  margin: auto;
+  height: 20rem;
+
 }
 </style>
