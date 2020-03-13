@@ -10,13 +10,14 @@
   
   
     <div class="posts-list" v-for="post in blogPosts">
+      <!--<div class="one">
+      <img class="post_preview" :src="post.thumbnail">
+      </div>-->
+      <div :style="{backgroundImage: 'url(' + post.thumbnail + ')'}" class="post-preview-tumbnail"></div>
       <p><n-link :to="post._path">{{post.title}}</n-link></p>
       <p>{{post.date}}</p>
       <p>{{post.body}}</p>
-      <div class="one">
-      <img class="text" :src="post.thumbnail">
       
-      </div>
     </div>
     
   </div>
@@ -64,6 +65,22 @@ a{
   width:90%;
   margin: auto;
   height: 20rem;
-
 }
+
+.one{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
+}
+
+.post-preview-thumbnail{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
+}
+
+
+
 </style>

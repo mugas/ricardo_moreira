@@ -20,7 +20,7 @@ components:{
 
 
 
-<style lang="css" scoped>
+<style>
 *{
   box-sizing: border-box
 }
