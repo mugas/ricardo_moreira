@@ -4,7 +4,7 @@
       <h1>{{siteInfo.sitename}}</h1>
       <p>{{siteInfo.sitedescription}}</p>
     </div>
-    <n-link class="logo" to="/"><Logo/></n-link>
+   
       <a href="/blog">Blogis</a>
     <div class="posts-list">
       <h2 class="posts-list-title">Posts</h2>
