@@ -1,13 +1,16 @@
 <template>
-<div class="main">
-    <div class="posts-list" v-for="post in blogPosts">
-      <p><n-link :to="post._path">{{title}}</n-link></p>
-      <p>{{post.date}}</p>
-      <p>{{excerpt}}</p>
-      <div class="one">
-      <img class="text" :src="thumbnailImage">
-      </div>
-      </div>
+<nuxt-link
+       
+        :to="id">
+        <article class="post-preview">
+            <div :style="{backgroundImage: thumbnailImage}" class="post-preview-thumbnail">
+            </div>
+            <div class="post-preview-content">
+                <h1>{{ title }}</h1>
+                <p>{{ excerpt }}</p>
+            </div>
+        </article>
+        </nuxt-link>
 </template>
 
 <script>
@@ -32,3 +35,32 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.post-preview{
+    border-radius:3px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    width: 90%;
+    margin: auto;
+    height: 20rem;
+}
+
+.post-preview-thumbnail{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+}
+
+.post-preview-content{
+    text-align: center;
+    padding: 1rem;
+}
+
+@media(min-width: 35rem)
+</style>
