@@ -1,23 +1,23 @@
 <template>
-    <section class="container">
-        <nuxt-link
-        v-for="post in posts"
-        :key="post.id"
-        :to="post.id">
-        <article class="post-preview">
-            <div :style="{backgroundImage: post.thumbnailUrl}" class="post-preview-thumbnail">
-            </div>
-            <div class="post-preview-content">
-                <h1>{{ post.title }}</h1>
-                <p>{{ post.previewText }}</p>
-            </div>
-        </article>
-        </nuxt-link>
+    <section id="posts">
+       <PostPreview
+       v-for="post in posts"
+       :key="post.id"
+       :title="post.title"
+       :excerpt="post.previewText"
+       :thumbnailImage="post.thumbnailUrl"
+       :id="post.id" />
     </section>
 </template>
 
 <script>
+
+import PostPreview from "../../components/Blog/PostPreview";
 export default {
+
+    components:{
+PostPreview
+    },
     data(){
         return{
             posts:[
@@ -42,5 +42,16 @@ export default {
 
 <style>
 
-
+#posts{
+    padding-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media(min-width: 35rem){
+    #posts{
+        flex-direction: row;
+    }
+}
 </style>

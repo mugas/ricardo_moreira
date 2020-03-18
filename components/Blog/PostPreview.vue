@@ -3,7 +3,7 @@
        
         :to="id">
         <article class="post-preview">
-            <div :style="{backgroundImage: thumbnailImage}" class="post-preview-thumbnail">
+            <div :style="{backgroundImage: 'url('+ thumbnailImage + ')'}" class="post-preview-thumbnail">
             </div>
             <div class="post-preview-content">
                 <h1>{{ title }}</h1>
@@ -46,8 +46,8 @@ a{
     border-radius:3px;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
     width: 90%;
-    margin: auto;
     height: 20rem;
+    margin:1rem;
 }
 
 .post-preview-thumbnail{
@@ -62,5 +62,10 @@ a{
     padding: 1rem;
 }
 
-@media(min-width: 35rem)
+@media(min-width: 35rem){
+    .post-preview{
+        width:25rem;
+        
+    }
+}
 </style>
