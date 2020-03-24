@@ -15,6 +15,8 @@
       </div>-->
       <div :style="{backgroundImage: 'url(' + post.thumbnail + ')'}" class="post-preview-tumbnail"></div>
       <p><n-link :to="post._path">{{post.title}}</n-link></p>
+      <p>{{post.thumbnail}}</p>
+      <img class="post_preview" :src="post.thumbnail">
       <p>{{post.date}}</p>
       <p>{{post.body}}</p>
       
