@@ -1,5 +1,4 @@
-
-    <!-- <div class="posts-list">
+	<!-- <div class="posts-list">
       <h2 class="posts-list-title">Posts</h2>
       <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
       <p v-for="post in blogPosts">{{post.date}}</p> 
@@ -14,9 +13,9 @@
 
 </div>-->
 <template lang="html">
-
-      <article class="post-preview" >
-       <div class="posts-list" v-for="post in blogPosts">
+<section id="posts">
+      
+       <div class="post-preview" v-for="post in blogPosts">
           <div>
             <img class="post-preview-thumbnail" :src="post.thumbnail">
           </div>
@@ -26,7 +25,8 @@
           <p>{{post.body}}</p>
           </div>
           </div>
-      </article>
+     
+      </section>
      
 </template>
 
@@ -40,13 +40,27 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style scoped>
+
+#posts{
+    padding-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ @media(min-width: 35rem){
+    #posts{
+        flex-direction: row;
+    }
+} 
+
 a{
     text-decoration: none;
     color:black;
 }
 
-.post-lists{
+.post-preview{
     border-radius:3px;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
     width: 90%;
@@ -76,3 +90,5 @@ a{
 
 
 </style>
+
+

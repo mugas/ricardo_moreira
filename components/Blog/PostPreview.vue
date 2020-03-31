@@ -15,7 +15,7 @@
 
 <script>
 export default {
-    props:{
+     props:{
         title:{
             type: String,
             required: true
@@ -32,7 +32,9 @@ export default {
             type:String,
             required:true
         }
-    }
+    } 
+
+    
 }
 </script>
 
