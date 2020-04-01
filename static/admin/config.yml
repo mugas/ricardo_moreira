@@ -27,7 +27,7 @@ collections:
           widget: "image",
           required: false,
         }
-        - {
+      - {
           label: "Excerpt",
           name: "excerpt",
           widget: "string",
