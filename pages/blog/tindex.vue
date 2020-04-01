@@ -32,6 +32,30 @@ PostPreview
                     previewText:'This will be even more awesome',
                     thumbnailUrl:'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
                     id:'a-second-beginning'
+                },
+                {
+                    title:'A new Beginning',
+                    previewText:'This will be awesome',
+                    thumbnailUrl:'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+                    id:'a-new-beginning'
+                },
+                {
+                    title:'A second Beginning',
+                    previewText:'This will be even more awesome',
+                    thumbnailUrl:'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+                    id:'a-second-beginning'
+                },
+                {
+                    title:'A new Beginning',
+                    previewText:'This will be awesome',
+                    thumbnailUrl:'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+                    id:'a-new-beginning'
+                },
+                {
+                    title:'A second Beginning',
+                    previewText:'This will be even more awesome',
+                    thumbnailUrl:'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+                    id:'a-second-beginning'
                 }
             ]
         };

@@ -14,19 +14,12 @@
 </div>-->
 <template lang="html">
 <section id="posts">
-      
-       <div class="post-preview" v-for="post in blogPosts">
-          <div>
-            <img class="post-preview-thumbnail" :src="post.thumbnail">
-          </div>
-          <div class="post-preview-content">
-          <p><n-link :to="post._path">{{post.title}}</n-link></p>
-          <p>{{post.date}}</p>
-          <p>{{post.body}}</p>
-          </div>
-          </div>
-     
-      </section>
+  <div class="post-preview" v-for="post in blogPosts">
+      <img class="post-preview-thumbnail" :src="post.thumbnail">
+      <p><n-link :to="post._path">{{post.title}}</n-link></p>
+      <p>{{post.date}}</p>
+  </div>
+</section>
      
 </template>
 
@@ -42,12 +35,17 @@ export default {
 
 <style scoped>
 
-#posts{
+
+
+
+ #posts{
     padding-top:2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex:1;
+    flex-wrap: wrap;
 }
  @media(min-width: 35rem){
     #posts{
@@ -66,6 +64,7 @@ a{
     width: 90%;
     height: 20rem;
     margin:1rem;
+    text-align: center;
 }
 
 .post-preview-thumbnail{
@@ -87,7 +86,7 @@ a{
     }
 }
 
-
+ 
 
 </style>
 
