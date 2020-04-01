@@ -1,22 +1,9 @@
-	<!-- <div class="posts-list">
-      <h2 class="posts-list-title">Posts</h2>
-      <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
-      <p v-for="post in blogPosts">{{post.date}}</p> 
-    </div> 
-    <div class="posts-list" v-for="post in blogPosts">
-      <div :style="{backgroundImage: 'url(' + post.thumbnail + ')'}" class="post-preview-tumbnail"></div>
-      <p><n-link :to="post._path">{{post.title}}</n-link></p>
-      <p>{{post.thumbnail}}</p>
-      <img class="post_preview" :src="post.thumbnail">
-      <p>{{post.date}}</p>
-      <p>{{post.body}}</p>-
-
-</div>-->
 <template lang="html">
 <section id="posts">
   <div class="post-preview" v-for="post in blogPosts">
       <img class="post-preview-thumbnail" :src="post.thumbnail">
       <p><n-link :to="post._path">{{post.title}}</n-link></p>
+      <p>{{post.excerpt}}</p>
       <p>{{post.date}}</p>
   </div>
 </section>
