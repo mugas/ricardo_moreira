@@ -2,8 +2,9 @@
   <div class="main">
     <div class="posts-lists">
       <h2 class="posts-list-title">Pages</h2>
-      <p class="post-link" v-for="page in allPages">
-        <n-link :to="page._path">{{page.title}}</n-link>
+      <p>{{about.title}}
+      <p class="post-link" v-for="about in aboutPage">
+        <n-link :to="about._path">{{about.title}}</n-link>
       </p>
     </div>
   </div>
@@ -14,8 +15,8 @@
 <script>
 export default {
   computed: {
-    allPages() {
-      return this.$store.state.allPages;
+    aboutPa() {
+      return this.$store.state.aboutPage;
     }
   }
 };
