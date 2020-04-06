@@ -66,8 +66,8 @@ collections:
       - label: "About"
         name: "about"
         format: "json"
-        file: "content/about/about-me"
+        file: "content/about/about-me.json"
         fields:
-          - { label: Title, name: name, widget: string }
+          - { label: Title, name:title, widget: string }
           - { label: Body, name: body, widget: string }
           - { label: Featured Image, name: thumbnail, widget: image }

@@ -2,6 +2,7 @@ import path from "path";
 import glob from "glob";
 import pkg from "./package";
 import info from "./content/setup/info";
+import about from "./content/about/about-me";
 
 const dynamicRoutes = getDynamicPaths({
   "/blog": "blog/*.json",

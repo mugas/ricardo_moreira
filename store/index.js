@@ -20,7 +20,7 @@ export const mutations = {
   SET_INFO(state, data) {
     state.siteInfo = data;
   },
-  SET_INFO(state, data) {
+  SET_ABOUT(state, data) {
     state.aboutPage = data;
   }
 };
@@ -61,7 +61,7 @@ export const actions = {
     commit("SET_INFO", info);
   },
   getAboutPage({ state, commit }) {
-    const info = require("~/content/about/about-me.json");
+    const about = require("~/content/about/about-me.json");
     commit("SET_ABOUT", about);
   }
 };
