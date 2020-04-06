@@ -52,6 +52,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "setup"
     label: "Setup"
+    folder: "content/setup"
     files:
       - label: "Site Info"
         name: "info"
@@ -62,6 +63,7 @@ collections:
           - { label: Site Description, name: sitedescription, widget: string }
   - name: "about"
     label: "About"
+    folder: "content/about"
     files:
       - label: "About"
         name: "about"
