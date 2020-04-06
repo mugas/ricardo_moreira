@@ -50,8 +50,8 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Setup"
-    name: "setup"
+  - name: "setup"
+    label: "Setup"
     files:
       - label: "Site Info"
         name: "info"
