@@ -3,6 +3,7 @@
     <div class="page-preview" v-for="page in allPages">
       <img class="page-preview-thumbnail" :src="page.thumbnail">
       <p><n-link to="page._path">{{page.title}}</n-link></p>
+      <p>{{page.excerpt}}</p>
     </div>
   </section>
 </template>
