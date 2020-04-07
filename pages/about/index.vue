@@ -1,10 +1,8 @@
 <template>
   <div class="main">
-    <div class="posts-lists">
-      <h2 class="posts-list-title">Pages</h2>
-      <p>hELLO</p>
+      <h1>{{aboutPage.title}}</h1>
       <p>{{aboutPage.body}}</p>
-      <p>{{siteInfo.sitename}}</p>
+      <img :src="aboutPage.thumbnail">
     </div>
   </div>
 </template>
@@ -17,9 +15,7 @@ export default {
     aboutPage() {
       return this.$store.state.aboutPage;
     },
-    siteInfo() {
-      return this.$store.state.siteInfo;
-  }
+    
 }
 }
 </script>

@@ -1,12 +1,10 @@
-<template>
-  <div class="main">
-    <div class="posts-lists">
-      <h2 class="posts-list-title">Pages</h2>
-      <p class="post-link" v-for="page in allPages">
-        <n-link :to="page._path">{{page.title}}</n-link>
-      </p>
+<template lang="html">
+  <section id="projects">
+    <div class="page-preview" v-for="page in allPages">
+      <img class="page-preview-thumbnail" :src="page.thumbnail">
+      <p><n-link to="page._path">{{page.title}}</n-link></p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -20,4 +18,55 @@ export default {
 </script>
 
 <style>
+#projects{
+    padding-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex:1;
+    flex-wrap: wrap;
+}
+ @media(min-width: 35rem){
+    #projects{
+        flex-direction: row;
+    }
+} 
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.page-preview{
+    border-radius:3px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    width: 90%;
+    height: 20rem;
+    margin:1rem;
+    text-align: center;
+}
+
+.page-preview-thumbnail{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+}
+
+.page-preview-content{
+    text-align: center;
+    padding: 1rem;
+}
+
+@media(min-width: 35rem){
+    .page-preview{
+        width:25rem;
+        
+    }
+}
+
+ 
+
+
 </style>

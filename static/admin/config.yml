@@ -50,6 +50,12 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Excerpt",
+          name: "excerpt",
+          widget: "string",
+          required: true,
+        }
   - name: "setup"
     label: "Setup"
     files:
