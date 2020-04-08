@@ -29,7 +29,7 @@ export const actions = {
   async nuxtServerInit({ dispatch }) {
     await dispatch("getSiteInfo");
     await dispatch("getBlogPosts");
-    await dispatch("getPages");
+    await dispatch("getallPages");
     await dispatch("getAboutPage");
   },
   async getBlogPosts({ state, commit }) {
@@ -42,7 +42,7 @@ export const actions = {
 
     commit("SET_POSTS", searchposts.reverse());
   },
-  async getPages({ state, commit }) {
+  async getallPages({ state, commit }) {
     const context = await require.context(
       "~/content/projects/",
       false,
@@ -54,7 +54,7 @@ export const actions = {
       _path: `/projects/${key.replace(".json", "").replace("./", "")}`
     }));
 
-    commit("SET_PAGES", pages);
+    commit("SET_PAGES", pages.reverse());
   },
   getSiteInfo({ state, commit }) {
     const info = require("~/content/setup/info.json");
