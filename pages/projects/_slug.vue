@@ -21,7 +21,6 @@ export default {
     let page = await import(`~/content/projects/${params.slug}.json`);
       console.log(page)
     return {
-    
       date: page.date,
       body: page.body,
       title: page.title,

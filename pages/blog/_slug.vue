@@ -69,3 +69,26 @@ export default {
   padding: 20px;
 }
 </style>
+
+
+  
+  /* computed: {
+      tag: function() {
+      console.log(this);
+      let vm = this;
+      let tag = vm.tags;
+      console.log(tag);
+    }, 
+
+    hasTag: function() {
+      console.log(this);
+      let hasTag = this;
+
+      if (this.tags.includes("javascript")) {
+        console.log("true");
+      }
+    }
+  }
+  1-gather all same tags together and
+  present them in one array
+ */
