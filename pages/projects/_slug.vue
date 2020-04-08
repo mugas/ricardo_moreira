@@ -19,7 +19,9 @@ export default {
     you're bringing in from the JSON.
     */
     let page = await import(`~/content/projects/${params.slug}.json`);
+      console.log(page)
     return {
+    
       date: page.date,
       body: page.body,
       title: page.title,

@@ -35,36 +35,18 @@ export default {
       thumbnail: post.thumbnail,
       tags: post.tags
     };
-  } /* ,
-   methods: {
+  },
+    methods: {
     hasTag: function() {
       console.log(this);
       let hasTag = this;
       if (this.tags.includes("javascript")) {
         console.log("true");
       }
-    }
-  }, */,
-  computed: {
-    /*  tag: function() {
-      //console.log(this);
-      let vm = this;
-      let tag = vm.tags;
-      console.log(tag);
-    }, */
-
-    hasTag: function() {
-      //console.log(this);
-      //let hasTag = this;
-
-      if (this.tags.includes("javascript")) {
-        console.log("true");
-      }
-    }
-  }
-  //1-gather all same tags together and
-  //present them in one array
+  }  
+}
 };
+
 </script>
 
 <style lang="css" scoped>
