@@ -16,9 +16,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Publish Date",
-          name: "date",
-          widget: "date",
-          format: "Do MMM YYYY",
+          name: "datetime",
+          widget: "datetime",
+          dateformat: "Do MMM YYYY",
         }
       - { label: "Author", name: "author", widget: "string" }
       - {
