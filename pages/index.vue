@@ -23,6 +23,7 @@ export default {
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts;
+      console.log(post.datetime)
     },
     siteInfo() {
       return this.$store.state.siteInfo;
