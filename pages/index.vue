@@ -8,7 +8,7 @@
       <a href="/blog">Blogis</a>
     <div class="posts-list">
       <h2 class="posts-list-title">Posts</h2>
-      <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
+      <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title.length[10]}}</n-link></p>
       
     </div>
     <div class="posts-list">
@@ -16,6 +16,8 @@
       <p class="post-link" v-for="page in allPages"><n-link :to="page._path">{{page.title}}</n-link></p>
 
     </div>
+
+    <button v-on:click="test()">Hello</button>
    
   </div>
 </template>
@@ -25,13 +27,20 @@ export default {
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts;
-      console.log(post.datetime)
+      
     },
     siteInfo() {
       return this.$store.state.siteInfo;
     },
     allPages() {
       return this.$store.state.allPages;
+    }
+  },
+  methods:{
+    test(){
+      console.log("hello");
+     console.log(this.$store.state.blogPosts)
+     
     }
   }
 };

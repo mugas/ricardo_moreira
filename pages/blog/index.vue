@@ -4,8 +4,10 @@
       <img class="post-preview-thumbnail" :src="post.thumbnail">
       <p><n-link :to="post._path">{{post.title}}</n-link></p>
       <p>{{post.excerpt}}</p>
-      <p>{{post.datetime}}</p>
+      <p>{{post.date}}</p>
   </div>
+
+  <button v-on:click="test()">Hello</button>
 </section>
      
 </template>
@@ -15,6 +17,12 @@ export default {
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts;
+    }
+    
+  },
+  methods:{
+      test(){
+        console.log("gello")
     }
   }
 };
