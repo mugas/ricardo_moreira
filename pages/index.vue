@@ -1,5 +1,7 @@
 <template lang="html">
   <div class="main">
+
+    <SocialMedia/>
     <div class="main-header">
       <h1>{{siteInfo.sitename}}</h1>
       <p>{{siteInfo.sitedescription}}</p>
@@ -23,7 +25,12 @@
 </template>
 
 <script>
+
+import SocialMedia from '../components/SocialMedia/SocialMedia'
 export default {
+  components:{
+    SocialMedia: SocialMedia
+  },
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts;
