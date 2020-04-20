@@ -57,19 +57,21 @@ export default {
     "@nuxtjs/markdownit",
     "@nuxtjs/axios", // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/pwa",
-    "nuxt-fontawesome",
-    {
-      imports: [
-        {
-          set: "@fortawesome/free-solid-svg-icons",
-          icons: ["fas"]
-        },
-        {
-          set: "@fortawesome/free-brands-svg-icons",
-          icons: ["fab"]
-        }
-      ]
-    }
+    [
+      "nuxt-fontawesome",
+      {
+        imports: [
+          {
+            set: "@fortawesome/free-solid-svg-icons",
+            icons: ["fas"]
+          },
+          {
+            set: "@fortawesome/free-brands-svg-icons",
+            icons: ["fab"]
+          }
+        ]
+      }
+    ]
   ],
   markdownit: {
     injected: true,

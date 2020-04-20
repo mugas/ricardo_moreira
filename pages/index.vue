@@ -27,10 +27,13 @@
 <script>
 
 import SocialMedia from '../components/SocialMedia/SocialMedia'
+
 export default {
   components:{
-    SocialMedia: SocialMedia
-  },
+  
+  SocialMedia
+ },
+
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts;
@@ -50,7 +53,8 @@ export default {
      
     }
   }
-};
+}
+
 </script>
 
 <style lang="css" scoped>
