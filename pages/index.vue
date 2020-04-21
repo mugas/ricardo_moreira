@@ -1,25 +1,10 @@
 <template lang="html">
   <div class="main">
 
+    <MySvg/>
     <SocialMedia/>
-    <div class="main-header">
-      <h1>{{siteInfo.sitename}}</h1>
-      <p>{{siteInfo.sitedescription}}</p>
-    </div>
-   
-      <a href="/blog">Blogis</a>
-    <div class="posts-list">
-      <h2 class="posts-list-title">Posts</h2>
-      <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title.length[10]}}</n-link></p>
-      
-    </div>
-    <div class="posts-list">
-      <h2 class="posts-list-title">Pages</h2>
-      <p class="post-link" v-for="page in allPages"><n-link :to="page._path">{{page.title}}</n-link></p>
 
-    </div>
-
-    <button v-on:click="test()">Hello</button>
+    
    
   </div>
 </template>
@@ -27,11 +12,12 @@
 <script>
 
 import SocialMedia from '../components/SocialMedia/SocialMedia'
+import MySvg from '../components/MySvg/MySvg'
 
 export default {
   components:{
-  
-  SocialMedia
+  SocialMedia,
+  MySvg
  },
 
   computed: {

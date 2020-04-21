@@ -26,6 +26,7 @@
     "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
+    "@nuxtjs/svg": "^0.1.11",
     "glob": "^7.1.6",
     "nodemon": "^1.19.4"
   }

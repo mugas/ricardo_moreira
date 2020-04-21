@@ -57,6 +57,7 @@ export default {
     "@nuxtjs/markdownit",
     "@nuxtjs/axios", // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/pwa",
+    "@nuxtjs/svg",
     [
       "nuxt-fontawesome",
       {
