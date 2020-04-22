@@ -1,8 +1,8 @@
 <template lang="html">
   <div class="main">
-
+ <SocialMedia/>
     <MySvg/>
-    <SocialMedia/>
+   
 
     
    
