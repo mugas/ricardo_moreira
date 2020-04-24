@@ -1,101 +1,171 @@
 <template>
-<div>
-<h1>Hello</h1>
-    <svg class="ants" xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slices/><sliceSourceBounds height="100" width="100" x="0" y="-100" bottomLeftOrigin="true"/></sfw></metadata><rect fill="none" width="100" height="100"/><g><path class="ant1" d="M42.422,27.472c0,0-3.313-9.637-6.626-9.235l-1.506,0.201c0,0-1.606,0.653,0.251,0.854l1.406-0.05   c0,0,3.313,1.857,5.521,8.332c0,0,1.687,2.502,4.159,3.863c-1.075,0.683-1.924,1.762-1.924,3.467c0,0-2.2,3.422,2.627,3.177   c0,0-0.68,1.347-0.597,3.124c-1.519-0.577-4.076-1.933-5.437-4.819l-1.59-6.125c0,0-4.46-6.217-9.959-5.912l-2.506-0.011   c0,0-2.504,0.316,0,0.989l2.384,0.428c0,0,5.56,0.733,8.921,4.827l1.588,5.927c0,0,1.873,6.683,6.818,6.776   c-0.181,0.525-0.469,1.703-0.264,3.502c-0.688,0.199-1.831,0.262-3.002-0.832c0,0-4.063-5.865-10.019-0.917l-5.224,5.865   c0,0-7.055,4.949-10.262,4.765c0,0-3.482,1.008,0,1.191c0,0,9.071-2.016,10.996-5.04l6.23-5.773c0,0,4.674-2.016,7.514,1.558   c0,0,2.568,2.249,4.223,1.425c0.158,0.551,0.359,1.138,0.611,1.761c0,0,0.018,0.129,0.051,0.345   c-0.947,1.372-2.799,3.301-5.159,2.059c0,0-8.431-5.406-8.339,1.559c0,0-0.4,5.864,3.008,10.263c0,0-1.204,11.087-3.022,13.47   l-1.177,1.741c0,0-1.558,2.933,1.191,0.733l1.467-2.107c0,0,3.664-8.522,3.299-13.471c0,0-3.951-8.037-2.842-10.354   c0,0,2.422-2.648,6.049-0.092c0,0,3.869,2.116,6.064-1.015c0.216,0.873,0.477,1.648,0.754,1.881c0,0-9.775,2.566-3.055,12.587   c0,0,2.329,3.544,4.953,3.91V30.259c0,0-1.43,0-2.928,0.502C45.436,29.866,42.95,28.397,42.422,27.472z"/><path d="M82.816,55.667c-3.207,0.184-10.263-4.765-10.263-4.765l-5.224-5.865c-5.956-4.948-10.018,0.917-10.018,0.917   c-1.172,1.094-2.314,1.03-3.002,0.832c0.204-1.8-0.084-2.978-0.264-3.502c4.944-0.093,6.817-6.776,6.817-6.776l1.589-5.927   c3.36-4.094,8.921-4.827,8.921-4.827l2.383-0.428c2.505-0.672,0-0.989,0-0.989l-2.505,0.011c-5.5-0.306-9.96,5.912-9.96,5.912   l-1.589,6.125c-1.36,2.886-3.918,4.242-5.438,4.819c0.084-1.776-0.596-3.124-0.596-3.124c4.826,0.245,2.627-3.177,2.627-3.177   c0-1.705-0.85-2.784-1.924-3.467c2.473-1.36,4.158-3.863,4.158-3.863c2.209-6.475,5.521-8.332,5.521-8.332l1.406,0.05   c1.856-0.201,0.25-0.854,0.25-0.854l-1.506-0.201c-3.313-0.401-6.625,9.235-6.625,9.235c-0.528,0.925-3.014,2.394-4.651,3.29   C51.43,30.259,50,30.259,50,30.259v42.038c2.623-0.366,4.953-3.91,4.953-3.91C61.674,58.366,51.897,55.8,51.897,55.8   c0.278-0.232,0.538-1.008,0.755-1.881c2.195,3.131,6.064,1.015,6.064,1.015c3.627-2.557,6.048,0.092,6.048,0.092   c1.11,2.317-2.841,10.354-2.841,10.354c-0.366,4.948,3.299,13.471,3.299,13.471l1.467,2.107c2.748,2.199,1.191-0.733,1.191-0.733   l-1.178-1.741c-1.818-2.383-3.021-13.47-3.021-13.47c3.407-4.398,3.008-10.263,3.008-10.263c0.092-6.965-8.339-1.559-8.339-1.559   c-2.36,1.242-4.212-0.687-5.159-2.059c0.033-0.216,0.051-0.345,0.051-0.345c0.252-0.623,0.453-1.21,0.611-1.761   c1.654,0.824,4.222-1.425,4.222-1.425c2.841-3.574,7.515-1.558,7.515-1.558l6.23,5.773c1.925,3.024,10.996,5.04,10.996,5.04   C86.299,56.675,82.816,55.667,82.816,55.667z"/></g><text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Marco Livolsi</text><text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+
+<div class="spider">
+  <div class="spiderweb"></div>
+  <div class="body">
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+  </div>
+  <div class="legs left">
+    <div class="leg"></div>
+    <div class="leg"></div>
+    <div class="leg"></div>
+  </div>
+  <div class="legs right">
+    <div class="leg"></div>
+    <div class="leg"></div>
+    <div class="leg"></div>
+  </div>
 </div>
+
+
+
+
+
+
+
 </template>
 
 <style>
 
-.ants{
-    fill:black;
-    width:15px;
-    height: 25px;
-    position: absolute;
+html {
+  background: #fce38a;
 }
 
-.ant1{
-    left:50%;
-    bottom:-60%;
-    animation: ant-1-animation 0s infinite;
-    color: red;
+.spider {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 30%;
 
+  /* 4. Animatie */
+  animation: swing 2s infinite;
+  transform-origin: top;
+
+  /* Bonus */
+  transition: 0.8s ease-in-out;
 }
 
-@keyframes ant-1-animation {
-    0%{
-        left:0%;
-        bottom:-60%
-    }
-    10%{
-        left:50%;
-        bottom:5%;
-        transform: rotate(0deg)
-    }
-    12%{
-        left:50%;
-        bottom:5%;
-        transform: rotate(-90deg)
-    }
-    18%{
-        transform: rotate(-90deg)
-    }
-    20%{
-        left:50%;
-        bottom:5%;
-        transform: rotate(-90deg)
-    }
-    22%{
-        transform: rotate(0deg)
-    }
-    32%{
-        transform: rotate(0deg)
-    }
-    38%{
-        left:5%;
-        bottom:87%;
-        transform: rotate(90deg)
-    }
-    50%{
-        left:90%;
-        bottom:87%;
-        transform: rotate(90deg)
-    }
-    50%{
-        left:90%;
-        bottom:87%;
-        transform: rotate(230deg)
-    }
-    72%{
-        left:90%;
-        bottom:87%;
-        transform: rotate(230deg)
-    }
-    78%{
-        left:5%;
-        bottom:5%;
-        transform: rotate(90deg)
-    }
-    85%{
-        left:5%;
-        bottom:5%;
-        transform: rotate(90deg)
-    }
-    90%{
-        left:50%;
-        bottom:5%;
-        transform: rotate(180deg)
-    }
-    100%{
-        left:50%;
-        bottom:-65%;
-        transform: rotate(180deg)
-    }
-
-
-    
-
+.spider .spiderweb {
+  width: 2px;
+  height: 200px;
+  margin-left: 49px;
+  background: rgba(255, 255, 255, 0.7);
 }
+
+.spider .body {
+  width: 100px;
+  height: 80px;
+  background: #222;
+  position: relative;
+  border-radius: 50%;
+}
+
+.spider .body .eye {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.spider .body .eye.left {
+  left: 20px;
+}
+
+.spider .body .eye.right {
+  right: 20px;
+}
+
+.spider .body .eye:after {
+  background: #222;
+  width: 7px;
+  height: 7px;
+  content: "";
+  display: block;
+  margin: 55%;
+  border-radius: 50%;
+
+  /* 3. Animatie */
+  animation: look 4s infinite;
+}
+
+.spider .legs .leg {
+  width: 80px;
+  height: 40px;
+  margin-top: -20px;
+  border: 5px solid transparent;
+  border-top-color: #333;
+  border-radius: 40px 40px 0 0;
+}
+
+.spider .legs {
+  position: absolute;
+  bottom: -10%;
+  z-index: -1;
+}
+
+.spider .legs.left {
+  left: -70%;
+}
+.spider .legs.right {
+  right: -60%;
+}
+
+.legs.left .leg:nth-child(1) {
+  transform: rotate(10deg);
+  margin-left: 10px;
+}
+.legs.right .leg:nth-child(1) {
+  transform: rotate(-10deg);
+  margin-left: -10px;
+}
+
+.legs.left .leg:nth-child(2) {
+  transform: rotate(-20deg);
+  margin-left: 20px;
+}
+.legs.right .leg:nth-child(2) {
+  transform: rotate(20deg);
+  margin-left: -20px;
+}
+
+.legs.left .leg:nth-child(3) {
+  transform: rotate(-50deg);
+  margin-left: 30px;
+}
+.legs.right .leg:nth-child(3) {
+  transform: rotate(50deg);
+  margin-left: -30px;
+}
+
+/* 1. Animatie */
+@keyframes look {
+  0%,
+  40%,
+  100% {
+    transform: translateX(0);
+  }
+
+  45%,
+  95% {
+    transform: translateX(-110%);
+  }
+}
+
+/* 3. Animatie */
+@keyframes swing {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 
 </style>
 
