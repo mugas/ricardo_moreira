@@ -2,6 +2,7 @@
   <div class="main">
  <SocialMedia/>
     <MySvg/>
+    <Bug/>
     
    
 
@@ -14,13 +15,14 @@
 
 import SocialMedia from '../components/SocialMedia/SocialMedia'
 import MySvg from '../components/MySvg/MySvg'
+import Bug from '../components/Bug/Bug'
 
 
 export default {
   components:{
   SocialMedia,
   MySvg,
-  BugSvg
+  Bug
  },
 
   computed: {
