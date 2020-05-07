@@ -1,11 +1,12 @@
 <template lang="html">
   <div class="main">
- <SocialMedia/>
-    <MySvg/>
     <Bug/>
-    
-   
+    <MySvg/>
+    <h1>Hello</h1>
 
+     <SocialMedia/>
+
+  
     
    
   </div>
@@ -23,32 +24,19 @@ export default {
   SocialMedia,
   MySvg,
   Bug
- },
+ }
 
-  computed: {
-    blogPosts() {
-      return this.$store.state.blogPosts;
-      
-    },
-    siteInfo() {
-      return this.$store.state.siteInfo;
-    },
-    allPages() {
-      return this.$store.state.allPages;
-    }
-  },
-  methods:{
-    test(){
-      console.log("hello");
-     console.log(this.$store.state.blogPosts)
-     
-    }
-  }
+  
+  
 }
 
 </script>
 
 <style lang="css" scoped>
+*{
+  box-sizing: border-box;
+}
+
 .posts-list {
   width: 100%;
   background-color: whitesmoke;

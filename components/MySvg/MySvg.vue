@@ -28,9 +28,7 @@
 
 <style>
 
-html {
-  background: #fce38a;
-}
+
 
 .spider {
   position: absolute;
