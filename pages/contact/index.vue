@@ -2,8 +2,6 @@
 
 
     <div class="container">
-      <bug/>
-      <MySvg/>
         <h1 class="Title">Contact</h1>
         <div class="content">
             <form name="contact" action="" method="post">
@@ -21,16 +19,7 @@
 
 
 <script>
-import Bug from '../../components/Bug/Bug'
-import MySvg from '../../components/MySvg/MySvg'
 
-export default {
-    components:{
-        Bug,
-        MySvg
-     
-    }
-}
 </script>
 
 <style lang="css" scoped>

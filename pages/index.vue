@@ -2,7 +2,7 @@
   <div class="main">
     <Bug/>
     <MySvg/>
-    <h1>Hello</h1>
+   
 
      <SocialMedia/>
 
@@ -46,12 +46,12 @@ export default {
 .post-link {
   padding-top: 10px;
 }
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-}
+} */
 .main-header {
   text-align: center;
 }
