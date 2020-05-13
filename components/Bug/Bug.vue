@@ -1,7 +1,12 @@
 <template>
  
+
+
 <div class="wrapper">
-	<div class="test1">
+<!-- 
+<img class="ladybug" src="~/assets/ladybug1.png"/> -->
+
+	   <div class="test1">
 	<svg class="ladybug" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 	
 		<path class="test" d="M39.4,49.5c2.7,0,4.9-2.2,4.9-4.9s-2.2-4.9-4.9-4.9s-4.9,2.2-4.9,4.9S36.7,49.5,39.4,49.5z M39.4,41.7  c1.6,0,2.9,1.3,2.9,2.9c0,1.6-1.3,2.9-2.9,2.9s-2.9-1.3-2.9-2.9C36.5,43,37.8,41.7,39.4,41.7z"/>
@@ -12,7 +17,11 @@
 		<path d="M60,48.7c2.7,0,4.9-2.2,4.9-4.9s-2.2-4.9-4.9-4.9s-4.9,2.2-4.9,4.9S57.3,48.7,60,48.7z M60,40.9c1.6,0,2.9,1.3,2.9,2.9  s-1.3,2.9-2.9,2.9s-2.9-1.3-2.9-2.9S58.4,40.9,60,40.9z"/>
 		<path class="test" d="M61.4,30.5c0-2.7-1-5.2-2.6-7.2l4.4-4.4c0.4,0.2,0.9,0.3,1.3,0.3c0.8,0,1.6-0.3,2.2-0.9c0.6-0.6,0.9-1.4,0.9-2.2  c0-0.8-0.3-1.6-0.9-2.2c-1.2-1.2-3.1-1.2-4.3,0c-0.9,0.9-1.1,2.4-0.6,3.5l-4.4,4.4c-2-1.7-4.6-2.8-7.5-2.8c-3,0-5.7,1.1-7.7,3  l-4.4-4.4c0.3-0.5,0.4-1,0.4-1.5c0-0.8-0.3-1.6-0.9-2.2c-1.2-1.2-3.2-1.2-4.3,0c0,0,0,0,0,0c-0.6,0.6-0.9,1.4-0.9,2.2  s0.3,1.6,0.9,2.2c0.6,0.6,1.3,0.9,2.2,0.9c0.4,0,0.8-0.1,1.1-0.2l4.5,4.5c-1.5,2-2.5,4.4-2.5,7.1C29,35.4,22.5,45.7,22.5,57.7  c0,16.5,12.4,29.9,27.5,29.9s27.5-13.4,27.5-29.9C77.5,45.6,70.9,35.2,61.4,30.5z M63.7,15.4c0.2-0.2,0.5-0.3,0.8-0.3  c0.3,0,0.5,0.1,0.8,0.3c0.2,0.2,0.3,0.5,0.3,0.8s-0.1,0.6-0.3,0.8c-0.4,0.4-1.1,0.4-1.5,0C63.3,16.5,63.3,15.8,63.7,15.4z   M34.4,16.9c-0.2-0.2-0.3-0.5-0.3-0.8s0.1-0.6,0.3-0.8c0,0,0,0,0,0c0.2-0.2,0.5-0.3,0.8-0.3s0.6,0.1,0.8,0.3  c0.2,0.2,0.3,0.5,0.3,0.8s-0.1,0.6-0.3,0.8C35.5,17.3,34.8,17.3,34.4,16.9z M49.9,21.1c4.9,0,9,3.7,9.5,8.5  c-2.9-1.2-6.1-1.8-9.4-1.8c-3.4,0-6.6,0.7-9.6,1.9C40.9,24.9,44.9,21.1,49.9,21.1z M24.5,57.7c0-15,10.9-27.3,24.5-27.9v55.7  C35.4,84.9,24.5,72.7,24.5,57.7z M51,85.5V29.8c13.6,0.6,24.5,12.8,24.5,27.9S64.6,84.9,51,85.5z"/>
 	</svg>
-	</div>
+	
+
+	
+	</div>  
+	
 </div>
 
 </template>
@@ -28,47 +37,70 @@
 	justify-content: center;
 }
 
+
+
 .ladybug{
-	width: 50px;
-	height: 75px;
-	position:absolute;
+	width: 30px;
+	height: 50px;
+	 position:absolute;
+	   left:2%;
+	bottom: 0%;  
+	animation: shimmy 3s infinite
+}
+
+
+@keyframes shimmy {
+  0% {
+	transform: translate(0, 0);   
+	transform:scale(0.5) ;
+  }
+  25%{
+	  transform: translateY(-50px);
+	  
+  }
+  50% {
+	transform:rotate(180deg);
+	transform: translateY(-20px);
 	
+  }
+  100% {
+   transform:translate(0, 0);    
+    
+  }
 }
-
+/*
 .test1{
-     left:50%;
-	bottom: -60%; 
+     left:0%;
+	bottom: 10%; 
 
-	animation: ladybug 10s infinite;
+	animation: ladybug 10s infinite; 
 }
+
 
 @keyframes ladybug {
 	 0%{
-		left:0%;
-		bottom:-60%;
+		transform: translate(-10px,-20px);
+	 }
+	50%{
+		transform: translate(20px,50px);
+		transform: rotate(90deg);
+
 	}
-	10%{
-		left:50%;
-		bottom:5%;
-		transform: rotate(0deg);
-	}
-	 12%{
-		left:-20%;
-		bottom:-25%;
-		transform: rotate(-90deg);
-	}
+	 100%{
+		transform: translate(-30px,40px);
+	}/* 
 	
 	18%{
 		left:20%;
 		transform: rotate(-90deg);
 	}
 	
-	100%{
+	20%{
 		left:50%;
 		bottom:5%;
 		transform: rotate(-90deg);
 	}
-	/*
+	
 	22%{
 		
 		transform: rotate(0deg);
@@ -116,8 +148,9 @@
 		left:50%;
 		bottom:-65%;
 		transform: rotate(180deg);
-	}  */
+	}   
  
 
-}
+}*/
+
 </style>
