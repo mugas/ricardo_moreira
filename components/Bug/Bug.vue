@@ -6,7 +6,7 @@
 <!-- 
 <img class="ladybug" src="~/assets/ladybug1.png"/> -->
 
-	   <div class="test1">
+	   
 	<svg class="ladybug" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 	
 		<path class="test" d="M39.4,49.5c2.7,0,4.9-2.2,4.9-4.9s-2.2-4.9-4.9-4.9s-4.9,2.2-4.9,4.9S36.7,49.5,39.4,49.5z M39.4,41.7  c1.6,0,2.9,1.3,2.9,2.9c0,1.6-1.3,2.9-2.9,2.9s-2.9-1.3-2.9-2.9C36.5,43,37.8,41.7,39.4,41.7z"/>
@@ -20,7 +20,7 @@
 	
 
 	
-	</div>  
+	
 	
 </div>
 
@@ -29,13 +29,10 @@
 
 
 <style>
-.wrapper{
-	display:flex;
-	width:100vw;
-	height: 100vw;
-	align-items: center;
-	justify-content: center;
-}
+ .wrapper{
+	top:-40px;
+	left:0px;
+} 
 
 
 
@@ -43,38 +40,31 @@
 	width: 30px;
 	height: 50px;
 	 position:absolute;
-	   left:2%;
-	bottom: 0%;  
-	animation: shimmy 3s infinite
+	animation: ladybug 50s infinite;
+	//animation-fill-mode: both;
 }
+
+
 
 
 @keyframes shimmy {
-  0% {
-	transform: translate(0, 0);   
-	transform:scale(0.5) ;
-  }
-  25%{
-	  transform: translateY(-50px);
-	  
-  }
-  50% {
-	transform:rotate(180deg);
-	transform: translateY(-20px);
-	
-  }
-  100% {
-   transform:translate(0, 0);    
-    
-  }
-}
-/*
-.test1{
-     left:0%;
-	bottom: 10%; 
+to{
+	 transform: translateY(1000px);
+	 	
+ }
 
-	animation: ladybug 10s infinite; 
-}
+ 
+ from%{
+    
+transform: translateY(-1800px);
+ }
+ } 
+
+
+	
+	
+
+
 
 
 @keyframes ladybug {
@@ -88,7 +78,7 @@
 	}
 	 100%{
 		transform: translate(-30px,40px);
-	}/* 
+	}
 	
 	18%{
 		left:20%;
@@ -151,6 +141,5 @@
 	}   
  
 
-}*/
-
+} 
 </style>
