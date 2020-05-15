@@ -43,12 +43,18 @@
   /* Bonus */
   transition: 0.8s ease-in-out;
 }
+.spiderweb{
+ margin-top: -45px;
+ height: 116px;
+}
+
 
 .spider .spiderweb {
   width: 2px;
-  height: 200px;
   margin-left: 49px;
-  background: rgba(255, 255, 255, 0.7);
+  background: red;
+ 
+
 }
 
 .spider .body {

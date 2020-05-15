@@ -27,10 +27,17 @@ components:{
 }
 
 body{
-  font-family: "Lato", sans-serif
+  font-family: "Lato", sans-serif;
+
+}
+html,body{
+  margin:0;
+  padding: 0;
+  
 }
 
 .main-content{
   margin-top: 4.5rem;
+ 
 }
 </style>

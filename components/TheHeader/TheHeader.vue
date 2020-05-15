@@ -18,7 +18,7 @@
     top:0;
     left:0;
     width: 100%;
-    background: #022d30;
+    background: white;
     height: 4.5rem;
 }
 
@@ -52,7 +52,7 @@
 .nav-link a{
 display:block;/*takes the full height of the item */
 text-decoration:none;
-color:white;
+color:black;
 }
 
 .nav-link a:hover,

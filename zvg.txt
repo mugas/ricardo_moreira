@@ -3,3 +3,6 @@ https://codepen.io/webcrafterscz/pen/EGYOxa
 
 https://www.youtube.com/watch?v=ka_oDQDDPDE
 https://codepen.io/chinchang/pen/waaRRJ
+
+left:50%;
+	bottom: 60%;

@@ -30,7 +30,7 @@ export default {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+          "https://fonts.googleapis.com/css2?family=Kurale&family=Lato:wght@400;700&display=swap'"
       }
     ]
   },
