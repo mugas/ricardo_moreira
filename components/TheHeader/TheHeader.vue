@@ -1,5 +1,5 @@
 <template>
-    <header class="main-header">
+   <!--  <header class="main-header">
         <nav class="main-nav">
           <ul class="nav-links">
             <nuxt-link to="/about" tag="li" class="nav-link"><a>About</a></nuxt-link>
@@ -9,7 +9,7 @@
             <nuxt-link to="/contact" tag="li"class="nav-link"><a>Contact</a></nuxt-link>
           </ul>
         </nav>
-    </header>
+    </header> -->
 </template>
 
 <style lang="css" scoped>
