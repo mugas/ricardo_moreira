@@ -1,18 +1,20 @@
 <template lang="html">
 
   <div class="main">
-<div class="construction">
+ <div class="construction">
     <h1>Sorry for the mess</h1>
     <h2>We are building something here</h2>
-</div>
+</div> 
    <!--  <div class="main__title">
       <MySvg/>
       <h1>Looking for Me?</h1>
       <h2>I create things and stuff</h2>
       <Bug/>
     </div>
-    <SocialMedia class="main__media"/>-->
-  </div> 
+    <SocialMedia class="main__media"/>
+  </div> -->
+
+  </div>
 </template>
 
 <script>

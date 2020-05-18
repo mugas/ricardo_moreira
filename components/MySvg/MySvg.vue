@@ -4,9 +4,12 @@
   <div class="spiderweb"></div>
   <div class="body">
     <div class="eye left"></div>
+    <div class="eye left-middle"></div>
+    <div class="eye right-middle"></div>
     <div class="eye right"></div>
   </div>
   <div class="legs left">
+    <div class="leg"></div>
     <div class="leg"></div>
     <div class="leg"></div>
     <div class="leg"></div>
@@ -15,15 +18,9 @@
     <div class="leg"></div>
     <div class="leg"></div>
     <div class="leg"></div>
+    <div class="leg"></div>
   </div>
 </div>
-
-
-
-
-
-
-
 </template>
 
 <style>
@@ -37,22 +34,22 @@
   left: 30%;
 
   /* 4. Animatie */
-  animation: swing 2s infinite;
+  animation: swing 10s infinite;
   transform-origin: top;
 
   /* Bonus */
   transition: 0.8s ease-in-out;
 }
 .spiderweb{
- margin-top: -45px;
- height: 116px;
+ margin-top: -250px;
+ height: 300px;
 }
 
 
 .spider .spiderweb {
   width: 2px;
   margin-left: 49px;
-  background: red;
+  background: black;
  
 
 }
@@ -66,8 +63,8 @@
 }
 
 .spider .body .eye {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   bottom: 20px;
   background: #fff;
@@ -75,11 +72,22 @@
 }
 
 .spider .body .eye.left {
-  left: 20px;
+ bottom:30px;
+ left:2px;
+}
+.spider .body .eye.left-middle {
+  bottom:30px;
+  left: 26px;
 }
 
+
+.spider .body .eye.right-middle {
+  bottom:30px;
+  right: 26px;
+}
 .spider .body .eye.right {
-  right: 20px;
+  bottom:30px;
+  right: 2px;
 }
 
 .spider .body .eye:after {
@@ -90,10 +98,11 @@
   display: block;
   margin: 55%;
   border-radius: 50%;
-
   /* 3. Animatie */
   animation: look 4s infinite;
 }
+
+
 
 .spider .legs .leg {
   width: 80px;
@@ -143,6 +152,14 @@
   transform: rotate(50deg);
   margin-left: -30px;
 }
+.legs.left .leg:nth-child(4) {
+  transform: rotate(-50deg);
+  margin-left: 40px;
+}
+.legs.right .leg:nth-child(4) {
+  transform: rotate(50deg);
+  margin-left: -40px;
+}
 
 /* 1. Animatie */
 @keyframes look {
@@ -166,7 +183,7 @@
   }
 
   50% {
-    transform: translateY(-20px);
+    transform: translateY(100px);
   }
 }
 
