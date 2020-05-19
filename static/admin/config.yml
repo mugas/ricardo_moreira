@@ -52,10 +52,13 @@ collections:
           label: "Featured Image",
           name: "thumbnail",
           widget: "image",
+          required: false,
           media_library:
             config:
-              multiple: true,
-          required: false,
+              default_transformations:
+                - fetch_format: auto
+                  width: 300    
+                  quality: auto
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
