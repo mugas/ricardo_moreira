@@ -2,7 +2,7 @@
   <section id="projects">
    <div class="page-preview" v-for="page in allPages">
       <img class="page-preview-thumbnail" :src="page.thumbnail">
-      <p><n-link :to="page._path">{{page.title}}</n-link></p>
+      <h1><n-link :to="page._path">{{page.title}}</n-link></h1>
       <p>{{page.excerpt}}</p>
     </div>
   </section>
@@ -26,6 +26,7 @@ export default {
     align-items: center;
     flex-direction: column;
     flex:1;
+    
     flex-wrap: wrap;
 }
  @media(min-width: 35rem){
@@ -36,7 +37,8 @@ export default {
 
 a{
     text-decoration: none;
-    color:black;
+    color:#c8882d;
+    
 }
 
 .page-preview{
@@ -46,6 +48,7 @@ a{
     height: 20rem;
     margin:1rem;
     text-align: center;
+    background:#ECEEE5;
 }
 
 .page-preview-thumbnail{
@@ -58,6 +61,10 @@ a{
 .page-preview-content{
     text-align: center;
     padding: 1rem;
+}
+
+h1{
+  color:yellow;
 }
 
 @media(min-width: 35rem){

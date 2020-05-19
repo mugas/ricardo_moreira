@@ -82,11 +82,12 @@
 
 
 <style>
-body{
-	 
-    overflow:hidden;  
 
-}
+/* body{
+	 
+overflow:hidden;  
+
+} */
 
 .color{
 	fill: red;
