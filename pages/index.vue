@@ -9,6 +9,7 @@
       <MySvg/>
       <h1>Looking for Me?</h1>
       <h2>I create things and stuff</h2>
+      <h3>Website in renovation.Sorry for the mess</h3>
       <Bug/>
     </div>
     <SocialMedia class="main__media"/>
