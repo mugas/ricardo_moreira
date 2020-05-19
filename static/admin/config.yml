@@ -53,6 +53,7 @@ collections:
           name: "thumbnail",
           widget: "image",
           media_library:
+            name: cloudinary
             config:
                multiple: true,
           required: false,
