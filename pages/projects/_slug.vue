@@ -46,7 +46,7 @@ export default {
   color: darkgray;
 }
 .post {
-  background-color: whitesmoke;
+
   padding: 20px;
 }
 </style>
