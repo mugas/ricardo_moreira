@@ -53,12 +53,6 @@ collections:
           name: "thumbnail",
           widget: "image",
           required: false,
-          media_library:
-            config:
-              default_transformations:
-                - fetch_format: auto
-                  width: 300    
-                  quality: auto
         }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
