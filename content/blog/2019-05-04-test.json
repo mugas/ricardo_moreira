@@ -2,6 +2,11 @@
   "title": "Hello World!",
   "date": "4th May, 2019",
   "author": "Tyler Mercer",
-  "body": "This is a test postss!oh yeah",
-  "tags": ["javascript", "css"]
+  "body": "This is a test postss!oh <span>yeah</span>\n\n\n<span class=\"test\">Hello</span>\n\n\n```javascript\nfunction test(){\nadgds\n}\n```",
+  "tags": [
+    "javascript",
+    "css"
+  ],
+  "datetime": "2020-05-20T11:20:52.268Z",
+  "excerpt": "dfj"
 }
