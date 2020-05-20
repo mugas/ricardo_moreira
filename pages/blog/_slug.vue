@@ -68,6 +68,12 @@ export default {
   background-color: whitesmoke;
   padding: 20px;
 }
+
+span{
+  color:yellow;
+}
+
+.test{color:blue}
 </style>
 
 
