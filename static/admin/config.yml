@@ -54,7 +54,7 @@ collections:
           widget: "image",
           required: false,
         }
-      - { label: "body", name: "body", widget: "markdown", buttons:["bold", "italic"] }
+      - { label: "body", name: "body", widget: "markdown", buttons: ["bold", "italic"] }
       - {
           label: "Excerpt",
           name: "excerpt",
