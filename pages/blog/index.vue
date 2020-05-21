@@ -7,7 +7,7 @@
       <p>{{post.date}}</p>
   </div>
 
-  <button v-on:click="test()">Hello</button>
+  
 </section>
      
 </template>
@@ -22,11 +22,7 @@ export default {
     }
     
   },
-  methods:{
-      test(){
-        console.log("gello")
-    }
-  }
+ 
 };
 </script>
 

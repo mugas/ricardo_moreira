@@ -4,9 +4,6 @@
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
-    <p>{{tags[0]}}</p>
-  <!-- <p>{{ tag }}</p>  -->
-  <button v-on:click="hasTag()">Javascript</button>
 
    <div>
      <img :src="thumbnail">
@@ -35,16 +32,7 @@ export default {
       thumbnail: post.thumbnail,
       tags: post.tags
     };
-  },
-    methods: {
-    hasTag: function() {
-      console.log(this);
-      let hasTag = this;
-      if (this.tags.includes("javascript")) {
-        console.log("true");
-      }
-  }  
-}
+  }
 };
 
 </script>
@@ -65,7 +53,7 @@ export default {
   color: darkgray;
 }
 .post {
-  background-color: whitesmoke;
+ 
   padding: 20px;
 }
 
