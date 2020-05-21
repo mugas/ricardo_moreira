@@ -2,5 +2,8 @@
   "title": "April One",
   "thumbnail": "/images/uploads/bread.jpeg",
   "body": "Pão é bom é muito bom",
-  "excerpt": "Eu já disse que o pão é bom?"
+  "excerpt": "Eu já disse que o pão é bom?",
+  "code": {
+    "code": "function test(){\nasfasrar\n}"
+  }
 }
