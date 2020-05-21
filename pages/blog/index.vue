@@ -79,6 +79,20 @@ a{
     }
 }
 
+span{
+  color:yellow;
+}
+
+.test{color:blue}
+
+.language-javascript{
+  background: black;
+
+}
+
+pre{
+  background: black;
+}
  
 
 </style>
