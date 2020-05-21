@@ -3,7 +3,7 @@
     <h1 class="title">{{title}}</h1>
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
-    <p>{{code}}</p>
+    <p class="test">{{code}}</p>
     <!-- <div v-html="$md.render(code)"></div> -->
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
   </div>
@@ -51,5 +51,15 @@ export default {
 .post {
 
   padding: 20px;
+}
+p code{
+  background: red;
+}
+pre code{
+  background: red;
+}
+.test{
+  background: black;
+  color:white
 }
 </style>
