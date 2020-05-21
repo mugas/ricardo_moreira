@@ -4,6 +4,7 @@
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p>{{code}}</p>
+    <!-- <div v-html="$md.render(code)"></div> -->
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
   </div>
 </template>
@@ -25,7 +26,8 @@ export default {
       date: page.date,
       body: page.body,
       title: page.title,
-      author: page.author
+      author: page.author,
+      code: page.code
     };
   }
 };
