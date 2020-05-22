@@ -4,7 +4,7 @@
     <div class="container">
         <h1 class="Title">Contact</h1>
         <div class="content">
-            <form name="contact" action="" method="post" netlify>
+            <form name="contact"  netlify>
                 <label class="form-label" for="name">Name:</label>
                 <input class="form-field" name="name" id="name" />
                 <label class="form-label" for="email">Email:</label>
