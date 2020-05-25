@@ -43,7 +43,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ["highlight.js/styles/solarized-dark.css"],
 
   /*
    ** Plugins to load before mounting the App
@@ -75,10 +75,23 @@ export default {
     ]
   ],
   markdownit: {
-    injected: true,
+    html: true,
     preset: "default",
+    linkify: true,
     breaks: true,
-    html: true
+    injected: true,
+    highlight(str, lang) {
+      const hljs = require("highlight.js");
+      // ➡️ hljs is undefined here ⬅️ 😢
+      if (lang && hljs.getLanguage(lang)) {
+        try {
+          return `<pre class="hljs"><code>${
+            hljs.highlight(lang, str, true).value
+          }</code></pre>`;
+        } catch (__) {}
+      }
+      return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
+    }
   },
   /*
    ** Axios module configuration

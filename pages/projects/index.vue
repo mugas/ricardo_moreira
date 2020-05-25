@@ -75,11 +75,11 @@ h1{
 }
 
 
-pre{
+/* pre{
   background-color: #000;
   border: 1px solid red;
   color:white;
-}
+} */
  
 /*  pre code {
   background-color: #000;
