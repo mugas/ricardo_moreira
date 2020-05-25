@@ -8,8 +8,9 @@
    <div class="main__title">
       <MySvg/>
       <h1>Looking for Me?</h1>
-      <h2>I create things and stuff</h2>
-      <h3>Website on renovation.Sorry for the mess</h3>
+      <h2>Website on renovation. Sorry for the bugs</h2>
+      <h3>I create things and stuff</h3>
+     
       <Bug/>
     </div>
     <SocialMedia class="main__media"/>

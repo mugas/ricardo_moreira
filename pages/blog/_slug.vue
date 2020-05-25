@@ -1,13 +1,9 @@
 <template lang="html">
   <div class="post">
     <h1 class="title">{{title}}</h1>
-    <p class="date">Posted by {{author}} on {{date}}</p>
+    <p class="date">Posted by {{author}} on {{datetime}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
-
-   <div>
-     <img :src="thumbnail">
-    </div>
   </div>
 </template>
 
