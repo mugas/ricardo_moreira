@@ -3,7 +3,6 @@
     <h1 class="title">{{title}}</h1>
     <p class="date">Posted by {{author}} on {{date}}</p>
     <div class="body" v-html="$md.render(body)"/>
-    <p class="test">{{code}}</p>
     <p>{{description}}<p>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
   </div>
@@ -53,14 +52,21 @@ export default {
 
   padding: 20px;
 }
-p code{
+
+/* pre{
+  background-color: #000;
+  border: 1px solid red;
+} */
+
+/*  pre code {
+  background-color: #000;
+  border: 1px solid red;
+  display: block;
+  padding: 20px;
+} */
+
+/* code .language-js{
   background: red;
-}
-pre code{
-  background: red;
-}
-.test{
-  background: black;
-  color:white
-}
+}  */
+
 </style>

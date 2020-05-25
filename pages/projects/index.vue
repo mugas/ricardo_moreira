@@ -74,7 +74,27 @@ h1{
     }
 }
 
+
+pre{
+  background-color: #000;
+  border: 1px solid red;
+  color:white;
+}
  
+/*  pre code {
+  background-color: #000;
+  border: 1px solid red;
+  display: block;
+  padding: 20px;
+} */
 
+/*  pre code .language-js{
+  background: red;
+} */
 
+/* .language-js{
+  width: 100%;
+  color:red;
+  background: black;
+} */
 </style>
