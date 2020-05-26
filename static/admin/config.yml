@@ -21,7 +21,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Publish Date",
-          name: "datetime",
+          name: "start",
+          format: "LL",
           widget: "datetime",
           dateformat: "DD.MMM.YYYY",
         }
