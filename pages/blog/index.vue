@@ -67,6 +67,7 @@ h1{
 
 a{
     text-decoration: none;
+    color:#C8882D;
     
 }
 
