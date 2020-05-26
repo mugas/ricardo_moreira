@@ -81,7 +81,7 @@ a{
 }
 
 .post__thumbnail{
-    background-position: center;
+    background-position: 50%;
     background-size: cover;
     width: 100%;
     height: 10rem;
