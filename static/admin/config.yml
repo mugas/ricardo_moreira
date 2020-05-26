@@ -23,7 +23,7 @@ collections:
           label: "Publish Date",
           name: "datetime",
           widget: "datetime",
-          dateformat: "Do MMM YYYY",
+          dateformat: "DD.MMM.YYYY",
         }
       - { label: "Author", name: "author", widget: "string" }
       - {
