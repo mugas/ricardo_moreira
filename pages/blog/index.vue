@@ -1,11 +1,10 @@
 <template lang="html">
 <section id="posts">
-  <div class="post-preview" v-for="post in blogPosts">
-      <img class="post-preview-thumbnail" :src="post.thumbnail">
-      <p><n-link :to="post._path">{{post.title}}</n-link></p>
-      <p>{{post.excerpt}}</p>
-      <p>{{post.date}}</p>
-      <p>{{post.start}}</p>
+  <div class="post__preview" v-for="post in blogPosts">
+      <img class="post__thumbnail" :src="post.thumbnail">
+      <h1><n-link :to="post._path">{{post.title}}</n-link></h1> 
+      <p class="post__excerpt">{{post.excerpt}}</p>
+      <p class="post__date">{{post.start}}</p>
   </div>
 
   
@@ -41,6 +40,25 @@ export default {
     flex:1;
     flex-wrap: wrap;
 }
+
+h1{
+  color:#C8882D;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+.post__excerpt{
+  color:#20263F;
+  font-family:'Inknut Antiqua', serif;
+  font-weight: bold;
+  margin:0;
+}
+
+.post__date{
+  margin:0;
+  padding-bottom: 8px;
+  font-style: italic;
+}
+
  @media(min-width: 35rem){
     #posts{
         flex-direction: row;
@@ -49,52 +67,37 @@ export default {
 
 a{
     text-decoration: none;
-    color:black;
+    
 }
 
-.post-preview{
+.post__preview{
     border-radius:3px;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 5px 1px rgb(200,136,45);
     width: 90%;
-    height: 20rem;
+    /*height: 20rem;*/
     margin:1rem;
     text-align: center;
+    background: #ECEEE5;
 }
 
-.post-preview-thumbnail{
+.post__thumbnail{
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 10rem;
 }
-
 .post-preview-content{
     text-align: center;
     padding: 1rem;
 }
 
+
 @media(min-width: 35rem){
-    .post-preview{
+    .post__preview{
         width:25rem;
         
     }
 }
-
-span{
-  color:yellow;
-}
-
-.test{color:blue}
-
-.language-javascript{
-  background: black;
-
-}
-
-pre{
-  background: black;
-}
- 
 
 </style>
 

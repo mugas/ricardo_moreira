@@ -36,8 +36,8 @@ html,body{
   
 }
 
-.main-content{
+ .main-content{
   margin-top: 4.5rem;
  
-}
+} 
 </style>

@@ -30,7 +30,7 @@ export default {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css2?family=Kurale&family=Lato:wght@400;700&display=swap'"
+          "https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap"
       }
     ]
   },
@@ -82,7 +82,6 @@ export default {
     injected: true,
     highlight(str, lang) {
       const hljs = require("highlight.js");
-      // ➡️ hljs is undefined here ⬅️ 😢
       if (lang && hljs.getLanguage(lang)) {
         try {
           return `<pre class="hljs"><code>${
