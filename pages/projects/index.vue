@@ -1,10 +1,12 @@
 <template lang="html">
   <section id="projects">
-   <div class="page-preview" v-for="page in allPages">
-      <img class="page-preview-thumbnail" :src="page.thumbnail">
+    <div class="page-preview" v-for="page in allPages">
+      <div>
+        <img class="page-preview-thumbnail" :src="page.thumbnail">
+      </div>
       <h1><n-link :to="page._path">{{page.title}}</n-link></h1>
-      <p>{{page.excerpt}}</p>
-    </div>
+      <p class="project__excerpt">{{page.excerpt}}</p>
+      </div>
   </section>
 </template>
 
@@ -19,21 +21,34 @@ export default {
 </script>
 
 <style>
+.project__excerpt{
+  color:#20263F;
+  font-family:'Inknut Antiqua', serif;
+  font-weight: bold;
+  margin:0;
+}
 #projects{
-    padding-top:2rem;
+     padding-top:2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex:1;
     
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+  
 }
  @media(min-width: 35rem){
     #projects{
         flex-direction: row;
     }
 } 
+
+h1{
+  color:#C8882D;
+  font-family: 'Inknut Antiqua', serif;
+}
+
 
 a{
     text-decoration: none;
@@ -45,7 +60,7 @@ a{
     border-radius:3px;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
     width: 90%;
-    height: 20rem;
+    height: 25rem;
     margin:1rem;
     text-align: center;
     background:#ECEEE5;
