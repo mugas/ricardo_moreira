@@ -21,9 +21,6 @@ export default {
 
 <style scoped>
 
-
-
-
  #posts{
     padding-top:2rem;
     display: flex;
@@ -31,12 +28,34 @@ export default {
     align-items: center;
     flex-direction: column;
     flex:1;
-    flex-wrap: wrap;
+}
+.post__preview{
+ /*  display: flex;
+  flex-direction: column; */
+    border-radius:3px;
+    box-shadow: 1px 1px 5px 1px rgb(200,136,45); 
+    width: 90%;
+    /* height: 25rem;  */
+    margin:1rem;
+    text-align: center;
+    background: #ECEEE5;
+}
+.post__thumbnail{
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
 }
 
 h2{
   color:#C8882D;
   font-family: 'Inknut Antiqua', serif;
+  font-size-adjust: inherit;
+}
+a{
+    text-decoration: none;
+    color:#C8882D;
+    font-size:large;
 }
 
 .post__excerpt{
@@ -55,46 +74,20 @@ h2{
  @media(min-width: 35rem){
     #posts{
         flex-direction: row;
+        flex-wrap: wrap;
     }
 } 
 
-a{
-    text-decoration: none;
-    color:#C8882D;
-    
-}
-
-.post__preview{
-    border-radius:3px;
-    box-shadow: 1px 1px 5px 1px rgb(200,136,45); 
-    width: 90%;
-    height: 21rem; 
-    margin:1rem;
-    text-align: center;
-    background: #ECEEE5;
-}
-
-.post__thumbnail{
-    background-position: 50%;
-    background-size: cover;
-    width: 100%;
-    height: 10rem;
-}
-.post-preview-content{
-    text-align: center;
-    padding: 1rem;
-}
-
-
 @media(min-width: 35rem){
     .post__preview{
-        width:25rem;
-        
+        width:25rem;  
+    }
+
+    a{
+      text-decoration: none;
+   font-size: inherit;
     }
 }
-
-
-
 </style>
 
 

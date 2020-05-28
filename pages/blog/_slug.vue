@@ -1,9 +1,10 @@
 <template lang="html">
   <div class="post">
     <h1 class="title">{{title}}</h1>
-    <p class="date">Posted by {{author}} on {{datetime}}</p>
+    <p class="date">Posted by {{author}} on {{start}}</p>
     <div class="body" v-html="$md.render(body)"/>
     <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
+
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default {
     let post = await import(`~/content/blog/${params.slug}.json`);
 
     return {
-      date: post.date,
+      start: post.start,
       body: post.body,
       title: post.title,
       author: post.author,
@@ -64,30 +65,13 @@ span{
 
 }
 
-pre{
-  background: black;
+.date{
+  color:red;
 }
+
+
 </style>
 
 
   
-  /* computed: {
-      tag: function() {
-      console.log(this);
-      let vm = this;
-      let tag = vm.tags;
-      console.log(tag);
-    }, 
-
-    hasTag: function() {
-      console.log(this);
-      let hasTag = this;
-
-      if (this.tags.includes("javascript")) {
-        console.log("true");
-      }
-    }
-  }
-  1-gather all same tags together and
-  present them in one array
- */
+  
