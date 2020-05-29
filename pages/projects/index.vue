@@ -78,9 +78,7 @@ a{
     padding: 1rem;
 }
 
-h1{
-  color:yellow;
-}
+
 
 @media(min-width: 35rem){
     .page-preview{
