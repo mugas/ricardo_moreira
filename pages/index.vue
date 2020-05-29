@@ -8,8 +8,8 @@
    <div class="main__title">
       <MySvg/>
       <h1>Looking for Me?</h1>
-      <h2>Website on renovation. Sorry for the bugs</h2>
-      <h3>I create things and stuff</h3>
+      <h2>Website on renovation. Sorry for the bugs.</h2>
+      <p>I create things and stuff</p>
       <p>You can see all projects in my Github. Here are only the one(s) that are refactored or prepared for this website. They will be added as soon as they are ready</p>
       
      
