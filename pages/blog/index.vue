@@ -76,9 +76,9 @@ a{
         flex-direction: row;
         flex-wrap: wrap;
     }
-} 
 
-@media(min-width: 35rem){
+
+
     .post__preview{
         width:25rem;  
     }

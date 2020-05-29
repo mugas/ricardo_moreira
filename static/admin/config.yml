@@ -49,7 +49,6 @@ collections:
     format: "json"
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: 'Code', name: 'code', widget: 'code', allow_language_selection: 'true'}
       - { label: 'Description', name: 'description', widget: 'text'}
       - {
           label: "Featured Image",

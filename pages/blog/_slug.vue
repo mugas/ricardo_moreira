@@ -1,10 +1,11 @@
 <template lang="html">
   <div class="post">
-    <h1 class="title">{{title}}</h1>
-    <p class="date">Posted by {{author}} on {{start}}</p>
-    <div class="body" v-html="$md.render(body)"/>
-    <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
-
+    <h1 class="post__title">{{title}}</h1>
+    <div class="post__text" v-html="$md.render(body)"></div>
+    <div class="post__footer">
+      <button class="post__back-link" @click="$router.back()">Back</button>
+      <p class="post__date">Posted by {{author}} on {{start}}</p>
+    </div>
   </div>
 </template>
 
@@ -35,40 +36,73 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.back,
-.date,
-.body {
-  padding-top: 10px;
+
+
+
+.post{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Inknut Antiqua', serif;
 }
-.back-link {
+
+.post__title{
+color:#C8882D;
+text-align:start;
+padding-top: 10px;
+}
+
+
+.post__back-link {
   text-decoration: underline;
   color: #3b8070;
   cursor: pointer;
 }
 
-.date {
-  color: darkgray;
+.post__date {
+  color: A64E43;
 }
 .post {
- 
   padding: 20px;
 }
 
-span{
-  color:yellow;
+.post__text{
+  color: #20263F;
 }
 
-.test{color:blue}
 
-.language-javascript{
-  background: black;
 
+.post__back-link{
+  font-family:'Inknut Antiqua', serif;
+  color:#A64E43;
+  padding-left: 0;
+  background:transparent;
+  border: none;
+  font-size:16px;
 }
 
-.date{
-  color:red;
+
+.post__date{
+  color:#A64E43; 
 }
 
+@media(min-width: 35rem){
+  .post__text{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.post__title{
+  text-align: center;
+}
+
+.post__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  
+  
+}
+}
 
 </style>
 
