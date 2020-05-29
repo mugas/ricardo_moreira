@@ -76,9 +76,6 @@ a{
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-
-
     .post__preview{
         width:25rem;  
     }

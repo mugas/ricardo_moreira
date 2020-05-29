@@ -37,12 +37,11 @@ export default {
 
 <style lang="css" scoped>
 
-
-
 .post{
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Inknut Antiqua', serif;
+  padding: 20px;
 }
 
 .post__title{
@@ -51,25 +50,15 @@ text-align:start;
 padding-top: 10px;
 }
 
-
 .post__back-link {
   text-decoration: underline;
   color: #3b8070;
   cursor: pointer;
 }
 
-.post__date {
-  color: A64E43;
-}
-.post {
-  padding: 20px;
-}
-
 .post__text{
   color: #20263F;
 }
-
-
 
 .post__back-link{
   font-family:'Inknut Antiqua', serif;
