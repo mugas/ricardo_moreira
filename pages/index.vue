@@ -1,22 +1,17 @@
 <template lang="html">
-
+<div>
   <div class="main">
-<!--  <div class="construction">
-    <h1>Sorry for the mess</h1>
-    <h2>We are building something here</h2>
-</div>  -->
-   <div class="main__title">
-      <MySvg/>
+      <MySvg/> 
       <h1>Looking for Me?</h1>
+  </div>
+  <div class="main__title">
       <h2>Website on renovation. Sorry for the bugs.</h2>
       <p>I create things and stuff</p>
-      <p>You can see all projects in my Github. Here are only the one(s) that are refactored or prepared for this website. They will be added as soon as they are ready</p>
-      
-     
+      <p>I create things and stuff.You can see all projects in my Github. Here are only the one(s) that are refactored or prepared for this website. They will be added as soon as they are ready</p>
       <Bug/>
-    </div>
-    <SocialMedia class="main__media"/>
-  </div> 
+  </div>
+  <!-- <SocialMedia class="main__media"/> -->
+</div> 
 
   </div>
 </template>
@@ -49,7 +44,7 @@ export default {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 html,body{
@@ -61,20 +56,21 @@ html,body{
 
 h1{
   font-family: Kurale;
-  font-size: 14px;
-  font-size: 5.4rem;
+  text-align: center;
+ /*  font-size: 14px;
+  font-size: 5.4rem; */
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 1px;
   color: #c8882d;
 }
 
-.main{
+.main__title{
   padding-top: 27px;
-    min-height: 100vh;
+    min-height: 100vh; 
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+ 
   align-content: center;
   background:white;
 
