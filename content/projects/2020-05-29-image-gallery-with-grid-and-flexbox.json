@@ -2,5 +2,11 @@
   "title": "Image Gallery ",
   "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1590665493/imagegallery_iwjmq5.png",
   "excerpt": "With grid and flexbox(Refactored 2020)",
-  "body": "# **What it is?**\n\nA Image gallery responsive made with CSS grid and Flexbox. The number of columns expands or contract accordingly with the name of pictures but also with the size of the screen\n\n\n\n## What I learned?\n\n* CSS Grid\n* Flexbox\n* BEM Methodology\n* Accessibility\n\n## Links\n\n* [Project page](https://goodstuffoodsgallery.netlify.app/)\n* [GitHub page](https://github.com/mugas/Image-Gallery)\n* [Tutorial](https://www.ricardomoreira.io/blog/2020-05-28-create-a-image-gallery)\n* [Code Pen](https://codepen.io/mugas/pen/gOaJeMm)\n* [Video](https://www.youtube.com/watch?v=URXj6jZeCz0)\n* You also can read it [here](), [here]() and [here]()\n"
+  "body": "# **What it is?**\n\nA Image gallery responsive made with CSS grid and Flexbox. The number of columns expands or contract accordingly with the name of pictures but also with the size of the screen\n\n\n\n## What I learned?\n\n* CSS Grid\n* Flexbox\n* BEM Methodology\n* Accessibility\n\n## Links\n\n* [Project page](https://goodstuffoodsgallery.netlify.app/)\n* [GitHub page](https://github.com/mugas/Image-Gallery)\n* [Tutorial](https://www.ricardomoreira.io/blog/2020-05-28-create-a-image-gallery)\n* [Code Pen](https://codepen.io/mugas/pen/gOaJeMm)\n* [Video](https://www.youtube.com/watch?v=URXj6jZeCz0)\n* You also can read it [here](), [here]() and [here]()\n",
+  "tags": [
+    "FlexBox",
+    "Grid",
+    "Bem",
+    "Responsive"
+  ]
 }
