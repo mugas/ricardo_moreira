@@ -55,6 +55,7 @@ collections:
           widget: "image",
           required: false,
         }
+      - { label: "Tags", name: "tags", widget: "list"}
       - { label: "body", name: "body", widget: "markdown",}
       - {
           label: "Excerpt",
