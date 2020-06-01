@@ -6,6 +6,8 @@
       </div>
       <h1><n-link :to="page._path">{{page.title}}</n-link></h1>
       <p class="project__excerpt">{{page.excerpt}}</p>
+       <p>{{page.tags}}</p> 
+      
       </div>
   </section>
 </template>
@@ -17,6 +19,7 @@ export default {
       return this.$store.state.allPages;
     }
   }
+
 };
 </script>
 
