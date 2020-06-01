@@ -7,6 +7,10 @@
       <h1><n-link :to="page._path">{{page.title}}</n-link></h1>
       <p class="project__excerpt">{{page.excerpt}}</p>
        <p>{{page.tags}}</p> 
+       <p>{{page.string}}</p>
+       <p>Hello</p>
+       <p>{{page.about}}</p>
+       <p>{{page.About}}</p>
       
       </div>
   </section>
