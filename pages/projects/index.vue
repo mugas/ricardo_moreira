@@ -1,17 +1,12 @@
 <template lang="html">
-  <section id="projects">
-    <div class="page-preview" v-for="page in allPages">
+  <section id="pages">
+    <div class="page__preview" v-for="page in allPages">
       <div>
-        <img class="page-preview-thumbnail" :src="page.thumbnail">
+        <img class="page__thumbnail" :src="page.thumbnail">
       </div>
-      <h1><n-link :to="page._path">{{page.title}}</n-link></h1>
-      <p class="project__excerpt">{{page.excerpt}}</p>
-       <p>{{page.tags}}</p> 
-       <p>{{page.string}}</p>
-       <p>Hello</p>
-       <p>{{page.about}}</p>
-       <p>{{page.About}}</p>
-      
+      <h2><n-link :to="page._path">{{page.title}}</n-link></h2>
+      <p class="page__excerpt">{{page.excerpt}}</p>
+      <p class="page__tag">{{page.about}}</p>
       </div>
   </section>
 </template>
@@ -28,71 +23,69 @@ export default {
 </script>
 
 <style>
-.project__excerpt{
-  color:#20263F;
-  font-family:'Inknut Antiqua', serif;
-  font-weight: bold;
-  margin:0;
-}
-#projects{
-     padding-top:2rem;
+
+#pages{
+    padding-top:2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex:1;
-    
-    flex-wrap: wrap; 
-  
-}
- @media(min-width: 35rem){
-    #projects{
-        flex-direction: row;
-    }
-} 
-
-h1{
-  color:#C8882D;
-  font-family: 'Inknut Antiqua', serif;
 }
 
-
-a{
-    text-decoration: none;
-    color:#c8882d;
-    
-}
-
-.page-preview{
+.page__preview{
     border-radius:3px;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 5px 1px rgb(200,136,45);
     width: 90%;
-    height: 25rem;
     margin:1rem;
     text-align: center;
     background:#ECEEE5;
 }
 
-.page-preview-thumbnail{
-    background-position: center;
+.page__thumbnail{
+    background-position: 50%;
     background-size: cover;
     width: 100%;
     height: 10rem;
 }
+h2{
+  color:#C8882D;
+  font-family: 'Inknut Antiqua', serif;
+  font-size-adjust: inherit;
+}
+a{
+  text-decoration: none;
+  color:#C8882D;
+  font-size:large;
+}
 
-.page-preview-content{
-    text-align: center;
-    padding: 1rem;
+.page__excerpt{
+  color:#20263F;
+  font-family:'Inknut Antiqua', serif;
+  font-weight: bold;
+  margin:0;
+}
+
+.page__tag{
+  margin:0;
+  padding-bottom: 8px;
+  font-style: italic;
 }
 
 
-
-@media(min-width: 35rem){
-    .page-preview{
-        width:25rem;
-        
+ @media(min-width: 35rem){
+    #pages{
+      flex-direction: row;
+      flex-wrap: wrap;
     }
-}
+    .page__preview{
+      width:25rem;
+    }
+    a{
+      text-decoration: none;
+      font-size: inherit;
+    }
+} 
 
 
 /* pre{

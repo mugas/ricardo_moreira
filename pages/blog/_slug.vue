@@ -50,11 +50,8 @@ text-align:start;
 padding-top: 10px;
 }
 
-.post__back-link {
-  text-decoration: underline;
-  color: #3b8070;
-  cursor: pointer;
-}
+
+  
 
 .post__text{
   color: #20263F;
@@ -66,6 +63,9 @@ padding-top: 10px;
   padding-left: 0;
   background:transparent;
   border: none;
+  text-decoration: underline;
+  cursor: pointer;
+
   font-size:16px;
 }
 

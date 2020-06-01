@@ -1,10 +1,11 @@
 <template lang="html">
-  <div class="post">
-    <h1 class="title">{{title}}</h1>
-    <p class="date">Posted by {{author}} on {{date}}</p>
-    <div class="body" v-html="$md.render(body)"/>
-    <p>{{description}}<p>
-    <p class="back"><a class="back-link" @click="$router.back()">Back</a></p>
+  <div class="project">
+    <h1 class="project__title">{{title}}</h1>
+    <div class="project__text" v-html="$md.render(body)"/>
+    <div class="project__footer">
+      <button class="project__back-link" @click="$router.back()">Back</button>
+      <p class="project__signature">Created by {{author}} - Good Stuff Codes</p>
+    </div>
   </div>
 </template>
 
@@ -26,7 +27,6 @@ export default {
       body: page.body,
       title: page.title,
       author: page.author,
-      code: page.code,
       description: page.description
     };
   }
@@ -34,39 +34,53 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.back,
-.date,
-.body {
+
+.project{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Inknut Antiqua', serif;
+  padding: 20px;
+}
+
+.project__title{
+  color:#C8882D;
+  text-align: center;
   padding-top: 10px;
 }
-.back-link {
+
+.project__text{
+  color: #20263F;
+}
+
+
+.project__back-link{
+  font-family:'Inknut Antiqua', serif;
+  color:#A64E43;
+  padding-left: 0;
+  background:transparent;
+  border: none;
   text-decoration: underline;
-  color: #3b8070;
   cursor: pointer;
+  font-size:16px;
+}
+.project__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.date {
-  color: darkgray;
-}
-.post {
-
-  padding: 20px;
+.project__signature{
+  color:#A64E43; 
 }
 
-/* pre{
-  background-color: #000;
-  border: 1px solid red;
-} */
+@media(min-width: 35rem){
+  .project__text{
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
-/*  pre code {
-  background-color: #000;
-  border: 1px solid red;
-  display: block;
-  padding: 20px;
-} */
+}
 
-/* code .language-js{
-  background: red;
-}  */
+
 
 </style>

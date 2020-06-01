@@ -30,12 +30,9 @@ export default {
     flex:1;
 }
 .post__preview{
- /*  display: flex;
-  flex-direction: column; */
     border-radius:3px;
     box-shadow: 1px 1px 5px 1px rgb(200,136,45); 
     width: 90%;
-    /* height: 25rem;  */
     margin:1rem;
     text-align: center;
     background: #ECEEE5;
@@ -73,16 +70,16 @@ a{
 
  @media(min-width: 35rem){
     #posts{
-        flex-direction: row;
-        flex-wrap: wrap;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
     .post__preview{
-        width:25rem;  
+      width:25rem;  
     }
 
     a{
-      text-decoration: none;
-   font-size: inherit;
+    text-decoration: none;
+    font-size: inherit;
     }
 }
 </style>
