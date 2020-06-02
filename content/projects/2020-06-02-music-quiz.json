@@ -1,0 +1,8 @@
+{
+  "title": "Music Quiz",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591084549/musicQuiz_rgfnxl.png",
+  "about": "Loops, Object Oriented Programming",
+  "author": "Ricardo Moreira",
+  "body": "# **What it is?**\n\nA music game. Based on the [color game](http://localhost:3000/projects/2020-06-02-color-game) I decided to create my version and along the way, went learning about Object Oriented Programming\n\n\n\n## What I learned?\n\n* Loops\n* Object Oriented programming\n* Events handlers\n* Functions\n\n## Links\n\n* [Project page](https://musicquizgame.netlify.app/)\n* [GitHub page](https://github.com/mugas/Musicquiz)\n\n",
+  "excerpt": "A quiz made with Javascript"
+}
