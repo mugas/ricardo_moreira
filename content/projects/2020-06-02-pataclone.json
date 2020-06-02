@@ -1,0 +1,8 @@
+{
+  "title": "Pataclone",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591083437/pataclone_seqh6c.png",
+  "about": "JS libraries",
+  "author": "Ricardo Moreira",
+  "body": "# **What it is?**\n\nMy first good swim in JS libraries. From the Web Developer Course a tutorial was created based on the website [patap](https://patatap.com/). From there I wanted to give it a go and created my version that got nothing to do with it but was fun to work with libraries and try different things with it and learn from it\r\n\r\nIn all of them were used howler.js for the sound and paper.js for the animations and shapes. It will be refactored in 2020\n\n\n\n## What I learned?\n\n* js libraries\n* Howler.js\n* paper.js\n\n\n## Links\n\n* [Project page](https://myroughpatap.netlify.app/)\n* [GitHub page](https://github.com/mugas/Mypataclone)\n",
+  "excerpt": "Playing with libraries"
+}
