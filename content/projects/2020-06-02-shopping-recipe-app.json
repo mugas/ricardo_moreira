@@ -1,0 +1,8 @@
+{
+  "body": "# **What it is?**\n\nA recipe app made with Javascript using also Babel and Webpack. User can search for a recipe, add the products to the shopping list and change quantities. User can also add favorites recipes to see later. It's a tutorial that will be refactored and become a full project incorporating a budget app and recipe app in one\n\n\n\n## What I learned?\n\n* Async and awai\n* Babel\n* Webpack\n* Arrays methods\n* Algorithms\n\n## Links\n\n* [Project page](https://frosty-gates-971964.netlify.app/#29057)\n* [GitHub page](https://github.com/mugas/Recipesapp)",
+  "title": "Shopping Recipe App",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591089920/recipeapp_bkrsf2.png",
+  "about": "Webpack, Babel, Async and Await",
+  "author": "Ricardo Moreira",
+  "excerpt": "Set with Webpack and Babel"
+}
