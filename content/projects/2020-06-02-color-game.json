@@ -1,0 +1,8 @@
+{
+  "title": "Color Game",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591084178/colorGame_m0ztow.png",
+  "about": "DOM Manipulation, Loops, Event listeners",
+  "author": "Ricardo Moreira",
+  "body": "# **What it is?**\n\nA game made with Javascript. It's from a tutorial and it was already my own version made [here](). \n\n\n\n## What I learned?\n\n* DOM Manipulation\n* Loops\n* Functions\n* Keyword this\n* Event Listener\n* Conditionals\n* Arrays and arrays iterations\n* RGB Colors\n\n## Links\n\n* [Project page](https://colorquiz.netlify.app/)\n* [GitHub page](https://github.com/mugas/colorfullgame)\n\n",
+  "excerpt": "What's the color?"
+}
