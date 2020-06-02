@@ -1,0 +1,8 @@
+{
+  "title": "Budget App",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591082934/budgetapp_dqezua.png",
+  "about": "Event handler, Closures, Data input, IIFE",
+  "author": "Ricardo Moreira",
+  "body": "# **What it is?**\n\nA Budget app made only with Vanilla Javascript. It's from a tutorial. Not yet refactored to 2020.\n\n\n\n## What I learned?\n\n* Event handler\r\n* Data input\n* IIFE\n* Closures\n* Modules\n* DOM Manipulation\n* Keyword this\n* Templates\n\n## Links\n\n* [Project page](https://budgetfy.netlify.app/)\n* [GitHub page](https://github.com/mugas/budgety)\n",
+  "excerpt": "Made only with Vanilla js"
+}
