@@ -46,15 +46,18 @@ export default {
 
 .post__title{
 color:#C8882D;
-text-align:start;
 padding-top: 10px;
+text-align: center;
 }
-
-
-  
 
 .post__text{
   color: #20263F;
+}
+
+.post__footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .post__back-link{
@@ -65,7 +68,6 @@ padding-top: 10px;
   border: none;
   text-decoration: underline;
   cursor: pointer;
-
   font-size:16px;
 }
 
@@ -80,17 +82,6 @@ padding-top: 10px;
   margin-right: 25%;
 }
 
-.post__title{
-  text-align: center;
-}
-
-.post__footer{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  
-  
-}
 }
 
 </style>

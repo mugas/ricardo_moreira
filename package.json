@@ -23,7 +23,8 @@
     "lodash": "^4.17.15",
     "lodash.template": ">=4.5.0",
     "nuxt": "^2.12.2",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "vue-flip": "^1.0.1"
   },
   "devDependencies": {
     "@nuxtjs/svg": "^0.1.11",
