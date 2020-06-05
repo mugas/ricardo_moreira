@@ -21,10 +21,10 @@
     </vue-flip>
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template v-slot:front class="front">
+      <template v-slot:front class="test">
         <p class="about__title">Other</p>
       </template>
-      <template v-slot:back>
+      <template v-slot:front>
         back
       </template>
     </vue-flip>
@@ -64,9 +64,11 @@ export default {
 
 <style scoped>
 
+
+
 .about__image{
-  border-radius: 50%;
-  height: 50px;
+  border-radius: 100%;
+  height: 100px;
 }
 
 .about__cards{
@@ -92,6 +94,7 @@ p{
  margin: 0;
  font-size: 125px;
  transform: rotate(-45deg);
+
 }
 
 
@@ -133,5 +136,9 @@ background: blue;
 
 v-slot.front{
  background: green; 
+}
+
+.test{
+  background: pink;
 }
 </style>
