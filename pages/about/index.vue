@@ -4,9 +4,10 @@
 
     <div class="about__cards">
  <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template class="test" v-slot:front>
+    <template v-slot:front>
         <p class="about__title">Stacks</p>
       </template>
+     
       <template v-slot:back>
         <h4>My stacks</h4>
         <ul>
@@ -21,7 +22,7 @@
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
       <template v-slot:front class="front">
-     <p class="about__title">Other</p>
+        <p class="about__title">Other</p>
       </template>
       <template v-slot:back>
         back
@@ -29,10 +30,10 @@
     </vue-flip>
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template v-slot:front>
+      <template v-slot:front class="front">
         front
       </template>
-      <template v-slot:back>
+      <template v-slot:back class="back">
         back
       </template>
     </vue-flip>
@@ -95,14 +96,42 @@ p{
 
 
 
-.front{
+/* .front{
   background: red;
-}
+} */
 
 .back{
   text-align: center; 
   width: 100%;
   height: 100%;
   background: green;
+}
+
+front{
+background: red;
+  width: 100%;
+  height: 100%;
+  /* line-height: 448px; */
+  text-align: center;
+  vertical-align: middle;
+ /*  display: flex;
+  flex-direction: column;
+  align-content: flex-end; */
+}
+
+.front{
+background: blue;
+  width: 100%;
+  height: 100%;
+  /* line-height: 448px; */
+  text-align: center;
+  vertical-align: middle;
+ /*  display: flex;
+  flex-direction: column;
+  align-content: flex-end; */
+}
+
+v-slot.front{
+ background: green; 
 }
 </style>
