@@ -81,7 +81,9 @@
 
 
 
-<style>
+<style scoped>
+
+
 
 /* body{
 	 

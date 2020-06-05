@@ -4,7 +4,7 @@
 
     <div class="about__cards">
  <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template v-slot:front class="front">
+      <template class="test" v-slot:front>
         <p class="about__title">Stacks</p>
       </template>
       <template v-slot:back>
@@ -63,19 +63,15 @@ export default {
 
 <style scoped>
 
-
-
 .about__image{
   border-radius: 50%;
   height: 50px;
-
 }
 
 .about__cards{
   display:flex;
   justify-content: space-evenly;
- background-color: transparent;
-
+  /* background-color: transparent; */
 }
 
 .about__single-card{
@@ -101,15 +97,6 @@ p{
 
 .front{
   background: red;
-  width: 100%;
-  height: 100%;
-  line-height: 448px;
-  text-align: center;
-  vertical-align: middle;
- /*  display: flex;
-  flex-direction: column;
-  align-content: flex-end; */
- 
 }
 
 .back{
@@ -118,16 +105,4 @@ p{
   height: 100%;
   background: green;
 }
-
-/* .about__front-card .about__back-card{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-} */
-
-
-/* .about__cards:hover .about__single-card{
-  transform: rotateY(180deg);
-} */
 </style>

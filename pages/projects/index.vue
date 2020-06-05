@@ -22,7 +22,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
+
 
 #pages{
     padding-top:2rem;
