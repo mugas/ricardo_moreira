@@ -1,39 +1,10 @@
 <template>
-  <!-- <section class="about">
-        <img class="about__image" :src="aboutPage.thumbnail">
-      <div class="about__cards">
-
-        <div class="about__single-card">
-          <div class="about__front-card">Stacks</div>
-          <div class="about__back-card"></div>
-        </div>
-
-        <div class="about__single-card">
-          <div class="about__front-card">Other Me</div>
-          <div class="about__back-card">
-            <ul>
-              <li>One</li>
-              <li>One</li>
-              <li>One</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="about__single-card">
-          <div class="about__front-card">Random Stuff</div>
-          <div class="about__back-card"></div>
-        </div>
-
-      </div>
-  </section> -->
-
-
   <section >
   <img class="about__image" :src="aboutPage.thumbnail">
 
     <div class="about__cards">
  <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template v-slot:front>
+      <template v-slot:front class="front">
         <p class="about__title">Stacks</p>
       </template>
       <template v-slot:back>
@@ -49,8 +20,8 @@
     </vue-flip>
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template v-slot:front>
-        front
+      <template v-slot:front class="front">
+     <p class="about__title">Other</p>
       </template>
       <template v-slot:back>
         back
@@ -90,7 +61,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+
 
 .about__image{
   border-radius: 50%;
@@ -118,9 +91,10 @@ export default {
   transform-style: preserve-3d;
 }
 
-.about__title{
-  text-align: center;
-  /* transform: rotate(-45deg); */
+p{
+ margin: 0;
+ font-size: 125px;
+ transform: rotate(-45deg);
 }
 
 
@@ -129,14 +103,17 @@ export default {
   background: red;
   width: 100%;
   height: 100%;
-  display: flex;
+  line-height: 448px;
+  text-align: center;
+  vertical-align: middle;
+ /*  display: flex;
   flex-direction: column;
-  align-content: flex-end;
+  align-content: flex-end; */
  
 }
 
 .back{
-  text-align: center;
+  text-align: center; 
   width: 100%;
   height: 100%;
   background: green;
