@@ -77,6 +77,11 @@ export default {
   /* background-color: transparent; */
 }
 
+.about__cards >>> .front{
+  background: blue;
+  height:100%;
+}
+
 .about__single-card{
   border:1px red solid;
   border-radius: 16px;

@@ -1,13 +1,13 @@
 <template lang="html">
 <div>
   <div class="main">
-      <MySvg/> 
+      <!-- <MySvg/>  -->
       <h1>Looking for Me?</h1>
   </div>
   <div class="main__title">
-      <h2>Website on renovation. Sorry for the bugs.</h2>
+      <h2>Website on renovation</h2>
+      <p>Sorry for the bugs</p>
       <p>I create things and stuff</p>
-      <p>You can see all projects in my Github. Here are only the one(s) that are refactored or prepared for this website. They will be added as soon as they are ready</p>
       <Bug/>
   </div>
   <!-- <SocialMedia class="main__media"/> -->
