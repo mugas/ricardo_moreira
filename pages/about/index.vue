@@ -1,11 +1,13 @@
 <template>
   <section >
-  <img class="about__image" :src="aboutPage.thumbnail">
+  <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
 
     <div class="about__cards">
  <vue-flip class="about__single-card" active-click width = "350px" height="450px">
     <template v-slot:front>
-        <p class="about__title">Stacks</p>
+      <img class="about__image" :src="aboutPage.thumbnail">
+        <h6 class="about__title">Stacks</h6>
+        <SocialMedia class="main__media"/>
       </template>
      
       <template v-slot:back>
@@ -47,11 +49,13 @@
 
 <script>
 import Vueflip from 'vue-flip';
+import SocialMedia from '../../components/SocialMedia/SocialMedia'
 
 
 export default {
   components:{
-'vue-flip':Vueflip
+'vue-flip':Vueflip,
+SocialMedia
   },
   computed: {
     aboutPage() {
@@ -64,11 +68,23 @@ export default {
 
 <style scoped>
 
+.main-media{
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.main-media li{
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+}
 
 
 .about__image{
-  border-radius: 100%;
-  height: 100px;
+
+  height: 50%;
 }
 
 .about__cards{
@@ -78,8 +94,11 @@ export default {
 }
 
 .about__cards >>> .front{
-  background: blue;
+  display: flex;
+  flex-direction: column;
+ 
   height:100%;
+  width: 100%;
 }
 
 .about__single-card{
@@ -95,10 +114,11 @@ export default {
   transform-style: preserve-3d;
 }
 
-p{
- margin: 0;
- font-size: 125px;
- transform: rotate(-45deg);
+h6{
+ margin: 0 auto;
+ font-size: 52px;
+ font-family: 'Inknut Antiqua', serif;
+ /* transform: rotate(-45deg); */
 
 }
 

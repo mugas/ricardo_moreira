@@ -10,7 +10,7 @@
       <p>I create things and stuff</p>
       <Bug/>
   </div>
-  <!-- <SocialMedia class="main__media"/> -->
+  <SocialMedia/>
 </div> 
 
   </div>
@@ -84,10 +84,7 @@ h1{
   line-height: 90px; 
 }
 
-.main__media{
-  flex:3;
-  text-align: center;
-}
+
 /* .main {
   display: flex;
   flex-direction: column;

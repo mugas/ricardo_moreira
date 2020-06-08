@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="social-icons">
     <a href="https://www.linkedin.com/in/ricardodmoreira/" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']"/></a>
     <a href="https://github.com/mugas" target="_blank"><font-awesome-icon :icon="['fab', 'github']"/></a>
     <a href="https://instagram.com/mugas_codes" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']"/></a>
@@ -10,3 +10,39 @@
   </div>
 </template>
 
+ 
+
+<style scoped>
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  border-top: 2px red solid;
+  border-bottom: 2px red solid;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 1.15em;
+  position: relative;
+  font-size: 1em;
+  transition: all 265ms ease-out;
+  color: red
+}
+
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover{
+  transform: scale(2.2);
+ 
+}
+ 
+
+
+
+
+</style>
