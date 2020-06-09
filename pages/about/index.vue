@@ -80,7 +80,11 @@ SocialMedia
 <style scoped>
 .about__cards{
   display:flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+  align-content: space-between;
 }
 
 .about__single-card{
@@ -88,6 +92,7 @@ SocialMedia
   overflow: hidden;
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
   cursor: pointer;
+  margin-top: 30px;
   transition: 0.5s;
   position: relative;
   text-align: center;
@@ -140,5 +145,14 @@ li{
   line-height: 3.5;
   color:#20263F;
   font-family: 'Inknut Antiqua', serif;
+}
+
+@media(min-width: 768px){
+ .about__cards{
+display:flex;
+flex-direction: row;
+  justify-content: space-evenly;
+}
+
 }
 </style>
