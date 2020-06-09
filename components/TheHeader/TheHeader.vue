@@ -2,7 +2,7 @@
     <header class="main-header">
         <nav class="main-nav">
           <ul class="nav-links">
-            <!-- <nuxt-link to="/about" tag="li" class="nav-link"><a>About</a></nuxt-link> -->
+            <nuxt-link to="/about" tag="li" class="nav-link"><a>About</a></nuxt-link>
             <nuxt-link to="/" tag="li"class="nav-link"><a>Home</a></nuxt-link>
             <nuxt-link to="/blog" tag="li"class="nav-link"><a>Blog</a></nuxt-link>
             <nuxt-link to="/projects" tag="li"class="nav-link"><a>Projects</a></nuxt-link>

@@ -5,13 +5,12 @@
     <div class="about__cards">
  <vue-flip class="about__single-card" active-click width = "350px" height="450px">
     <template v-slot:front>
-      <img class="about__image" :src="aboutPage.thumbnail">
-        <h6 class="about__title">Stacks</h6>
+      <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
+        <h1 class="about__title">Stacks</h1>
         <SocialMedia class="main__media"/>
       </template>
      
       <template v-slot:back>
-        <h4>My stacks</h4>
         <ul>
           <li>Javascript</li>
           <li>Css</li>
@@ -23,20 +22,32 @@
     </vue-flip>
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
-      <template v-slot:front class="test">
-        <p class="about__title">Other</p>
-      </template>
       <template v-slot:front>
-        back
+        <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
+        <h1 class="about__title">Other Me</h1>
+        <SocialMedia class="main__media"/>
+      </template>
+
+      <template v-slot:back>
+        <ul>
+          <li>Entrepreneur</li>
+          <li>Experience Hospitality</li>
+          <li>Team Leader</li>
+          <li>Love to cook</li>
+          <li>Nuxt</li>
+        </ul>
       </template>
     </vue-flip>
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
       <template v-slot:front class="front">
-        front
+        <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
+        <h1 class="about__title">About Me</h1>
+        <SocialMedia class="main__media"/>
       </template>
-      <template v-slot:back class="back">
-        back
+      <template v-slot:back>
+        <img class="about__image" :src="aboutPage.thumbnail">
+        <p>My name is Ricardo. I am original from Portugal but live in Finland for almost 9 years now. </p>
       </template>
     </vue-flip>
     </div>
@@ -67,42 +78,12 @@ SocialMedia
 </script>
 
 <style scoped>
-
-.main-media{
-  padding: 0;
-  list-style: none;
-  margin: 1em;
-}
-
-.main-media li{
-  display: inline-block;
-  margin: 0.15em;
-  position: relative;
-  font-size: 1em;
-}
-
-
-.about__image{
-
-  height: 50%;
-}
-
 .about__cards{
   display:flex;
   justify-content: space-evenly;
-  /* background-color: transparent; */
-}
-
-.about__cards >>> .front{
-  display: flex;
-  flex-direction: column;
- 
-  height:100%;
-  width: 100%;
 }
 
 .about__single-card{
-  border:1px red solid;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
@@ -114,56 +95,50 @@ SocialMedia
   transform-style: preserve-3d;
 }
 
-h6{
+.about__cards >>> .front{
+  display: flex;
+  flex-direction: column;
+  background:#ECEEE5 ;
+  height:100%;
+  width: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(200,136,45);
+  border-radius: 16px;
+}
+
+.about__cards >>> .back{
+  display: flex;
+  flex-direction: column;
+  background:#ECEEE5 ;
+  height:100%;
+  width: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(200,136,45);
+  border-radius: 16px;
+}
+
+
+
+.about__image{
+   margin:2px auto;
+  
+  height: 50%;
+  border-radius: 16px;  
+}
+
+h1{
+ color:rgb(200,136,45);
  margin: 0 auto;
  font-size: 52px;
  font-family: 'Inknut Antiqua', serif;
- /* transform: rotate(-45deg); */
-
 }
 
-
-
-/* .front{
-  background: red;
-} */
-
-.back{
-  text-align: center; 
-  width: 100%;
-  height: 100%;
-  background: green;
+ul{
+  padding: 0;
 }
-
-front{
-background: red;
-  width: 100%;
-  height: 100%;
-  /* line-height: 448px; */
-  text-align: center;
-  vertical-align: middle;
- /*  display: flex;
-  flex-direction: column;
-  align-content: flex-end; */
-}
-
-.front{
-background: blue;
-  width: 100%;
-  height: 100%;
-  /* line-height: 448px; */
-  text-align: center;
-  vertical-align: middle;
- /*  display: flex;
-  flex-direction: column;
-  align-content: flex-end; */
-}
-
-v-slot.front{
- background: green; 
-}
-
-.test{
-  background: pink;
+li{
+  list-style: none;
+  font-size:23px;
+  line-height: 3.5;
+  color:#20263F;
+  font-family: 'Inknut Antiqua', serif;
 }
 </style>
