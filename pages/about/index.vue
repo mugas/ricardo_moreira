@@ -1,7 +1,5 @@
 <template>
   <section >
-  <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
-
     <div class="about__cards">
  <vue-flip class="about__single-card" active-click width = "350px" height="450px">
     <template v-slot:front>
@@ -23,19 +21,15 @@
 
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
       <template v-slot:front>
-        <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
+         <!-- <img class="about__image" :src="aboutPage.thumbnail">  -->
         <h1 class="about__title">Other Me</h1>
         <SocialMedia class="main__media"/>
       </template>
 
       <template v-slot:back>
-        <ul>
-          <li>Entrepreneur</li>
-          <li>Experience Hospitality</li>
-          <li>Team Leader</li>
-          <li>Love to cook</li>
-          <li>Nuxt</li>
-        </ul>
+         <p class="about__Other-Me">Before I entered the web development world, hospitality, cooking and entrepreneurship was where I spent most of my time.</p>
+        <p class="about__text"></p> 
+        
       </template>
     </vue-flip>
 
@@ -47,7 +41,8 @@
       </template>
       <template v-slot:back>
         <img class="about__image" :src="aboutPage.thumbnail">
-        <p>My name is Ricardo. I am original from Portugal but live in Finland for almost 9 years now. </p>
+        <p class="about__text">Hi, my name is Ricardo. I am a developer living in Finland.</p>
+        <p class="about__text">If you have a job or project let's talk about it and make it happen</p>
       </template>
     </vue-flip>
     </div>
@@ -87,6 +82,10 @@ SocialMedia
   align-content: space-between;
 }
 
+.about__text{
+  font-family: 'Inknut Antiqua', serif;
+   //line-height: 0.5;
+}
 .about__single-card{
   border-radius: 16px;
   overflow: hidden;
@@ -123,10 +122,25 @@ SocialMedia
 
 
 .about__image{
-   margin:2px auto;
+   /* margin:2px auto;
   
   height: 50%;
-  border-radius: 16px;  
+  border-radius: 16px; */  
+
+display: block;
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+
+   
 }
 
 h1{
