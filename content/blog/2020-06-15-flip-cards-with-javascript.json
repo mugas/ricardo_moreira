@@ -1,0 +1,11 @@
+{
+  "start": "June 15, 2020",
+  "title": "Flip cards with Javascript",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1592195735/movie_albums_v623ut.png",
+  "excerpt": "Using the toggle function",
+  "author": "Ricardo Moreira",
+  "body": "Flipping a card, or some element is something that is used quiet often in many projects/applications. \n\nYou can achieve it \"only\" using it CSS, by toggle and even by click, but it is a good way to start learning JS. It takes only few lines of code of Javascript and with some css you can make a nice effect to your page.\n\nIn this project we are going to use 4 different cards and loop over them to know how to achieve the flipping of every one of them. Also I had some responsiveness and accessibility to the page. Like we did it with the [Image Gallery](https://www.ricardomoreira.io/blog/2020-05-28-create-a-image-gallery) we also going to build it mobile first.\n\nSo what we are going to build? A page with music albums covers and when flipping we can access the back of the cards where is the info about the album. You can see the final project from the following links.\n\n## Links\n\n* [Project page](https://goodstuffoodsgallery.netlify.app/)\n* [GitHub page](https://github.com/mugas/Image-Gallery)\n* [Code Pen](https://codepen.io/mugas/pen/gOaJeMm)\n* [Video](https://www.youtube.com/watch?v=URXj6jZeCz0)\n* You also can read it [here](<>), [here](<>) and [here](<>)\n\nSo first let's build our html.",
+  "tags": [
+    "javascript"
+  ]
+}
