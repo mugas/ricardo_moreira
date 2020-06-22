@@ -22,13 +22,15 @@
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
       <template v-slot:front>
          <!-- <img class="about__image" :src="aboutPage.thumbnail">  -->
-        <h1 class="about__title">Other Me</h1>
+        <h1 class="about__title">About Me</h1>
         <SocialMedia class="main__media"/>
       </template>
 
       <template v-slot:back>
-         <p class="about__Other-Me">Before I entered the web development world, hospitality, cooking and entrepreneurship was where I spent most of my time.</p>
-        <p class="about__text"></p> 
+        <img class="about__image" :src="aboutPage.thumbnail">
+        <p class="about__text">Hi, my name is Ricardo. I am a developer living in Finland. Also I spent years in the hospitality business and lead and help teams to achieve success and had my share of entrepreneurship (with ups and downs) in different countries. Since 2018 I've been learning and working with web development and doing freelance on the side </p>
+     
+        
         
       </template>
     </vue-flip>
@@ -36,13 +38,13 @@
     <vue-flip class="about__single-card" active-click width = "350px" height="450px">
       <template v-slot:front class="front">
         <!-- <img class="about__image" :src="aboutPage.thumbnail"> -->
-        <h1 class="about__title">About Me</h1>
+        <h1 class="about__title">What Now</h1>
         <SocialMedia class="main__media"/>
       </template>
-      <template v-slot:back>
-        <img class="about__image" :src="aboutPage.thumbnail">
-        <p class="about__text">Hi, my name is Ricardo. I am a developer living in Finland.</p>
-        <p class="about__text">If you have a job or project let's talk about it and make it happen</p>
+      <template v-slot:back class="about__back">
+        <p class="about__what-now about__margin-top">Nowadays I've been mostly working and learning more about front end development and search for the first opportunity to work in the area.<span class="about__color-text">If you have a job or project let's talk about it and make it happen</span></p>
+        <p class="about__what-now">I write about front end development(but not only). You can read them on my website but also in dev.to and Medium.  </p> 
+        <p class="about__what-now">Also I been planning my next business/app idea, but can't say more for now because it's still only an idea</p>
       </template>
     </vue-flip>
     </div>
@@ -73,7 +75,14 @@ SocialMedia
 </script>
 
 <style scoped>
+
+.about__color-text{
+  color:#A64E43;
+  font-weight: bold;
+}
+
 .about__cards{
+  padding-top:2rem;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -82,11 +91,21 @@ SocialMedia
   align-content: space-between;
 }
 
+.about__what-now{
+  line-height: 1.2;
+   font-family: 'Inknut Antiqua', serif;
+  
+}
+
+.about__margin-top{
+ margin-top: 4rem;
+}
 .about__text{
   font-family: 'Inknut Antiqua', serif;
-   //line-height: 0.5;
+  line-height: 1.3;
 }
 .about__single-card{
+  
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
