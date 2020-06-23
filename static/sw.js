@@ -2,52 +2,48 @@ importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/13477b2c645e4942754b.js",
-    "revision": "4f41edef02c1edd5c07cae433e09964f"
+    "url": "/_nuxt/33d337763e941e64df09.js",
+    "revision": "52b850e5b903b1765980644a09450d59"
   },
   {
-    "url": "/_nuxt/2d0b0add0c748a8fd75e.js",
-    "revision": "395f80987bffa04d75eea348c0a17383"
+    "url": "/_nuxt/4bbf509bd79abd8ada8b.js",
+    "revision": "b802fbe6be6fb92571cec22e7e91f8ea"
   },
   {
-    "url": "/_nuxt/59845d90c4547f46658b.js",
-    "revision": "9e8aade16fb807000d11e063e9dd6fab"
+    "url": "/_nuxt/5494e972e1204cff953e.js",
+    "revision": "29c591331a8fd2122d309deec04d1fe5"
   },
   {
-    "url": "/_nuxt/59a816fac43243be168d.js",
-    "revision": "fc812ce3634dbcf85fbcae2dd336c6e9"
+    "url": "/_nuxt/642985d35d29114b0aa1.js",
+    "revision": "498113c175198e8b9ef39d87dc430579"
   },
   {
-    "url": "/_nuxt/5f79af992859165f94e7.js",
-    "revision": "af7bd1e1fcbe91dad6c5032853b75a0f"
+    "url": "/_nuxt/a5f3e7ffd6f84d27cf82.js",
+    "revision": "8b999fcc525b81695274241a5058a93f"
   },
   {
-    "url": "/_nuxt/a34059c1bc56da62fa23.js",
-    "revision": "f16d22979fd123c2aafab016f4a8e871"
+    "url": "/_nuxt/b2f124c56d69351e04d7.js",
+    "revision": "591abfd7d2bfe18c31a8a19ed3fb30ca"
   },
   {
-    "url": "/_nuxt/ad6e24caf559df61cabf.js",
-    "revision": "46b3db56172bcf405b4030ed84b351fe"
+    "url": "/_nuxt/b6731304ea34658e4fec.js",
+    "revision": "11992de5bbab424da3da692147b56342"
   },
   {
-    "url": "/_nuxt/b417889c5ca581d8e3d9.js",
-    "revision": "ee9c135adce7540a09835161ce967bc2"
+    "url": "/_nuxt/c98ff65c02b32589ef06.js",
+    "revision": "c003df501adc48549c945e9e1754f735"
   },
   {
-    "url": "/_nuxt/c2ceceb4df82f5f6d06a.js",
-    "revision": "b1e1d75675eb3fad476522389acfbbf3"
+    "url": "/_nuxt/e24ea195a84f1dff0353.js",
+    "revision": "0ec9f1ea006ab81f5326a11df3085186"
   },
   {
-    "url": "/_nuxt/c479e54cc6c21ae124d1.js",
-    "revision": "1935912caa19ad58cfdcc3d09142567e"
+    "url": "/_nuxt/e7aba50c56037b8bf9af.js",
+    "revision": "224e66e20b429b4610a054cced292384"
   },
   {
-    "url": "/_nuxt/cb106af8c09be6bb2f21.js",
-    "revision": "18e9985a0d3c0b55db4467a7918e906b"
-  },
-  {
-    "url": "/_nuxt/da7b86c16ebb3a0dea32.js",
-    "revision": "7def46dd9274f1d021b0a2bda5781712"
+    "url": "/_nuxt/e7dc4fbd47d31f06b622.js",
+    "revision": "3be284ddb501a568252e118888a742dc"
   }
 ], {
   "cacheId": "nuxt-netlifycms-boilerplate",
