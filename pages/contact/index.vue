@@ -13,6 +13,18 @@
                 <textarea class="form-field full" name="message" id="message"></textarea>
                 <input class="form-button full" type="submit" value="Send messsage" />
             </form>
+
+            <form name="contacs" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
         </div>
     </div>
 </template>
