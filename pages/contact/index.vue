@@ -9,6 +9,7 @@
           <input class="form-field" name=email  id="email" />
           <label  class="form-label" for="message">Message:</label>
           <textarea class="form-field full" name="message" id="message"></textarea>
+          <input name="submit" class="form-button full" type="submit" value="Send messsage" />
            <p>
     <button type="submit">Send</button>
   </p>
