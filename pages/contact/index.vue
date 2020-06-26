@@ -2,7 +2,7 @@
     <div class="container">
        <h1 class="Title">Contact</h1>
       <client-only class="content">
-        <form name="contact" method="post" data-netlify="true">
+       <!--  <form name="contact" method="post" data-netlify="true">
           <label class="form-label" for="name">Name:</label>
           <input class="form-field" name="name" id="name" />
           <label class="form-label" for="email">Email:</label>
@@ -10,7 +10,20 @@
           <label  class="form-label" for="message">Message:</label>
           <textarea class="form-field full" name="message" id="message"></textarea>
           <input class="form-button full" type="submit" value="Send messsage" />
-        </form> 
+        </form>  -->
+
+        <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+<input class="form-button full" type="submit" value="Send messsage" />
       </client-only>
     </div>
 </template>
