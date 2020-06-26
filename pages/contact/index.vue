@@ -2,7 +2,7 @@
     <div class="container">
        <h1 class="Title">Contact</h1>
       <client-only class="content">
-         <form name="contact" method="post" data-netlify="true">
+         <form name="contact" method="post" data-netlify=true>
           <label class="form-label" for="name">Name:</label>
           <input class="form-field" name="name" id="name" />
           <label class="form-label" for="email">Email:</label>
