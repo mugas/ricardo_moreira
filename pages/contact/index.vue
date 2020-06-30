@@ -1,7 +1,33 @@
 <template>
     <div class="container">
        <h1 class="Title">Contact</h1>
-      <client-only class="content">
+
+<form 
+  name="contactus" 
+  
+  method="post" 
+  netlify
+  netlify-honeypot="bot-field"
+>
+  <!-- // Hidden input to check for bots -->
+  <input type="hidden" name="form-name" value="contactus" />
+  <div>  
+    <label for="name">Name:</label> 
+    <input type="text" name="name" required/>
+  </div>
+  <div>
+    <input type="email" name="email" required/>
+    <label for="email">Email:</label>
+  </div>
+  <div>
+    <textarea name="message" required></textarea>
+    <label for="message">Message:</label>
+  </div>
+  <button type="submit" value="Send message">Send</button>
+</form>
+
+
+     <!--  <client-only class="content">
          <form name="form1" method="post" data-netlify=true>
           <label class="form-label" for="name">Name:</label>
           <input class="form-field" name="name" id="name" />
@@ -13,22 +39,8 @@
            <p>
     <button type="submit">Send</button>
   </p>
-          <!-- <input class="form-button full" type="submit" value="Send messsage" /> -->
         </form>  
-
-        <!-- <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-<input class="form-button full" type="submit" value="Send messsage" /> -->
-      </client-only>
+      </client-only> -->
     </div>
 </template>
 

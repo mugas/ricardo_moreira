@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+    <script
+      defer
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
+  </head>
 
-<head>
-  {{ HEAD }}
-  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
+  <body {{ BODY_ATTRS }}>
+    <form name="contactus" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="radio" name="email" />
+      <textarea name="message"></textarea>
+    </form>
 
-<body {{ BODY_ATTRS }}>
-  {{ APP }}
-</body>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function (user) {
-      if (!user) {
-        window.netlifyIdentity.on("login", function () {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-
+    {{ APP }}
+  </body>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function() {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </html>
