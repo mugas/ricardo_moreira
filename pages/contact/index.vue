@@ -1,46 +1,37 @@
 <template>
-    <div class="container">
+    <div class="form__title">
        <h1 class="Title">Contact</h1>
+       <p>Let's have a chat</p>
 
 <form 
   name="contactus" 
-  
   method="post" 
   netlify
   netlify-honeypot="bot-field"
 >
   <!-- // Hidden input to check for bots -->
   <input type="hidden" name="form-name" value="contactus" />
-  <div>  
+    <div  class="form__name">  
     <label for="name">Name:</label> 
-    <input type="text" name="name" required/>
-  </div>
-  <div>
-    <input type="email" name="email" required/>
-    <label for="email">Email:</label>
-  </div>
-  <div>
-    <textarea name="message" required></textarea>
-    <label for="message">Message:</label>
-  </div>
-  <button type="submit" value="Send message">Send</button>
+      <input type="text" name="name" required />
+    </div>
+    <div class="form__contacts">
+      <div class="form__email"> 
+        <label for="email">Email:</label> 
+        <input type="email" name="email" />
+      </div>
+      <div class="form__phone">
+        <label for="Phone Number">Phone Number</label>
+        <input type="text" name="Phone Number" required />
+      </div>
+    </div>
+    
+    <div class="form__textarea">
+      <label for="message">Message</label> 
+      <textarea name="message" required></textarea>
+    </div>
+    <button type="submit" value="Send message">Send</button>
 </form>
-
-
-     <!--  <client-only class="content">
-         <form name="form1" method="post" data-netlify=true>
-          <label class="form-label" for="name">Name:</label>
-          <input class="form-field" name="name" id="name" />
-          <label class="form-label" for="email">Email:</label>
-          <input class="form-field" name=email  id="email" />
-          <label  class="form-label" for="message">Message:</label>
-          <textarea class="form-field full" name="message" id="message"></textarea>
-          <input name="submit" class="form-button full" type="submit" value="Send messsage" />
-           <p>
-    <button type="submit">Send</button>
-  </p>
-        </form>  
-      </client-only> -->
     </div>
 </template>
 
@@ -52,64 +43,121 @@
     box-sizing: border-box;
 }
 
-body{
-  background:#92bde7;
-  color:#485e74;
+body, html{
+  background:#6A7B9C;
+  color:#6A7B9C;
   line-height:1.6;
   padding:1em;
 }
 
-.container{
-    max-width: 1170px;
-    margin-left:auto;
-    margin-right: auto;
-    padding: 1em;
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:650px;
+  margin-left: 25%;
+ 
 }
 
-.content form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+.form__name{
+  width:100%;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border:2px green solid;
+  border-radius: 4px;
+  background-color: #2d2d2d;
 }
 
-.content form label{
-    display: block;
-}
+.form__name input{
+  width: inherit;
+  border:0;
+  margin: 0;
 
-.content form .full{
-    grid-column: 1 / 3;
-}
-
-.content form input, .content form textarea{
-    width: 100%;
-    padding: 1em;
-    border: 1px solid #c9e6ff;
-}
-
-.content form .form-button{
-    background:#c9e6ff;
+  padding: 30px;
     border: 0;
-    text-transform: uppercase;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
 }
 
-.content form .form-button:hover, .content form .form-button:focus{
-     background:#92bde7;
-     color:#fff;
-     outline:0;
-     transition: background-color 2s ease-out;
+
+.form__contacts{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+
+  
 }
 
-@media (min-width: 700px){
-    .content{
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
+.form__contacts input{
+  width: inherit;
+  border:0;
+  margin: 0;
 
-    .content> *{
-        padding: 2em;
-    }
+  padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
 }
 
+
+.form__email{
+  width:45%;
+  border:2px green solid;
+  background-color: #2d2d2d;
+}
+
+.form__email input{
+ border:0;
+ margin:0
+}
+
+
+.form__phone{
+  width:45%;
+  background-color: #2d2d2d;
+}
+
+.form__phone input{
+border:0;
+ margin:0
+}
+
+.form__textarea{
+  width:100%;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+
+    background-color: #A64E43;
+}
+
+.form__textarea textarea{
+  width: inherit;
+  border: 0;
+  margin: 0;
+
+  padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #A64E43;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+input,textarea:focus{
+  outline: 0;
+}
 
 
 </style>
