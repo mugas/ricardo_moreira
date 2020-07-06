@@ -24,6 +24,8 @@
 
 .main-nav{
     height:100%;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-links{
@@ -61,4 +63,10 @@ color:black;
 color:#06c4d1;
 }
 
+
+
+
 </style>
+
+
+

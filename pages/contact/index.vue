@@ -18,11 +18,11 @@
     <div class="form__contacts">
       <div class="form__email"> 
         <label for="email">Email</label> 
-        <input type="email" name="email" />
+        <input type="email" name="email" required/>
       </div>
       <div class="form__phone">
         <label for="Phone Number">Phone Number</label>
-        <input type="text" name="Phone Number" required />
+        <input type="text" name="Phone Number" />
       </div>
     </div>
     
