@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 1rem;
-    padding: 0.3rem;
+    padding: 0;
 }
 
 
@@ -69,11 +69,12 @@ color:#A64E43 ;
 }
 
 @media(min-width: 768px){
-  
-
 .nav-link a{
-
 font-size: 24px;
+}
+
+.nav-link{
+    padding: 0.3rem;
 }
 }
 
