@@ -3,16 +3,17 @@
         <nav class="main-nav">
           <ul class="nav-links">
             <nuxt-link to="/about" tag="li" class="nav-link"><a>About</a></nuxt-link>
-            <nuxt-link to="/" tag="li"class="nav-link"><a>Home</a></nuxt-link>
-            <nuxt-link to="/blog" tag="li"class="nav-link"><a>Blog</a></nuxt-link>
-            <nuxt-link to="/projects" tag="li"class="nav-link"><a>Projects</a></nuxt-link>
-            <nuxt-link to="/contact" tag="li"class="nav-link"><a>Contact</a></nuxt-link>
+            <nuxt-link to="/" tag="li" class="nav-link"><a>Home</a></nuxt-link>
+            <nuxt-link to="/blog" tag="li" class="nav-link"><a>Blog</a></nuxt-link>
+            <nuxt-link to="/projects" tag="li" class="nav-link"><a>Projects</a></nuxt-link>
+            <nuxt-link to="/contact" tag="li" class="nav-link"><a>Contact</a></nuxt-link>
           </ul>
         </nav>
     </header>  
 </template>
 
 <style lang="css" scoped>
+
 .main-header {
     position : fixed;
     top:0;
@@ -47,26 +48,33 @@
     padding: 0.3rem;
 }
 
-.nav-link.nuxt-link-exact-active{
-    border-bottom: 3px solid #06c4d1;
-}
+
+
 
 .nav-link a{
 display:block;/*takes the full height of the item */
 text-decoration:none;
-color:black;
+color:#20263F;
+font-size: 17px;
 }
 
 .nav-link a:hover,
 .nav-link a:active,
-.nav-link.nuxt-link-exact-active a{
-color:#06c4d1;
+.nav-link.nuxt-link-exact-active a {
+color:#A64E43 ;
 }
 
+.nav-link.nuxt-link-exact-active{
+    border-bottom: 3px solid #A64E43;
+}
 
+@media(min-width: 768px){
+  
 
+.nav-link a{
+
+font-size: 24px;
+}
+}
 
 </style>
-
-
-

@@ -52,9 +52,11 @@ html,body{
   padding: 0;
   font-size: 62.5%;
   
+  
 }
 
 h1{
+
   font-family: Kurale;
   text-align: center;
  /*  font-size: 14px;
