@@ -23,6 +23,10 @@
     height: 4.5rem;
 }
 
+li:last-child{
+    margin-right: 6px;
+}
+
 .main-nav{
     height:100%;
     display: flex;

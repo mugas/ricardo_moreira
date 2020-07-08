@@ -85,11 +85,7 @@
 
 
 
-/* body{
-	 
-overflow:hidden;  
 
-} */
 
 .color{
 	fill: red;
@@ -98,12 +94,13 @@ overflow:hidden;
 	top:-40px;
 	left:0px;
 
+
 } 
 
 
 
 .ladybug{
-	width: 30px;
+	width: 300px;
 	height: 50px;
 	left:50%;
 	bottom: 60%;
@@ -111,24 +108,10 @@ overflow:hidden;
 	animation: ladybug 10s infinite;
 	animation-fill-mode: both;
 	transform: rotate(90deg);
+	overflow: hidden;
 }
 
 
-
-
-@keyframes shimmy {
-0%, 100%{
-	 transform: translateY(0);
-	 	
- }
-
- 
- from{
-    
-transform: translateY(400px);
-transform: rotateX(90deg);
- }
- } 
 
 
 	
@@ -141,6 +124,7 @@ transform: rotateX(90deg);
 	 0%{
 		left:0%;
 		bottom: 40%;
+		transform:rotate(270deg);
 	
 	 }
 	
@@ -149,17 +133,19 @@ transform: rotateX(90deg);
 		 bottom:40%;
 	 }
 	 
+	 
 
 	60%{
 		left:65%;
 	}
 
 	80%{
-		left:85%
+		left:85%;
+		
 	}
 
 	 100%{
-		 left:99%;
+		 left:0%;
 		 bottom: 40%;
 	 } 
 }
