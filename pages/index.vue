@@ -8,7 +8,6 @@
 
   <div class="main">
     <h1><span class="bounce-in-top-second">L</span><span class="bounce-in-top-third">oo</span><span class="letter-k">k</span><span class="king-word">ing</span> <span class="bounce-in-top-first">f</span>or Me<span class="question-mark">?</span><span class="exclamation">!</span></h1>
-
     <p>I create things and stuff</p>
   </div>        
 
@@ -31,11 +30,56 @@
  html,body{
   margin: 0;
   padding: 0;
+
+}
+
+.main{
+
+/* background: #20263F; */
+background: url("../assets/me.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+margin-left: 2%;
+margin-right:2%;
+    height: 85vh;
+    margin-top:6%;
 }
 
 h1{
  text-align:center;
- font-size:150px;
+ font-size:32px;
+}
+
+p{
+  text-align: center;
+  font-size: 3vh;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+  100%{border-color: transparent
+
+  }
 }
 
 .letter-k{
@@ -64,21 +108,21 @@ color:#A64E43 ;
   -webkit-animation: bounce-in-top 7.1s both;
   animation: bounce-in-top 7.1s both;
   display: inline-block;     
-  color:#20263F;
+  color:#A64E43;
 }
 
 .bounce-in-top-second {
 	-webkit-animation: bounce-in-top 10.1s both;
 	animation: bounce-in-top 10.1s both;
   display: inline-block;
-  color:#20263F;
+  color:#A64E43;
 }
 
 .bounce-in-top-third {
 	-webkit-animation: bounce-in-top 1s 10s both;
 	animation: bounce-in-top 1s 10s both;
   display: inline-block;
-  color:#C8882D;
+  color:#A64E43;
 }
 
 
@@ -242,5 +286,14 @@ color:#A64E43 ;
   }
 }
 
+@media(min-width: 768px){
+  h1{
+ text-align:center;
+ font-size:150px;
+}
+p{
+        font-size: 10vh;
+}
+}
 
 </style>
