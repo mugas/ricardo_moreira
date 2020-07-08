@@ -1,5 +1,5 @@
 <template lang="html" class="homepage">
-<TheHeader/>
+
 
    <!-- <div class="main">
       <h1><span class="slide-in-top">L</span><span class="slide-in-top">oo</span>king <span class="slide-in-top">f</span>or Me?</h1>
@@ -15,14 +15,7 @@
 </template>
 
 
-<script>
-import TheHeader from '../components/TheHeader/TheHeader'
-export default {
-  components:{
-    TheHeader
-  }
-}
-</script>
+
 
 
 
