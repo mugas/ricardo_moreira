@@ -41,6 +41,7 @@ li:last-child{
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin-right: 3%;
 }
 
 .nav-link{
@@ -79,6 +80,9 @@ font-size: 24px;
 
 .nav-link{
     padding: 0.3rem;
+}
+.nav-links{
+    margin-right:0;
 }
 }
 
