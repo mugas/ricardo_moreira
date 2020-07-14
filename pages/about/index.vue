@@ -28,7 +28,7 @@
 
       <template v-slot:back>
         <img class="about__image" :src="aboutPage.thumbnail">
-        <p class="about__text">Hi, my name is Ricardo. I am a developer living in Finland. Also I spent years in the hospitality business and led and helped teams to achieve success and had my share of entrepreneurship (with ups and downs) in different countries. Since 2018 I've been learning and working with web development and doing freelance on the side </p>
+        <p class="about__text">Hi, my name is Ricardo. I am a web developer living in Finland. Also I spent years in the hospitality business and led and helped teams to achieve success and had my share of entrepreneurship in different countries. Since 2018 I've been learning and working with web development and doing freelance on the side </p>
      
         
         
@@ -42,7 +42,7 @@
         <SocialMedia class="main__media"/>
       </template>
       <template v-slot:back class="about__back">
-        <p class="about__what-now about__margin-top">Nowadays I've been mostly working and learning more about front end development and search for the first opportunity to work in the area.<span class="about__color-text">If you have a job or project let's talk about it and make it happen</span></p>
+        <p class="about__what-now about__margin-top">Nowadays I've been mostly working and learning more about front end development and search for the first opportunity to work in the area.<span class="about__color-text">If you have a job or project <nuxt-link to="/contact" class="about__contact">let's talk</nuxt-link> about it and make it happen</span></p>
         <p class="about__what-now">I write about front end development(but not only). You can read them on my website but also in <a href="https://dev.to/mugas">dev.to</a> and <a href="https://medium.com/@ricardo.d.moreira.rm">Medium</a>.</p> 
         <p class="about__what-now">Also I been planning my next business/app idea, but can't say more for now because it's still only an idea</p>
       </template>
@@ -162,13 +162,16 @@ li{
 }
 .about__text{
   font-family: 'Inknut Antiqua', serif;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .about__color-text{
   color:#A64E43;
   font-weight: bold;
 } 
+.about__contact{
+  color:#A64E43;
+}
 
 @media(min-width: 768px){
   .about__cards{

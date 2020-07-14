@@ -5,7 +5,9 @@
     <a href="https://instagram.com/mugas_codes" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']"/></a>
     <a href="https://twitter.com/mugas11" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']"/></a>
     <!-- <a href="https://drive.google.com/open?id=1utKJsbWPrvlvP5UeFrkVBS8invpqmMoi" target="_blank"><font-awesome-icon :icon="['fas', 'file-pdf']"/></a> -->
+   <p class="connect">Let's connect</p>
   </div>
+ 
 </template>
 
  
@@ -40,5 +42,10 @@
  
 }
  
-
+.connect{
+  margin:0 0 1.15em 0;
+  font-size: 1.25em;
+  color:#A64E43;
+  font-weight: bold;
+  }
 </style>
