@@ -40,8 +40,7 @@ li:last-child{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    margin-right: 3%;
+   
 }
 
 .nav-link{
@@ -60,6 +59,7 @@ li:last-child{
 display:block;/*takes the full height of the item */
 text-decoration:none;
 color:#20263F;
+margin-left:-5px;
 font-size: 17px;
 }
 
@@ -76,13 +76,16 @@ color:#A64E43 ;
 @media(min-width: 768px){
 .nav-link a{
 font-size: 24px;
+margin-left:0;
+
 }
 
 .nav-link{
     padding: 0.3rem;
 }
 .nav-links{
-    margin-right:0;
+   
+     height: 100%;
 }
 }
 
