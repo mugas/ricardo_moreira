@@ -39,7 +39,7 @@ export default {
 
 .post{
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: 'Inknut Antiqua', serif;
   padding: 20px;
 }
@@ -69,6 +69,10 @@ text-align: center;
   text-decoration: underline;
   cursor: pointer;
   font-size:16px;
+}
+
+img{
+  background: red;
 }
 
 
