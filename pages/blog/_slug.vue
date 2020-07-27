@@ -50,6 +50,9 @@ padding-top: 10px;
 text-align: center;
 }
 
+img{
+  background:red;
+}
 .post__text{
   color: #20263F;
 }
