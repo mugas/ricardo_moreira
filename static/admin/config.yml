@@ -8,11 +8,6 @@ media_library:
   config:
     cloud_name: mugas
     api_key: 337512876763955
-    default_transformations:
-      - - fetch_format: auto
-          width: 160
-          quality: auto
-          crop: scale
 public_folder: "/images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
