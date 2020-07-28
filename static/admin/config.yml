@@ -8,6 +8,7 @@ media_library:
   config:
     cloud_name: mugas
     api_key: 337512876763955
+    output_filename_only: true
 public_folder: "/images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
