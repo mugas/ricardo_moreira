@@ -3,7 +3,7 @@
     <h1 class="post__title">{{title}}</h1>
     <div class="post__text" v-html="$md.render(body)"></div>
     <div class="post__footer">
-      <button class="post__back-link" @click="$router.back()">Back</button>
+      <button class="post__back-link" @click="$router.back()">Backs</button>
       <p class="post__date">Posted by {{author}} on {{start}}</p>
     </div>
   </div>
@@ -55,6 +55,14 @@ img{
 }
 .post__text{
   color: #20263F;
+}
+
+.post__text img{
+  background: yellow;
+}
+
+p img{
+  background: orange;
 }
 
 .post__footer{
