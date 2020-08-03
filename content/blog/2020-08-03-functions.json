@@ -1,0 +1,10 @@
+{
+  "start": "August 3, 2020",
+  "title": "Functions",
+  "author": "Ricardo Moreira",
+  "body": "\r\n* Arrow functions\r\n\nhttps://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc\nhttps://medium.com/@vontmer/a-beginners-guide-to-arrow-functions-in-es6-part-1-187c45c6987c\nhttps://dmitripavlutin.com/differences-between-arrow-and-regular-functions/\nhttps://dev.to/sylwiavargas/arrow-functions-a-walkthrough-and-gotchas-4p4p?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email\nhttps://dev.to/sylwiavargas/arrow-functions-a-walkthrough-and-gotchas-4p4p?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email\n* Regular functions\r\n* High Order functions\r\n\nhttps://jrsinclair.com/articles/2019/what-is-a-higher-order-function-and-why-should-anyone-care/\n* First class functions\r\n\nhttps://www.freecodecamp.org/news/discover-the-power-of-first-class-functions-fd0d7b599b69/\n* What is a function\r\n* Types of function\r\n\nhttps://medium.com/front-end-weekly/quick-guide-to-javascript-functions-7ceb09977bd6\n* How to declare a function\r\n\nhttps://raddevon.com/articles/declaring-javascript-functions/\n* Call back functions\r\n\n\nhttps://raddevon.com/articles/javascript-callback-functions/\n* Refactoring a function\r\n\n\nhttps://raddevon.com/articles/marie-kondo-your-javascript-code-with-functions/\nhttps://levelup.gitconnected.com/javascript-refactoring-tips-making-functions-clearer-and-cleaner-c568c299cbb2\n\n\n* Function declaration /Function expression\r\n* Methods\n\nhttps://www.freecodecamp.org/news/7-javascript-methods-that-will-boost-your-skills-in-less-than-8-minutes-4cc4c3dca03f/\nhttps://dev.to/frugencefidel/10-javascript-string-methods-you-should-know-4l76",
+  "tags": [
+    "functions"
+  ],
+  "excerpt": "Learn functions"
+}
