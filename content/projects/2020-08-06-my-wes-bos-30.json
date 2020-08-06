@@ -1,0 +1,8 @@
+{
+  "title": "My Wes Bos 30",
+  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1596697709/Javascript30_phcsrt.jpg",
+  "about": "Javascript, css",
+  "author": "Ricardo Moreira",
+  "body": "# **What it is?**\n\nAfter I finished the Wes Bos [course](https://beginnerjavascript.com/) about Javacript I decided to revist his free [course](https://javascript30.com/) and try to add my own take on his projects.\nThe first time I did the 30 days of Javascript I had created my own versions of some of his projects(more on than on the detailed explanation of each project) but mostly all of I took them as a new project. So I created some set of rules for it\n\n\n## Rules\n\n Normally I dedicate an hour and a half per day( Monday to Friday) to a course. \n\n* The transformation of Wes Bos project had to be taken in that time frame, meaning after I end up a lesson, I have an hour and a half max to change the project to my own vision. \n* Every day I have to start a new lesson/project\n* The transformations have to do with the topics of the lesson\n* It had to include in some way, more javascript or at least change the existent one \n\n## Links\n\n* [Project page](https://goodstuffoodsgallery.netlify.app/)\n* [GitHub page](https://github.com/mugas/MyWes30)\n\nHome Page         |  Blog Page\r\n:-------------------------:|:-------------------------:\r\n[Drum Box](assets/screenshot.png)  |  [Drum Box](assets/screenshot1.png)\n[CSS Variables](assets/screenshot.png)  |  [CSS Variables](assets/screenshot1.png)\n",
+  "excerpt": "My take on Wes Bos 30"
+}
