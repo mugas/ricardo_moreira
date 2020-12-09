@@ -15,6 +15,7 @@
           <li>HTML</li>
           <li>Vue</li>
           <li>Nuxt</li>
+          <li>PHP</li>
         </ul>
       </template>
     </vue-flip>
