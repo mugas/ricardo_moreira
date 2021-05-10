@@ -20,7 +20,7 @@
     "@nuxtjs/markdownit": "^1.2.9",
     "@nuxtjs/pwa": "^3.0.2",
     "cross-env": "^5.2.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash.template": ">=4.5.0",
     "nuxt": "^2.12.2",
     "nuxt-fontawesome": "^0.4.0",
