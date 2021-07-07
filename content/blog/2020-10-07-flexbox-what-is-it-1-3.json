@@ -1,0 +1,10 @@
+{
+  "start": "October 7, 2020",
+  "title": "Flexbox  - What is it 1/3",
+  "author": "Ricardo Moreira",
+  "excerpt": "Learn flexbox with a animation guide and creating two projects",
+  "body": "Unless you are totally new to web development you have heard about Flexbox, and might have used it in some projects. In fact flexbox can be used in more than 99% of user browser nowadays. So is this just another post about flexbox?\nI hope not, but I have to say that the first reason to write about flexbox was to understand it better. Sure I knew/know how to use it, but when you start doing some more challenging layouts or responsive you start wondering how much you really know.\nSo I decided to write a post about flexbox, to teach myself and hopefully to help someone along the way. Then ideas start flourishing and I end up with 3 post. One more with the theory and 2 with different projects: One restaurant homepage and one food e-commerce.\nAnd no matter how many post there are and they will be about Flexbox, you should use always this [one](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) as a guide. It is updated often and it has all the info you need.\nSo with that post open as a guide let's do this. It's long but it's worth it.\n\nIn case you just want to jump to the projects and links here it is.\n\n## Links\n\n* [Theory Project page](https://goodstuffmusicalbum.netlify.app/)\n* [Restaurant page](https://goodstuffmusicalbum.netlify.app/)\n* [E-commerce page](https://goodstuffmusicalbum.netlify.app/)\n* [GitHub page](https://github.com/mugas/Movie-hero)\n* [Code Pen](https://codepen.io/collection/DrpKdj)\n* You also can read it [here](https://dev.to/mugas/flip-cards-with-javascript-2ad0) and [here](<>)",
+  "tags": [
+    "css flexbox"
+  ]
+}
