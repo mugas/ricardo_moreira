@@ -1,129 +1,229 @@
-import path from "path";
-import glob from "glob";
-import pkg from "./package";
-import info from "./content/setup/info";
-import about from "./content/about/about-me";
-
-const dynamicRoutes = getDynamicPaths({
-  "/blog": "blog/*.json",
-  "/projects": "projects/*.json"
-});
-
-console.log(dynamicRoutes);
-console.log("hello");
+import blogs from './content/blogs.json'
+import codings from './content/codings.json'
 
 export default {
-  mode: "universal",
+  mode: 'universal',
 
   /*
    ** Headers of the page
    */
   head: {
-    title: info.sitename,
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: pkg.description }
-    ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+    script: [
       {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap"
-      }
-    ]
+        type: 'text/javascript',
+        src:
+          'https://platform-api.sharethis.com/js/sharethis.js#property=5ff064f32bc64600181b0f01&product=sop',
+        async: 'async',
+      },
+    ],
+    title: 'Talking about code, cooking and more',
+    meta: [
+      {
+        charset: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: `http://ricardomoreira.io/`,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Talking about code, cooking and more',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Talking about code, cooking and more',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Talking about code, cooking and more',
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: '~/assets/Svg/gs.svg',
+      },
+      {
+        hid: 'og:article:author',
+        property: 'og:article:author',
+        content: 'https://github.com/mugas',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: '<Blog Name>',
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
+      { name: 'twitter:site', content: '@mugas11' },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Talking about code, cooking and more',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: '<Blog name> and description',
+      },
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }],
   },
 
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: "#fff" },
+  loading: { color: '#fff' },
 
-  /*
-   ** Global CSS
+  /**
+   * Plugins
    */
-  css: ["highlight.js/styles/solarized-dark.css"],
+  plugins: [{ src: '~/plugins/lazyload' }, { src: '~/plugins/prism' }],
 
-  /*
-   ** Plugins to load before mounting the App
-   */
-  plugins: [],
+  // Auto import components (https://go.nuxtjs.dev/config-components)
+  components: true,
 
   /*
    ** Nuxt.js modules
    */
   modules: [
-    "@nuxtjs/markdownit",
-    "@nuxtjs/axios", // Doc: https://axios.nuxtjs.org/usage
-    "@nuxtjs/pwa",
-    "@nuxtjs/svg",
-    [
-      "nuxt-fontawesome",
-      {
-        imports: [
-          {
-            set: "@fortawesome/free-solid-svg-icons",
-            icons: ["fas"]
-          },
-          {
-            set: "@fortawesome/free-brands-svg-icons",
-            icons: ["fab"]
-          }
-        ]
-      }
-    ]
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-PV76V8S' }],
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    'nuxt-webfontloader',
+    'nuxt-fontawesome',
+    'vue-plausible',
   ],
-  markdownit: {
-    html: true,
-    preset: "default",
-    linkify: true,
-    breaks: true,
-    injected: true,
-    highlight(str, lang) {
-      const hljs = require("highlight.js");
-      if (lang && hljs.getLanguage(lang)) {
-        try {
-          return `<pre class="hljs"><code>${
-            hljs.highlight(lang, str, true).value
-          }</code></pre>`;
-        } catch (__) {}
-      }
-      return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
-    }
+  plausible: {
+    domain: 'ricardomoreira.io',
   },
-  /*
-   ** Axios module configuration
+
+  /**
+   * Google fonts
    */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+  webfontloader: {
+    google: {
+      families: ['Montserrat:900', 'Work+Sans:300'],
+    },
+  },
+
+  /**
+   * Font Awesome
+   */
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: [
+          'faTwitter',
+          'faCss3',
+          'faInstagram',
+          'faGithub',
+          'faVuejs',
+          'faReact',
+          'faJs',
+          'faDocker',
+          'faWordpress',
+          'faNodeJs',
+          'faYarn',
+          'faFirefox',
+          'faLinkedin',
+        ],
+      },
+    ],
+  },
+
+  /**
+   * Manifest
+   */
+  manifest: {
+    name: '<Blog Name>',
+    short_name: '<Blog Name>',
+    lang: 'en',
+  },
+
+  /**
+   * sitemap
+   */
+  sitemap: {
+    hostname: 'https://example.com',
+    gzip: true,
+    exclude: ['/admin/'],
+  },
+
+  /**
+   * Robots
+   */
+  robots: {
+    UserAgent: '*',
+    Disallow: '/admin',
+  },
+
+  /**
+   * Generate config
+   */
+  generate: {
+    routes: [
+      [].concat(blogs.map((blog) => `/blog/${blog.slug}`)),
+      [].concat(codings.map((coding) => `/coding/${coding.slug}`)),
+    ],
+  },
+
+  /**
+   * Transition
+   */
+  transition: {
+    name: 'fade',
+    mode: 'out-in',
   },
 
   /*
    ** Build configuration
    */
   build: {
+    babel: {
+      plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
+    },
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  },
-  generate: {
-    routes: dynamicRoutes
-  }
-};
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+          options: {
+            fix: true,
+          },
+        })
+      }
 
-/**
- * Create an array of URLs from a list of files
- * @param {*} urlFilepathTable
- */
-function getDynamicPaths(urlFilepathTable) {
-  return [].concat(
-    ...Object.keys(urlFilepathTable).map(url => {
-      const filepathGlob = urlFilepathTable[url];
-      return glob
-        .sync(filepathGlob, { cwd: "content" })
-        .map(filepath => `${url}/${path.basename(filepath, ".json")}`);
-    })
-  );
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        options: {
+          vue: true,
+        },
+      })
+    },
+  },
 }

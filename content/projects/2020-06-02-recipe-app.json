@@ -1,8 +1,0 @@
-{
-  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591088730/recipedia_flrbbp.png",
-  "title": "Recipe app",
-  "about": "Node.js, Express, MongoDB",
-  "author": "Ricardo Moreira",
-  "body": "\n\n# **What it is?**\n\nA food app with node.js and Javascript( In progress) Created with bootstrap 3 (Will bre refactored to bootstrap 4) and MongoDB and Express.\r\n\r\nUser can create profile, add recipes to his profile and comment other recipE\n\n\n\n## What I learned?\n\n* Node.js\n* Express\n* MongoDB\n* Bootstrap \n\n## Links\n\n* [Project page](https://cryptic-oasis-44930.herokuapp.com/recipes)\n* [GitHub page](https://github.com/mugas/good_stuff_foods)\n",
-  "excerpt": "Javascript with node.js "
-}

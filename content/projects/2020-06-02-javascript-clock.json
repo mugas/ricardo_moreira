@@ -1,8 +1,0 @@
-{
-  "title": "Javascript clock",
-  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591089116/clock_i4pvpe.png",
-  "about": "Animation, libraries, methods",
-  "author": "Ricardo Moreira",
-  "body": "# **What it is?**\n\nA clock made with JS and CSS. For the digital clock I worked with momentjs.\r\n\r\nThis was my third project, but the first one that was based on a tutorial. After I done the tutorial from [Wes Bos](https://javascript30.com/) - CSS +JS clock and because the use of time in JS was daunting for me I decided that I had to give it a go. In the middle of the project I learn about the library momentjs and also end up using it in the digital clock.\r\n\r\nThis project made me want to try different things in javascript and learn more about it and also about libraries. \n\n\n## What I learned?\n\n* Functions\n* Methods\n* IIFE\n* Libraries\n* Time Variables\n* Animations\n\n\n## Links\n\n* [Project page](https://its-time-to-quit.netlify.app/)\n* [GitHub page](https://github.com/mugas/It-s-time-to-quit)",
-  "excerpt": "it's time to quit"
-}

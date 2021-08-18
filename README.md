@@ -1,67 +1,59 @@
-[![Social banner for mugas](./assets/me_banner.png)](http://ricardomoreira.io/)
+[![Social banner for mugas](./assets/me_banner.png)](http://gscreations.io/)
 
-<h1 align="center"> 🔥Ricardo Moreira🔥</h1>
+<h1 align="center"> 🔥Good Stuff Creations🔥</h1>
 
-<h2 align="center">My own webpage</h2>
+<h2 align="center">More sustainable website and coding</h2>
 
 ### Index
 
-* [Name](#Name) 👈
-* [Links](#Links) 🔗
-* [Description](#Description) 📖
-* [Languages and Frameworks](####Languages-and-Frameworks) ⚙️
-* [Screenshots](#Screenshots) 📱
-* [Instalation](#Instalation) 🧩
-* [Support](#Support) 🆘
-* [Roadmap](#Roadmap) 🗺️
-* [Authors and acknowledgment](####Authors-and-acknowledgment) ✍️
-* [Project Status](#Project-Status) 📜
+- [Name](#Name) 👈
+- [Links](#Links) 🔗
+- [Description](#Description) 📖
+- [Languages and Frameworks](####Languages-and-Frameworks) ⚙️
+- [Screenshots](#Screenshots) 📱
+- [Instalation](#Instalation) 🧩
+- [Support](#Support) 🆘
+- [Roadmap](#Roadmap) 🗺️
+- [Authors and acknowledgment](####Authors-and-acknowledgment) ✍️
+- [Project Status](#Project-Status) 📜
 
 # Name
 
-Ricardo Moreira
+Good Stuff Creations
 
 # Links
 
-[Website](https://www.ricardomoreira.io/)
+[Website](https://www.gscreations.io/)
 
-___
+---
 
 # Description
 
-When I decided to build my website, I was starting to learn [Nuxt](https://nuxtjs.org/) and [NetlifyCMS](https://www.netlifycms.org/) so I decided to give it a go.
+I wanted to have a website where I could offer my freelance services but also could share my coding tutorials, snippets, etc. I had my own [website](http://ricardomoreira.io/) but I want that my personal website becomes more than only about coding, hence I create this website.
+Also made in Nuxt, but with some improvements. Mostly based on Tom [tutorial](https://code-tribe.com/). Then I add change (and will continue changing it) to become more my own website. With Tom tutorial I could learn more about to create a blog without using Vuex, but stil have a fast and functional website.
 
-Was not easy in the beginning, couldn't find any good documents or templates that would make it work with Nuxt and Netlify. I used [Bael Template](https://github.com/jake-101/bael-template) and [Tyler Template](https://github.com/tylermercer/nuxt-netlifycms-boilerplate) as reference and went from there.
-
-From that, I used also the Nellify forms to create my contact page, add my projects and blog page and other features.
-
-There is still many features to add, bugs to fix and improvements to make. I will update here as long as I go.
-
-The more I will learn, more updates will show up here, among other projects.
-
-Stick around
-
-___
+---
 
 # Languages, Frameworks and others
 
-* **Nuxt.js** - Framework
-* **Netlify CMS** - CMS
-* **Font Awesome** - Icons
+- **Nuxt.js** - Framework
+- **Netlify CMS** - CMS
+- **Font Awesome** - Icons
+- **Share This** - Social Media
 
-____
+---
 
 # Screenshots
 
-Home Page         |  Blog Page
-:-------------------------:|:-------------------------:
-![](assets/screenshot.png)  |  ![](assets/screenshot1.png)
+|             Home Page             |             Blog Page              |
+| :-------------------------------: | :--------------------------------: |
+| ![](assets/images/screenshot.png) | ![](assets/images/screenshot1.png) |
 
-____
+---
 
 # Instalation
 
-___
+---
 
 # Support
 
@@ -69,30 +61,28 @@ Have any question or find something that doesn't look good? Let's talk 😊
 
 [Here](https://github.com/mugas)
 
-[And Here](https://www.ricardomoreira.io/about)
+[And Here](https://www.gscreations.io/about)
 
-____
+---
 
 # Roadmap
 
 Next steps to me implemented:
 
-1. Improve SEO
-1. Improve speed on mobile version
-1. Add comments section
+1. Improve Acessibility
 
-____
+---
 
 # Authors-and-acknowledgment
 
-* [Tyler Template](https://github.com/tylermercer/nuxt-netlifycms-boilerplate)
+- [Tom](https://code-tribe.com/)
 
-* Me 😊
+- Me 😊
 
-____
+---
 
-# Project-Status  
+# Project-Status
 
 Always improving
 
-____
+---

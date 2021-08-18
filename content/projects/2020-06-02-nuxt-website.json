@@ -1,8 +1,0 @@
-{
-  "title": "Ruckwäter website",
-  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591089560/ruckwater_mtscmk.png",
-  "about": "Nuxt, CMS, state",
-  "author": "Ricardo Moreira",
-  "body": "# **What it is?**\n\nMy first approach to Nuxt.js. I used Netlify as a CMS. It was my first website that was planned to be used in production. For now is it on hold (from the customer side) but I will going to improve it in the meanwhile.\n\n\n\n## What I learned?\n\n* Nuxt\n* Vue.js\n* CMS\n* Netlify\n\n## Links\n\n* [Project page](https://cranky-lichterman-91ec08.netlify.app/)\n* [GitHub page](https://github.com/mugas/ruckwater)",
-  "excerpt": "With Netlify CMS"
-}

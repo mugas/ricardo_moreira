@@ -1,8 +1,0 @@
-{
-  "title": "Pig Game",
-  "thumbnail": "https://res.cloudinary.com/mugas/image/upload/v1591082227/pigGame_dtm8hk.png",
-  "about": "DOM Manipulation, functions",
-  "author": "Ricardo Moreira",
-  "body": "# **What it is?**\n\nA game made with Javascript. This is made from a tutorial. Still not refactored for 2020\n\n\n\n## What I learned?\n\n* DOM Manipulation\n* Conditionals\n* Function\n* \n\n## Links\n\n* [Project page](https://pigandgame.netlify.app/)\n* [GitHub page](https://github.com/mugas/pig-game)\n",
-  "excerpt": "Game made with Javascript"
-}
