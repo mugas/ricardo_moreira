@@ -18,38 +18,35 @@
           <p>
             My name is Ricardo Moreira and I am a Web developer and
             entrepreneur. I was born in Portugal but I live in Finland with my
-            wife and 2 daughters. As a web developer I created
-            <a href="http://gscreations.io/"> Good Stuff Creations</a>.
+            wife and 2 daughters. As a web developer, I created
+            <a href="http://gscreations.io/">Good Stuff Creations</a>.
           </p>
           <p>
-            There I create web products focused on local producers and
-            groceries, helping them to grow their presence online, with
-            websites, and SEO.I love the passion local producers put in their
-            products and I want to help them share their message to more people
-            and sell more products.
+            Good Stuff creations were made to combine my passion and work
+            experience for food and coding. Website and SEO for local producers
+            and small businesses.Your brand and business are an extension of
+            yourself and It needs to be online. Let me help you achieve that.
           </p>
           <p>
-            I also create tutorials about coding where hopefully I can help
-            someone to learn something about coding. As a parent who had(has)
-            day job was a challenge to find the time to code while have to work
-            and spending time with the kids and wife, so I pretend to help any
-            coding parent out there.
+            But my creative side decided that I need to push forward. So from
+            September 2021 forward I decided to create products in public. Share
+            everything from the main idea from planning to execution. Share the
+            fails and successes. These products can be small e-books, tutorials,
+            info products, etc.
           </p>
           <p>
-            Besides web development, I am passionated about food. It's where I
-            have been working mostly all my life.I am creating now a new service
-            that will focus on local producers and tasty food. More news coming
-            soon.
+            One of my passions besides web development, is food. It's where I
+            have been working mostly all my life. So in my spare time I am
+            starting a digital theme food box, for food lovers. As testing, I am
+            creating
+            <a href="https://www.instagram.com/goodstuffoods/">menus</a> that
+            use mostly produces by local producers in Finland.
           </p>
           <p>
-            In this webpage you can get to know a bit more about my projects and
-            also about other things that interest me like music, food and other
-            subjects. Keep an eye on my
-            <nuxt-link to="/blog"> Blog</nuxt-link> as I try to updated weekly.
-            feel free to connect with me
+            Feel free to connect with me
             <nuxt-link to="/contact">here</nuxt-link> or with the
             <a href="https://twitter.com/mugas11">bluebird</a>
-            for any question that may arise you.
+            for any question that may arise you or just join me in this ride.
           </p>
         </div>
       </article>

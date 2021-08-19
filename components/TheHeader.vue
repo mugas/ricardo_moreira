@@ -136,10 +136,4 @@ img {
 .nav-item a.nuxt-link-active {
   color: #793000;
 }
-
-.buy-me-a-coffee a:hover,
-.buy-me-a-coffee a:active,
-.buy-me-a-coffee a.nuxt-link-active {
-  color: red;
-}
 </style>

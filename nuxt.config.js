@@ -119,7 +119,7 @@ export default {
    */
   webfontloader: {
     google: {
-      families: ['Montserrat:900', 'Work+Sans:300'],
+      families: ['Halant:500', 'Nunito+Sans:300'],
     },
   },
 
