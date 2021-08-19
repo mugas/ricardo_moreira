@@ -112,6 +112,7 @@ body {
   line-height: 50px;
   padding-bottom: 32px;
   color: white;
+  text-align: inherit;
 }
 
 .subtitle {

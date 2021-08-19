@@ -35,11 +35,11 @@
             info products, etc.
           </p>
           <p>
-            One of my passions besides web development, is food. It's where I
-            have been working mostly all my life. So in my spare time I am
+            One of my passions besides web development is food. It's where I
+            have been working mostly all my life. So in my spare time, I am
             starting a digital theme food box, for food lovers. As testing, I am
             creating
-            <a href="https://www.instagram.com/goodstuffoods/">menus</a> that
+            <a href="https://www.instagram.com/goodstuffoods/"> menus</a> that
             use mostly produces by local producers in Finland.
           </p>
           <p>
