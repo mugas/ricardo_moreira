@@ -78,4 +78,4 @@ Good Stuff Foods I changed the idea to become a digital food product, but only c
 
 Good Stuff Creations would focused on local producers that I respect and want to help to put their products out
 
-I also wanted something that
+I also wanted something that challenged everyday so
