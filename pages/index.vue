@@ -4,7 +4,7 @@
       <h1 class="title">
         I create <span class="action">{{ actions[0] }} </span>and stuff
       </h1>
-      <p class="subtitle">Developer, entrepreneurs and constant learner</p>
+      <p class="subtitle">Developer, entrepreneur and constant learner</p>
       <NuxtLink to="/contact"
         ><button class="button__contact">Let's Work together</button></NuxtLink
       >
