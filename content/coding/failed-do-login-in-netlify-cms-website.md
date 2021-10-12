@@ -1,7 +1,7 @@
 ---
 type: Small Tips
 language: nuxtjs
-title: Failed do login in Netlify CMS website
+title: Failed to login in Netlify CMS website
 summary: Have you ever been unable to log in to your website admin in Neltilfy
   CMS? Could be that you lost the password or you just don't remember. Then you
   reset the password but it seems the link they sent is not working... There is
