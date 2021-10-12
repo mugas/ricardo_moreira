@@ -31,7 +31,7 @@
         </ul>
       </div>
       <nuxt-link to="/"
-        ><img width="150px" src="~/assets/Svg/gs.svg" class="right-logo"
+        ><img width="150px" src="~/assets/Svg/logo.svg" class="right-logo"
       /></nuxt-link>
     </header>
   </div>

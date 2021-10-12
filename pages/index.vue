@@ -10,31 +10,44 @@
       >
     </header>
     <section class="stuff">
-      <h2>Some of my projects</h2>
+      <h2>Projects</h2>
       <article class="websites card">
         <div class="text">
           <h3>Good Stuff Creations</h3>
           <p class="websites__paragraph">
             Website and digital products for local producers and groceries
           </p>
-          <a href="http://gscreations.io/">
+          <a class="gscreations__button" href="http://gscreations.io/">
             <button class="button_gscreations">To the Website</button></a
           >
           <p class="card__footer">Web development, Wordpress, SEO</p>
         </div>
-        <div class="website__image">
-          <!--  <img
-            class="website_gscreations"
-            width="80px"
-            src="~/assets/images/gsimage.jpg"
-          /> -->
-        </div>
       </article>
-      <article class="podcasts card">
-        <h3>Podcast</h3>
-        <p class="websites__paragraph">Coming Soon</p>
+      <article class="food card">
+        <h3>Good Stuff Foods</h3>
+        <p class="websites__paragraph">Planned for 2022</p>
+        <p class="websites__paragraph">
+          A new food experience. Eat the world locally. You can find more on the
+          Instagram page
+        </p>
+        <a
+          class="gscreations__button"
+          href="https://www.instagram.com/goodstuffoods/"
+        >
+          <button class="button_gscreations">IG Page</button></a
+        >
       </article>
-      <article class="food card"></article>
+      <article class="building card">
+        <h3>BizBox</h3>
+        <p class="websites__paragraph">
+          A business dashboard made for solopreneurs, content creators and
+          Shopify entrepreneurs
+        </p>
+        <p>To be launched in end of 2021</p>
+        <a class="gscreations__button" href="https://bizbox.club/">
+          <button class="button_gscreations">IG Page</button></a
+        >
+      </article>
     </section>
   </div>
 </template>
@@ -48,8 +61,8 @@ export default {
         'Things',
         'Podcasts',
         'Websites',
-        'Food',
-        'Writing',
+        'Digital Products',
+        'Blogs',
         'Code',
         'Courses',
       ],
@@ -92,6 +105,7 @@ body {
   flex-direction: column;
   /* background-color: black; */
   margin-left: 2%;
+  align-items: center;
   margin-right: 2%;
   height: 67vh;
   border: 10px;
@@ -100,7 +114,6 @@ body {
 }
 
 .title {
-  margin-left: 5%;
   font-size: 32px;
   overflow: hidden; /* content is not revealed until the animation */
   /*border-right: 0.09em solid #a64e43; The typwriter cursor */
@@ -108,11 +121,9 @@ body {
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
   letter-spacing: 0.12em;
 
-  width: 93%;
   line-height: 50px;
   padding-bottom: 32px;
   color: white;
-  text-align: inherit;
 }
 
 .subtitle {
@@ -131,8 +142,7 @@ button {
   border: 0;
   background: transparent;
   border-radius: 0;
-  margin-top: 3%;
-  margin-left: 5%;
+
   font-weight: inherit;
   letter-spacing: inherit;
   line-height: inherit;
@@ -146,16 +156,15 @@ button {
   font-size: 1rem;
   padding: 14.00778px 20px;
   border-radius: 2em;
-  width: 59%;
+
   cursor: pointer;
   transition: all 0.5s;
 }
 button:hover {
   background-color: transparent;
-  color: yellow;
-  border: 2px solid yellow;
+  color: #793000;
+  border: 2px solid #793000;
   font-size: 1rem;
-  width: 59%;
 }
 
 button:active {
@@ -168,22 +177,20 @@ button:active {
 /*Other Projects*/
 
 h2 {
-  margin-left: 5%;
+  color: #793000;
   text-align: center;
   font-size: 28px;
   line-height: 50px;
   padding-bottom: 32px;
 }
 .button_gscreations {
-  width: 120%;
-  color: #28430a;
+  color: #793000;
+  width: 60%;
 }
-.button_gscreations:hover {
-  width: 120%;
-}
+
 h3 {
   font-size: 26px;
-  margin-left: 5%;
+
   padding-bottom: 32px;
 }
 .stuff {
@@ -193,19 +200,38 @@ h3 {
 .card {
   display: flex;
   flex-direction: column;
-  margin-right: 6%;
+  margin-right: 7%;
   /* height: 60vh; */
   border-radius: 10px;
   margin-bottom: 12%;
-  margin-left: 6%;
+  margin-left: 7%;
 }
 .websites {
-  color: #28430a;
-  background-color: #edbd54;
+  color: #ffff;
+  align-items: center;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
+.gscreations__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 5%;
+}
+.food {
+  color: #ffff;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+.building {
+  color: #ffff;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
 .website__image {
   background-image: url('~assets/images/gsimage.jpg');
   width: 100%;
@@ -215,25 +241,13 @@ h3 {
 }
 
 .websites__paragraph {
-  margin-left: 5%;
   padding-bottom: 32px;
+  text-align: center;
 }
 .card__footer {
+  text-align: center;
   position: relative;
-
-  margin-left: 5%;
-}
-.podcasts {
-  background-color: #231e36;
-  margin-left: 6%;
-  margin-right: 6%;
-  color: white;
-}
-
-.food {
-  background-color: #a64e43;
-  margin-left: 6%;
-  margin-right: 6%;
+  padding-bottom: 5%;
 }
 
 /*Animation*/
@@ -286,10 +300,9 @@ h3 {
   }
   .button__contact:hover {
     background-color: transparent;
-    color: yellow;
-    border: 2px solid yellow;
+    color: #793000;
+    border: 2px solid #793000;
     font-size: 1rem;
-    width: 15%;
   }
   .stuff {
     display: flex;
@@ -303,23 +316,39 @@ h3 {
     margin-left: 10%;
   }
   .button_gscreations {
-    width: 31%;
     margin-left: 10%;
     padding: 10px;
   }
   .button_gscreations:hover {
     background-color: transparent;
-    color: #28430a;
-    border: 2px solid #28430a;
+    color: #793000;
+    border: 2px solid #793000;
     font-size: 1rem;
-    width: 31%;
   }
   .websites {
     display: flex;
+    color: #ffff;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: #edbd54;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
     flex-direction: row;
+  }
+  .food {
+    color: #ffff;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+  }
+  .building {
+    color: #ffff;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    display: flex;
+    width: 35%;
+    flex-direction: column;
   }
 
   .website__image {
@@ -334,22 +363,7 @@ h3 {
 
     width: 100%;
   }
-  .podcasts {
-    margin-left: 7%;
-    margin-right: 0;
-    height: 40vh;
-    width: 40%;
-  }
 
-  .food {
-    display: flex;
-    flex-direction: row;
-    background-color: #a64e43;
-    margin-right: 7%;
-
-    width: 40%;
-    margin-left: 0;
-  }
   .button_gsfoods {
     width: 100%;
     /* margin-left: 10%;
@@ -360,7 +374,6 @@ h3 {
     color: #28430a;
     border: 2px solid #28430a;
     font-size: 1rem;
-    width: 100%;
   }
 
   .food__text {
@@ -374,7 +387,7 @@ h3 {
     font-size: 22px;
   }
   .websites {
-    color: #28430a;
+    color: #ffff;
     background-color: #edbd54;
     margin-left: 7%;
     margin-right: 7%;
