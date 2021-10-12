@@ -18,7 +18,7 @@
             Website and digital products for local producers and groceries
           </p>
           <a class="gscreations__button" href="http://gscreations.io/">
-            <button class="button_gscreations">To the Website</button></a
+            <button class="button_gscreations">Website</button></a
           >
           <p class="card__footer">Web development, Wordpress, SEO</p>
         </div>
@@ -39,13 +39,13 @@
       </article>
       <article class="building card">
         <h3>BizBox</h3>
-        <p class="websites__paragraph">
+        <p class="websites__paragraph">End of 2021</p>
+        <p class="bizbox_paragraph">
           A business dashboard made for solopreneurs, content creators and
           Shopify entrepreneurs
         </p>
-        <p>To be launched in end of 2021</p>
         <a class="gscreations__button" href="https://bizbox.club/">
-          <button class="button_gscreations">IG Page</button></a
+          <button class="button_gscreations">Website</button></a
         >
       </article>
     </section>
@@ -197,6 +197,11 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
+.bizbox_paragraph {
+  text-align: center;
+  padding-bottom: 32px;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -291,13 +296,12 @@ h3 {
     height: 80vh;
     margin-left: 0;
     margin-right: 0;
+    justify-content: space-around;
   }
   .subtitle {
     font-size: 31px;
   }
-  .button__contact {
-    width: 15%;
-  }
+
   .button__contact:hover {
     background-color: transparent;
     color: #793000;
@@ -349,6 +353,10 @@ h3 {
     display: flex;
     width: 35%;
     flex-direction: column;
+  }
+  .bizbox_paragraph {
+    text-align: center;
+    padding-bottom: 32px;
   }
 
   .website__image {
