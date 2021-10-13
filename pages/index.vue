@@ -4,7 +4,7 @@
       <h1 class="title">
         I create <span class="action">{{ actions[0] }} </span>and stuff
       </h1>
-      <p class="subtitle">Developer, entrepreneur and constant learner</p>
+      <p class="subtitle">Developer, creator and constant learner</p>
       <NuxtLink to="/contact"
         ><button class="button__contact">Let's Work together</button></NuxtLink
       >
@@ -127,7 +127,6 @@ body {
 }
 
 .subtitle {
-  margin-left: 5%;
   padding-bottom: 8%;
   font-size: 18px;
   line-height: 26px;
@@ -169,10 +168,9 @@ button:hover {
 
 button:active {
   background-color: transparent;
-  color: yellow;
+
   border: 2px solid yellow;
   font-size: 1rem;
-  width: 59%;
 }
 /*Other Projects*/
 
