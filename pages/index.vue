@@ -11,42 +11,55 @@
     </header>
     <section class="stuff">
       <h2>Projects</h2>
-      <article class="websites card">
+      <article class="websites">
         <div class="text">
           <h3>Good Stuff Creations</h3>
           <p class="websites__paragraph">
             Website and digital products for local producers and groceries
           </p>
           <a class="gscreations__button" href="http://gscreations.io/">
-            <button class="button_gscreations">Website</button></a
+            <button class="button__contact">Website</button></a
           >
           <p class="card__footer">Web development, Wordpress, SEO</p>
         </div>
+        <div class="gscreations_image">
+          <img src="~/assets/images/gscreations_mockup.png" />
+        </div>
       </article>
-      <article class="food card">
-        <h3>Good Stuff Foods</h3>
-        <p class="websites__paragraph">Planned for 2022</p>
-        <p class="websites__paragraph">
-          A new food experience. Eat the world locally. You can find more on the
-          Instagram page
-        </p>
-        <a
-          class="gscreations__button"
-          href="https://www.instagram.com/goodstuffoods/"
-        >
-          <button class="button_gscreations">IG Page</button></a
-        >
+      <article class="websites">
+        <div class="text">
+          <h3>Good Stuff Foods</h3>
+          <p class="websites__paragraph">
+            A new food experience. Eat the world locally. You can find more on
+            the Instagram page (Planned for 2022)
+          </p>
+          <a
+            class="gscreations__button"
+            href="https://www.instagram.com/goodstuffoods/"
+          >
+            <button class="button__contact">IG Page</button></a
+          >
+          <p class="card__footer">Food, digital products</p>
+        </div>
+        <div class="gscreations_image">
+          <img src="~/assets/images/insta.png" />
+        </div>
       </article>
-      <article class="building card">
-        <h3>BizBox</h3>
-        <p class="websites__paragraph">End of 2021</p>
-        <p class="bizbox_paragraph">
-          A business dashboard made for solopreneurs, content creators and
-          Shopify entrepreneurs
-        </p>
-        <a class="gscreations__button" href="https://bizbox.club/">
-          <button class="button_gscreations">Website</button></a
-        >
+      <article class="websites">
+        <div class="text">
+          <h3>BizBox</h3>
+          <p class="websites__paragraph">
+            A business dashboard made for solopreneurs, content creators and
+            Shopify entrepreneurs(End of 2021)
+          </p>
+          <a class="gscreations__button" href="https://bizbox.club/">
+            <button class="button__contact">Website</button></a
+          >
+          <p class="card__footer">Business, digital products, productivity</p>
+        </div>
+        <div class="gscreations_image">
+          <img src="~/assets/images/bixboz_all.png" />
+        </div>
       </article>
     </section>
   </div>
@@ -183,9 +196,12 @@ h2 {
 }
 .button_gscreations {
   color: #793000;
-  width: 60%;
+  width: 20%;
 }
-
+.gscreations_image,
+.gsfoods_image {
+  display: none;
+}
 h3 {
   font-size: 26px;
 
@@ -194,6 +210,9 @@ h3 {
 .stuff {
   display: flex;
   flex-direction: column;
+}
+.gsfoods_image {
+  width: 10%;
 }
 
 .bizbox_paragraph {
@@ -216,6 +235,12 @@ h3 {
   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
   display: flex;
   flex-direction: column;
+
+  margin-right: 7%;
+  /* height: 60vh; */
+  border-radius: 10px;
+  margin-bottom: 12%;
+  margin-left: 7%;
 }
 .gscreations__button {
   display: flex;
@@ -287,9 +312,7 @@ h3 {
     white-space: nowrap;
     animation: typing 6.5s steps(60, end), blinking 0.5s step-end infinite;
   }
-  h3 {
-    margin-left: 10%;
-  }
+
   .header {
     height: 80vh;
     margin-left: 0;
@@ -310,16 +333,21 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 162vh;
+
     justify-content: space-between;
   }
-  .card__footer {
-    top: 113px;
-    margin-left: 10%;
+  .gsfoods_image {
+    width: 50%;
   }
+
+  .gscreations_image,
+  .gsfoods_image {
+    display: inherit;
+  }
+
   .button_gscreations {
-    margin-left: 10%;
     padding: 10px;
+    width: 200px;
   }
   .button_gscreations:hover {
     background-color: transparent;
@@ -327,31 +355,7 @@ h3 {
     border: 2px solid #793000;
     font-size: 1rem;
   }
-  .websites {
-    display: flex;
-    color: #ffff;
-    margin-left: 2%;
-    margin-right: 2%;
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-    flex-direction: row;
-  }
-  .food {
-    color: #ffff;
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-    display: flex;
-    width: 35%;
-    flex-direction: column;
-  }
-  .building {
-    color: #ffff;
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-    display: flex;
-    width: 35%;
-    flex-direction: column;
-  }
+
   .bizbox_paragraph {
     text-align: center;
     padding-bottom: 32px;
@@ -382,14 +386,7 @@ h3 {
     font-size: 1rem;
   }
 
-  .food__text {
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-  }
   .websites__paragraph {
-    margin-left: 10%;
     font-size: 22px;
   }
   .websites {
@@ -400,6 +397,9 @@ h3 {
     height: 67vh;
     width: 100%;
     margin-bottom: 5%;
+    display: flex;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    flex-direction: row;
   }
   h2 {
     margin: 0 auto;
