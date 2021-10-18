@@ -1,5 +1,5 @@
 ---
-type: learning
+type: Improvement
 language: learning
 title: Full Stack Learner (Part I)
 summary: "All about keeping it going - The path from deciding that you need to
