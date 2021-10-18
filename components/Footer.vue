@@ -31,7 +31,7 @@ a {
   .footer {
     display: flex;
     flex-direction: row;
-
+    height: 100%;
     width: 100%;
     justify-content: space-between;
     align-items: center;

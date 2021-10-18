@@ -132,18 +132,19 @@ export default {
   }
 
   // Types
-  &.vuejs {
+  &.learning {
     background-color: #28430a;
+    color: White;
   }
 
-  &.js {
+  &.Improvement {
     background-color: #edbd54;
 
     a {
       color: #252525;
     }
   }
-  &.other {
+  &.Buildinpublic {
     background-color: #ff8c42;
 
     a {
