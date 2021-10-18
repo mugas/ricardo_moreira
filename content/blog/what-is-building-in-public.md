@@ -1,5 +1,5 @@
 ---
-type: "#Buildinpublic"
+type: Buildinpublic
 language: No-code
 title: What is building in public
 summary: >-
