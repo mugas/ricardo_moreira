@@ -1,5 +1,5 @@
 ---
-type: learning
+type: improvement
 language: learning
 title: Full Stack Learner (Part II)
 summary: >
