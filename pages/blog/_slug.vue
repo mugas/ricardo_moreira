@@ -115,7 +115,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `${this.title} | Code Tribe`,
+          content: `${this.title} | Ricardo Moreira`,
         },
         {
           hid: 'description',
@@ -160,7 +160,7 @@ export default {
         {
           hid: 'twitter:site',
           name: 'twitter:site',
-          content: '@tribe_code',
+          content: '@moreira_creates',
         },
         {
           hid: 'twitter:description',
@@ -170,7 +170,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: `https://code-tribe.com${this.thumbnail}`,
+          content: `https://ricardomoreira.io/${this.thumbnail}`,
         },
       ],
     }
