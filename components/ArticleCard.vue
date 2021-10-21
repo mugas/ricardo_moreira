@@ -144,7 +144,7 @@ export default {
       color: #252525;
     }
   }
-  &.Buildinpublic {
+  &.notion {
     background-color: #ff8c42;
 
     a {
