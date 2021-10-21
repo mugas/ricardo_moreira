@@ -115,7 +115,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `${this.title} | Good Stuff Creations`,
+          content: `${this.title} | Ricardo Moreira`,
         },
         {
           hid: 'description',

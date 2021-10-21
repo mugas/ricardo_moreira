@@ -16,7 +16,7 @@ export default {
         async: 'async',
       },
     ],
-    title: 'Talking about code, cooking and more',
+    title: 'Talking about code, building in public and more',
     meta: [
       {
         charset: 'utf-8',
@@ -33,17 +33,17 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Talking about code, cooking and more',
+        content: 'Talking about code, building in public and more',
       },
       {
         hid: 'description',
         name: 'description',
-        content: 'Talking about code, cooking and more',
+        content: 'Talking about code, building in public and more',
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Talking about code, cooking and more',
+        content: 'Talking about code, building in public and more',
       },
       {
         hid: 'og:image:alt',
