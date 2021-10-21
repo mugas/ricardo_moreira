@@ -46,9 +46,9 @@ export default {
         content: 'Talking about code, building in public and more',
       },
       {
-        hid: 'og:image:alt',
-        property: 'og:image:alt',
-        content: '~/assets/Svg/gs.svg',
+        hid: 'og:image',
+        property: 'og:image',
+        content: '~/assets/assets/logo.svg',
       },
       {
         hid: 'og:article:author',
