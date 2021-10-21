@@ -74,7 +74,7 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Talking about code, cooking and more',
+        content: 'Talking about code, building public and more',
       },
       {
         hid: 'twitter:description',
