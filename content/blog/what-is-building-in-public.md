@@ -1,6 +1,6 @@
 ---
 type: Buildinpublic
-language: No-code
+language: notion
 title: What is building in public
 summary: >-
   Create like no one is watching. 
