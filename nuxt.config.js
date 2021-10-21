@@ -48,7 +48,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '~/assets/assets/logo.svg',
+        content: '~/assets/assets/SVG/logo.svg',
       },
       {
         hid: 'og:article:author',
