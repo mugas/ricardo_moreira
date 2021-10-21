@@ -1,6 +1,6 @@
 ---
 type: Improvement
-language: Improvement
+language: learning
 title: Starting over from the scratch
 summary: >
   Took me many dirty roads, many bumps on the way to reach where I am :
