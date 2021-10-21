@@ -1,7 +1,7 @@
 ---
 type: Buildinpublic
 language: notion
-title: It's difficult before it goes easier
+title: It’s gonna get harder before it gets easier
 summary: >
   Finally, the newsletter is out, there is so much to do about it and to improve
   and that's exactly the goal
