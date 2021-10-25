@@ -4,7 +4,7 @@ language: notion
 title: Start a newsletter while no one is watching
 summary: >-
   The main point of Bizbox was and is not the newsletter but it's an important
-  part it.
+  part of it.
 
   Nevertheless, I was decided to create one fast but with quality and that would be improved every week? How to achieve that in less than 2 weeks when you can only dedicate less than 2 hours a day for it?
 date: October 26, 2021
