@@ -58,14 +58,14 @@ export default {
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '<Blog Name>',
+        content: 'Ricardo Moreira',
       },
       {
         hid: 'og:type',
         property: 'og:type',
         content: 'website',
       },
-      { name: 'twitter:site', content: '@mugas11' },
+      { name: 'twitter:site', content: '@moreira_creates' },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
@@ -79,7 +79,7 @@ export default {
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: '<Blog name> and description',
+        content: 'Ricardo Moreira - Talking about code, building public and more',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }],
