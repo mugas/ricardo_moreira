@@ -2,7 +2,7 @@
   <nav>
     <ul class="social-media">
       <li>
-        <a href="https://twitter.com/mugas11" target="_blank">
+        <a href="https://twitter.com/moreira_creates" target="_blank">
           <font-awesome-icon :icon="['fab', 'twitter']" />
         </a>
       </li>
