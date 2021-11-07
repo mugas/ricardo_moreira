@@ -145,7 +145,12 @@ export default {
     }
   }
   &.notion {
-    background-color: #ff8c42;
+
+    a {
+      color: #252525;
+    }
+    &.Productivity {
+    background-color: #fee12b;
 
     a {
       color: #252525;
