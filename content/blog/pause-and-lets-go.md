@@ -1,5 +1,6 @@
 ---
 type: Productivity
+language: Productivity
 title: Pause and let's go
 summary: This week bizbox was put a bit on hold as I had to regroup to decide in
   what to focus and how.
