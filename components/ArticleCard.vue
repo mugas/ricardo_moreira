@@ -157,6 +157,13 @@ export default {
       color: #252525;
     }
   }
+  &.Opinion {
+    background-color: #264758;
+
+    a {
+      color: #252525;
+    }
+  }
 
   .card-inner {
     position: absolute;
