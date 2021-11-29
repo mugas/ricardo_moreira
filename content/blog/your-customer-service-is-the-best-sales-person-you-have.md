@@ -1,7 +1,7 @@
 ---
 type: Opinion
 language: Opinion
-title: Your customer service is the best sales person you have?
+title: Your customer service is the best sales person you have
 summary: >
   Doesn't matter if your company has 10000 thousand workers or just one (You)
   you have to nail the customer service.
