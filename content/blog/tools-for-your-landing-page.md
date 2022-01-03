@@ -81,7 +81,7 @@ The short version is that Indie Worldwide is a slack channel but Indie Worldwide
 
 In that slack channel, there is a part where you can put the link to your landing page and wait for comments. The best part is that most of these comments are useful and will make you see your landing page with different eyes and you feel ready to make some changes.
 
-This was my take about landing pages, I hope you liked it. Follow me [here](https://twitter.com/moreira_creates) and get updated every time I release new more posts or newsletters.
+This was my take about landing pages. [First](https://ricardomoreira.io/blog/landing-page-what-is-it-and-do-you-need-one/) I talk about what is a landing page and why you need one, [then ](https://ricardomoreira.io/blog/what-is-included-in-a-landing-page/)I talk about what should be included in one and how. Finally, I talk about the main tools you can use. I hope you liked it. Follow me [here](https://twitter.com/moreira_creates) and get updated every time I release new more posts or newsletters.
 
 Next month the topic will be about marketing, more precisely about content creation- what is it, how to create content perfect for your business, and what tools can you use.  I
 
