@@ -101,3 +101,9 @@ This is our html for the form for Google:
 So a search bar is a simple form with a input. So we create a form and set a input with the **type text** where we going to write our search.  Whenever you write a form you have to give some action to that form, i.e. you have to inform where you are going to send the data that you are writing.
 
 So in this case, was Google so where do I get that adress?
+
+If you do any search in Google and you see the url you realized that is always what is written of the form *https://www.google.com/search.* Then is the search text. So by writing the url there, then your search ( that it will be your input is the search that google is going to make)
+
+Also I add `target="_blank" to open in a new page. 
+
+And like that it's done. Now I just had to figure it out also the search url for the other sites.
