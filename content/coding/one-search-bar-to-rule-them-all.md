@@ -28,18 +28,14 @@ So let's dig in
 ## Links
 
 * [Project page](https://searchall.netlify.app/)
-* [GitHub pag](https://github.com/mugas/SearchMe)e
+* [GitHub page](https://github.com/mugas/SearchMe)
 * [Code Pen](https://codepen.io/mugas/pen/MWEXgWE)
-
-
 
 This tutorial is going to be quite fast as I will only try to focus on the get the info from every site.
 
 So our HTML is divided into header, main, and footer. In the footer, I used[ font-awesome cdn ](https://cdnjs.com/libraries/font-awesome)to put the icons. Get in [touch ](https://twitter.com/moreira_creates)if you have problems setting the icons.
 
 In our header :
-
-
 
 ```html
 <header>
