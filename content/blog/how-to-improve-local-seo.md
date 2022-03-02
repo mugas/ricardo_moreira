@@ -10,15 +10,13 @@ update: March 1, 2022
 author: Ricardo Moreira
 thumbnail: https://res.cloudinary.com/mugas/image/upload/v1646171656/photo-1607703703520-bb638e84caf2_tjjtcq.jpg
 ---
-Local SEO works like  SEO. You make a search and Google scans through its index and gives you the best results. There are tough some characteristics of Local SEO that affects the ranking:
+Local SEO works as SEO. You make a search and Google scans through its index and gives you the best results.  These results depend on the keywords you used. Besides knowing which keywords your website should feature that can improve your SEO, there are many other things you can do that can and will improve your local SEO
 
-* **Where you are from**
+**Where you are from**
 
-So if you want to be featured in Kuopio, your business needs to be listed in Kuopio otherwise you are sending mixed signals to Google and you might end up never being featured
+So if you want to be featured in Kuopio, Finland, your business needs to be listed in Kuopio, otherwise, you are sending mixed signals to Google and you might end up never being featured
 
-* **Is the business listed on Google business?**
-
-**Local Pack**
+**Is the business listed on Google business?**
 
 The more you improve your SEO, the more you improve the long-tail keywords you use, more chances you have to get in front of the competition but you also should keep your Local Pack spotless.
 
@@ -41,19 +39,21 @@ Steps to achieve it:
 
 
 
-* **Reviews online of your business. Especially reviews that use keywords related to the search**
+
+
+**Reviews online of your business. Especially reviews that use keywords related to the search**
 
 As much we fight against it, online reviews are important and they count a lot for local SEO. The good and the bad ones. It’s almost impossible to have a clean sheet when it comes to reviews but you know now that giving your best to every customer is a good way for Local SEO. Also, and this counts even for negative reviews, answering them can help your SEO ranking
 
-* **Shares in Social Media**
+**Shares in Social Media**
 
 The same as the reviews, the more shares you business as along the media, the more changes have to be “featured” by Google. So without being intrusive asking for your customer to share your business online can go a long way
 
-* **“Check-in” at that location**
+**“Check-in” at that location**
 
 You know when you search for something in Google and you can “check-in”? Well that is also important for Google as it counts that if someone is using that service it means that the service is alive, open and the more check-in, it means that it should be good
 
-* **Normal SEO**
+**Normal SEO**
 
 No matter if it’s local SEO or just SEO, there are basics that you can feature. I will go back to them on a different topic but here are the main points
 
@@ -67,8 +67,6 @@ No matter if it’s local SEO or just SEO, there are basics that you can feature
 There are many keywords tools( more on that after) but one easy way to start is to ask…Google.
 
 By start typing something, Google suggests keywords. With that, you can have a point where to start.
-
-
 
 **Different City – Different content**
 
@@ -110,10 +108,10 @@ So short tail keywords get a higher volume of results but are difficult to be fe
 
 I know that many people want to focus on the keywords that have big volume but start focusing on long-tail keywords that focused on your business and you be surprised in the long run:)
 
-**Some tips**
+**Other points**
 
 More and more people are using voices to make local searches. Because is voice, people tend to use longer keywords. So instead of “bakery wales”, they might say “bakery wales gluten-free”. You can also play with that.
 
 Be consistent. Having one address in one place and the other in another place is a big no and your SEO will suffer for it.
 
-Now let's talk about the best SEO tools on the next post
+Now that you know the best way to improve your local SEO, let's talk about the best tools to achieve it on the next post.
