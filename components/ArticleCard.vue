@@ -137,6 +137,16 @@ export default {
     color: White;
   }
 
+  &.seo {
+    background-color: #ef6555;
+    color: White;
+  }
+
+  &.learning {
+    background-color: #28430a;
+    color: White;
+  }
+
   &.Improvement {
     background-color: #edbd54;
 
