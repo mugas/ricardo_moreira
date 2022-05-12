@@ -18,6 +18,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'no-console': 'off',
+    'vue/comment-directive': 'off',
     'vue/max-attributes-per-line': 'off',
     'prettier/prettier': [
       'error',

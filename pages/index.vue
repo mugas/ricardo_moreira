@@ -15,7 +15,8 @@
         <div class="text">
           <h3>Good Stuff Creations</h3>
           <p class="websites__paragraph">
-            Website and digital products for local producers and groceries
+            Websites, SEO, booking, consulting, and more. Full service for your
+            hospitality business
           </p>
           <a class="gscreations__button" href="http://gscreations.io/">
             <button class="button__contact">Website</button></a
@@ -31,7 +32,7 @@
           <h3>Good Stuff Foods</h3>
           <p class="websites__paragraph">
             A new food experience. Eat the world locally. You can find more on
-            the Instagram page (Planned for 2022)
+            the Instagram page (Planned for Autumn 2022)
           </p>
           <a
             class="gscreations__button"
@@ -47,15 +48,15 @@
       </article>
       <article class="websites">
         <div class="text">
-          <h3>BizBox</h3>
+          <h3>No Code</h3>
           <p class="websites__paragraph">
-            A business dashboard made for solopreneurs, content creators and
-            Shopify entrepreneurs(End of 2021)
+            A collection of templates made with noCode products to help you
+            along the way
           </p>
           <a class="gscreations__button" href="https://bizbox.club/">
             <button class="button__contact">Website</button></a
           >
-          <p class="card__footer">Business, digital products, productivity</p>
+          <p class="card__footer">Business, Web 3.0, productivity</p>
         </div>
         <div class="gscreations_image">
           <img src="~/assets/images/bixboz_all.png" />
@@ -370,7 +371,7 @@ h3 {
   .text {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     width: 100%;
   }
 
@@ -388,6 +389,7 @@ h3 {
 
   .websites__paragraph {
     font-size: 22px;
+    max-width: 330px;
   }
   .websites {
     color: #ffff;
