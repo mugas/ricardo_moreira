@@ -24,7 +24,7 @@ a {
   position: relative;
   font-size: 1.25em;
   transition: all 265ms ease-out;
-  color: #a64e43;
+  color: #d45113;
 }
 
 @media (min-width: 768px) {

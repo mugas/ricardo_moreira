@@ -29,6 +29,22 @@
       </article>
       <article class="websites">
         <div class="text">
+          <h3>Landing pages and Websites</h3>
+          <p class="websites__paragraph">
+            A collection of templates made with noCode. Products to help you
+            along the way
+          </p>
+          <a class="gscreations__button" href="https://bizbox.club/">
+            <button class="button__contact">Website</button></a
+          >
+          <p class="card__footer">Business, Web 3.0, productivity</p>
+        </div>
+        <div class="gscreations_image">
+          <img src="~/assets/images/portfolio.png" />
+        </div>
+      </article>
+      <article class="websites">
+        <div class="text">
           <h3>Good Stuff Foods</h3>
           <p class="websites__paragraph">
             A new food experience. Eat the world locally. You can find more on
@@ -50,7 +66,7 @@
         <div class="text">
           <h3>No Code</h3>
           <p class="websites__paragraph">
-            A collection of templates made with noCode products to help you
+            A collection of templates made with noCode. Products to help you
             along the way
           </p>
           <a class="gscreations__button" href="https://bizbox.club/">
@@ -148,7 +164,7 @@ body {
   padding-bottom: 52px;
 }
 .action {
-  color: yellow;
+  color: #d45113;
 }
 
 button {
@@ -298,7 +314,7 @@ h3 {
     border-color: transparent;
   }
   50% {
-    border-color: #a64e43;
+    border-color: #d45113;
   }
   100% {
     border-color: transparent;
@@ -326,8 +342,8 @@ h3 {
 
   .button__contact:hover {
     background-color: transparent;
-    color: #793000;
-    border: 2px solid #793000;
+    color: #d45113;
+    border: 2px solid #d45113;
     font-size: 1rem;
   }
   .stuff {
@@ -352,8 +368,8 @@ h3 {
   }
   .button_gscreations:hover {
     background-color: transparent;
-    color: #793000;
-    border: 2px solid #793000;
+    color: #d45113;
+    border: 2px solid #d45113;
     font-size: 1rem;
   }
 
@@ -382,8 +398,8 @@ h3 {
   }
   .button_gsfoods:hover {
     background-color: transparent;
-    color: #28430a;
-    border: 2px solid #28430a;
+    color: #d45113;
+    border: 2px solid #d45113;
     font-size: 1rem;
   }
 
@@ -393,7 +409,7 @@ h3 {
   }
   .websites {
     color: #ffff;
-    background-color: #edbd54;
+    background-color: #d45113;
     margin-left: 7%;
     margin-right: 7%;
     height: 67vh;

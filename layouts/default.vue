@@ -31,7 +31,7 @@ h6 {
   line-height: 1.2;
   margin-bottom: 6px;
   text-align: center;
-  color: #264758;
+  color: #fff;
 }
 body {
   color: #252525;
