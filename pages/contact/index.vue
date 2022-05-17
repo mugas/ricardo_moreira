@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 h1 {
-  color: #28430a;
+  color: #000;
   margin-bottom: 2rem;
   text-align: center;
   margin-top: 2rem;
@@ -63,7 +63,7 @@ form {
   padding-bottom: 15px;
   margin-bottom: 10px;
   border-radius: 4px;
-  background-color: #28430a;
+  background-color: #d45113;
 }
 .form__name input {
   width: inherit;
@@ -73,7 +73,7 @@ form {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  background-color: #28430a;
+  background-color: #d45113;
   color: white;
   border-radius: 4px;
   padding: 1.3rem 30px 1rem 30px;
@@ -81,7 +81,7 @@ form {
   left: 0;
 }
 .form__name input:hover {
-  background-color: #28430a;
+  background-color: #d45113;
 }
 
 .form__name label {
@@ -115,13 +115,13 @@ form {
   border: 0;
   width: 100%;
   font-size: 1rem;
-  background-color: #28430a;
+  background-color: #d45113;
   color: white;
   border-radius: 4px;
 }
 .form__email {
   width: 90%;
-  background-color: #28430a;
+  background-color: #d45113;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -131,7 +131,7 @@ form {
 }
 .form__phone {
   width: 90%;
-  background-color: #28430a;
+  background-color: #d45113;
   border-radius: 4px;
 }
 .form__phone input {
@@ -142,7 +142,7 @@ form {
   width: 90%;
   margin-bottom: 10px;
   border-radius: 4px;
-  background-color: #28430a;
+  background-color: #d45113;
   color: white;
 }
 .form__textarea textarea {
@@ -157,7 +157,7 @@ form {
   top: 10px;
   left: 0;
   line-height: 20px;
-  background-color: #28430a;
+  background-color: #d45113;
   color: white;
   border-radius: 4px;
 }
@@ -178,7 +178,7 @@ textarea:focus {
   padding: 7px 35px;
   border-radius: 60px;
   display: inline-block;
-  background-color: #28430a;
+  background-color: #d45113;
   align-self: center;
   color: white;
   font-size: 18px;
@@ -215,7 +215,7 @@ textarea:focus {
     padding-bottom: 15px;
     margin-bottom: 10px;
     border-radius: 4px;
-    background-color: #28430a;
+    background-color: #d45113;
   }
   .form__email {
     margin-bottom: 0px;

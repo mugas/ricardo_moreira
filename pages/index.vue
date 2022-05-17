@@ -31,10 +31,13 @@
         <div class="text">
           <h3>Landing pages and Websites</h3>
           <p class="websites__paragraph">
-            A collection of templates made with noCode. Products to help you
-            along the way
+            When you want a simple website or a landing page to bring your
+            customers,come this way.
           </p>
-          <a class="gscreations__button" href="https://bizbox.club/">
+          <a
+            class="gscreations__button"
+            href="https://landingwebsites.carrd.co/"
+          >
             <button class="button__contact">Website</button></a
           >
           <p class="card__footer">Business, Web 3.0, productivity</p>

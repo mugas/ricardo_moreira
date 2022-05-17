@@ -16,23 +16,18 @@
         </div>
         <div class="text">
           <p>
-            My name is Ricardo Moreira and I am a Web developer and
+            My name is Ricardo Moreira and I am a web developer and
             entrepreneur. I was born in Portugal but I live in Finland with my
-            wife and 2 daughters. As a web developer, I created
-            <a href="http://gscreations.io/">Good Stuff Creations</a>.
+            wife and 2 daughters.
           </p>
           <p>
-            Good Stuff creations were made to combine my passion and work
-            experience for food and coding. Website and SEO for local producers
-            and small businesses.Your brand and business are an extension of
-            yourself and It needs to be online. Let me help you achieve that.
+            The best part of it, as a developer and a person that loves grow a
+            business, is that allows me to create different products and ideas.
           </p>
           <p>
-            But my creative side decided that I need to push forward. So from
-            September 2021 forward I decided to create products in public. Share
-            everything from the main idea from planning to execution. Share the
-            fails and successes. These products can be small e-books, tutorials,
-            info products, etc.
+            There for, I created
+            <a href="https://www.gscreations.io/">GS Creations</a>. A product
+            that gives a full service for companies in the hospitality business.
           </p>
           <p>
             One of my passions besides web development is food. It's where I
@@ -43,9 +38,19 @@
             use mostly produces by local producers in Finland.
           </p>
           <p>
+            Learning is growing. After hearing more and more about noCode
+            platforms I decided to give it a go. With that I am creating
+            templates, dashboards, e-books, and many.
+          </p>
+          <p>
+            This year I decided that web 3.0 and all this new worls is something
+            that I want to learn and try. So wait for it too see what I will be
+            building with that
+          </p>
+          <p>
             Feel free to connect with me
             <nuxt-link to="/contact">here</nuxt-link> or with the
-            <a href="https://twitter.com/mugas11">bluebird</a>
+            <a href="https://twitter.com/moreira_creates">bluebird</a>
             for any question that may arise you or just join me in this ride.
           </p>
         </div>
@@ -82,7 +87,7 @@ body {
   font-size: 18px;
 }
 a {
-  color: #28430a;
+  color: #d45113;
 }
 a {
   margin: 0;
@@ -92,11 +97,14 @@ a {
   margin-bottom: 0;
 }
 .action {
-  color: #28430a;
+  color: #000;
   font-size: 11.5vw;
   filter: brightness(2);
 }
 
+p {
+  text-align: left;
+}
 .page-wrapper {
   display: block;
   width: 100%;
@@ -108,13 +116,13 @@ a {
   }
 
   .action {
-    color: #28430a;
+    color: #000;
     font-size: 3.5vw;
     filter: brightness(2);
   }
 }
 aside {
-  background-color: #793000;
+  background-color: #d45113;
   color: white;
   display: flex;
   margin-top: 8%;
@@ -126,7 +134,7 @@ aside {
 
 @media (min-width: 700px) {
   aside {
-    background-color: #793000;
+    background-color: #d45113;
     color: white;
     display: flex;
     flex-direction: column;
@@ -232,7 +240,7 @@ article {
 }
 .text p:first-child:first-letter {
   float: left;
-  color: #793000;
+  color: #d45113;
   font-size: 4em;
   line-height: 35px;
   padding: 19px 10px 10px 0;
