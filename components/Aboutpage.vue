@@ -27,7 +27,7 @@
           <p>
             There for, I created
             <a href="https://www.gscreations.io/">GS Creations</a>. A product
-            that gives a full service for companies in the hospitality business.
+            that gives a full service for the real estate business.
           </p>
           <p>
             One of my passions besides web development is food. It's where I
