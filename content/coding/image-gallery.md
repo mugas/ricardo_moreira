@@ -1,6 +1,6 @@
 ---
-type: CSS
-language: CSS
+type: css3
+language: css3
 title: "Image Gallery "
 summary: Create an image gallery responsive made with CSS Grid and Flexbox. The
   number of columns expands or contract accordingly with the name of pictures
