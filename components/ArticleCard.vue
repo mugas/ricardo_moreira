@@ -198,7 +198,7 @@ export default {
     h4 {
       margin-top: 0;
       padding-bottom: 5.25rem;
-      color: black;
+      color: white;
       &:hover {
         color: white;
       }

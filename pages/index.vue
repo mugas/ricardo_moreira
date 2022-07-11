@@ -6,7 +6,7 @@
       </h1>
       <p class="subtitle">Developer, creator and constant learner</p>
       <NuxtLink to="/contact"
-        ><button class="button__contact">Let's Work together</button></NuxtLink
+        ><button class="button__contact">Hire Me</button></NuxtLink
       >
     </header>
     <section class="stuff">
