@@ -15,8 +15,8 @@
         <div class="text">
           <h3>Good Stuff Creations</h3>
           <p class="websites__paragraph">
-            Websites, SEO, booking, consulting, and more. Full service for your
-            hospitality business
+            Websites, landing pages, logos and more. Full service for the real
+            estate business
           </p>
           <a class="gscreations__button" href="http://gscreations.io/">
             <button class="button__contact">Website</button></a
@@ -31,8 +31,8 @@
         <div class="text">
           <h3>Landing pages and Websites</h3>
           <p class="websites__paragraph">
-            When you want a simple website or a landing page to bring your
-            customers,come this way.
+            When a simple website or a landing page is more than enough, come
+            this way.
           </p>
           <a
             class="gscreations__button"
@@ -40,7 +40,7 @@
           >
             <button class="button__contact">Website</button></a
           >
-          <p class="card__footer">Business, Web 3.0, productivity</p>
+          <p class="card__footer">Landing Page, Carrd</p>
         </div>
         <div class="gscreations_image">
           <img src="~/assets/images/portfolio.png" />
@@ -67,15 +67,15 @@
       </article>
       <article class="websites">
         <div class="text">
-          <h3>No Code</h3>
+          <h3>BizBox</h3>
           <p class="websites__paragraph">
-            A collection of templates made with noCode. Products to help you
-            along the way
+            The platform to help you grow your business. Digital products that
+            make me happy
           </p>
           <a class="gscreations__button" href="https://bizbox.club/">
             <button class="button__contact">Website</button></a
           >
-          <p class="card__footer">Business, Web 3.0, productivity</p>
+          <p class="card__footer">Business, tools, templates, noCode</p>
         </div>
         <div class="gscreations_image">
           <img src="~/assets/images/bixboz_all.png" />
