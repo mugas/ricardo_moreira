@@ -22,8 +22,7 @@ T﻿his article as it will be more focused on **arrays** and **objects** I will 
 
 S﻿o if you have an array a easy way to loop it is with \`for...of\`
 
-### 
-﻿for...of
+### ﻿for...of
 
 `﻿``js
 const animals = ['lion', 'leopard', 'panda', 'koala', 'camel']
@@ -41,8 +40,26 @@ for (variable of iterable)
   statement
 `﻿``
 
-I﻿n the ´variable`you put wathever you want, normally as an array would be a plural of things, you put the singular. So in this case, array name is animals and the variable is animal.
-T﻿he iterable
+I﻿n the ´variable`you put wathever you want, normally as an array would be a plural of things, you put the singular. So in this case, the array name is animals and the variable is animal.
+T﻿he iterable is going to be the array name.
+A﻿fter you create the statement you want. With `for...of` you don't create a new array, neither you change the array that exists. So here the *animals array* will continue to be as it was.
+
+S﻿o if you want to only get the first letter of each animal name you can do it with for...of but still would not change the array.
+
+`﻿``js
+for (let firstLetter of animals) {
+    firstLetter = firstLetter.charAt(0)
+    console.log(firstLetter)
+    console.log(typeof firstLetter) //string
+}
+`﻿``
+
+### ﻿map
+
+W﻿ith `map` is a different story, you will create a new array. 
+
+S﻿o with the same array that we had, let's say I want to 
+
 
 
 
