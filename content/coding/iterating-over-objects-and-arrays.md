@@ -54,11 +54,12 @@ for (let firstLetter of animals) {
 }
 `﻿``
 
+
 ### ﻿map
 
 W﻿ith `map` is a different story, you will create a new array. 
 
-S﻿o with the same array that we had, let's say I want to 
+S﻿o with the same array that we had I want to and
 
 
 
