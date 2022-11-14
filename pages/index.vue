@@ -10,7 +10,7 @@
       >
     </header>
     <section class="stuff">
-      <h2>Projects</h2>
+      <h2 class="projects">Projects</h2>
       <article class="websites">
         <div class="text">
           <h3>Good Stuff Creations</h3>
@@ -327,6 +327,11 @@ h3 {
 /*Media Queries*/
 
 @media (min-width: 768px) {
+  .projects {
+    padding-top: 32px;
+    font-size: 60px;
+    padding-bottom: 32px;
+  }
   .title {
     font-size: 67px;
     white-space: nowrap;
@@ -340,7 +345,7 @@ h3 {
     justify-content: space-around;
   }
   .subtitle {
-    font-size: 31px;
+    font-size: 40px;
   }
 
   .button__contact:hover {
@@ -353,6 +358,7 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 60px;
 
     justify-content: space-between;
   }
@@ -416,6 +422,7 @@ h3 {
     margin-left: 7%;
     margin-right: 7%;
     height: 67vh;
+    margin-top: 5%;
     width: 100%;
     margin-bottom: 5%;
     display: flex;
@@ -424,6 +431,9 @@ h3 {
   }
   h2 {
     margin: 0 auto;
+  }
+  .button__contact {
+    width: 250px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
