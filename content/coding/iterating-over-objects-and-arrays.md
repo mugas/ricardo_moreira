@@ -70,8 +70,6 @@ So \`capitalAnimals\` is going to be our new array. Then  with the array you hav
 
 I﻿n that function, just like we did with \`for...of\` we take only the first letter of each array element.
 
-
-
 A﻿s you can see in your console. \`capitalAnimals\` is a new array that only stores the first letters of each animals, while the array animals stays the same.
 
 A﻿nd yes you can achive also with \`for each\`. These are just 2 different methdos that you can use.
@@ -79,3 +77,60 @@ A﻿nd yes you can achive also with \`for each\`. These are just 2 different met
 B﻿ut what if you have an Object?
 
 ## Objects
+
+W﻿hen you have an object and want to iterate over it, maybe( if you were me) was to use the same methods as you did with an array. Just that they don't work as it returns an error always.
+
+W﻿hat can we use then for objects iteration?
+
+### ﻿for...if
+
+I﻿f with \`for...of\` you iterate over arrays with \`for...if\`you can iterate over objects
+
+```javascript
+const animalsHabitat = {
+    lion: "savanna",
+    leopard: "savanna",
+    panda: "forest",
+    koala: "forest",
+    camel: "dessert"
+}
+
+
+for (const animalHabit in animalsHabitat) {
+    console.log(animalHabit)
+    console.log(typeof animalHabit)
+}
+
+```
+
+
+
+T﻿he syntax is the same as the \`for...of\` but the question is, because **objects** have **keys** and **values**, the question is what \`for...in\` iterates? Always the **keys**. So if you wanted the value you had to go a bit deeper:
+
+```javascript
+for (const animalHabit in animalsHabitat) {
+    console.log(`The ${animalHabit} habitat is the ${animalsHabitat[animalHabit]}`)
+}
+```
+
+B﻿y using the square brackets you can access the value of each key.  There are other ways also that you can iterate over only the **keys** or the **values.** Also with \`for...if\` what you get is a string out of it.
+
+
+
+### ﻿Object.keys
+
+T﻿he name says it all but what it does is get the keys out of it. So we can use it straigh by \`console.log\` it.
+
+```javascript
+console.log(Object.keys(animalsHabitat))
+```
+
+T﻿he big difference is that now you have an array, not a string anymore.
+
+### ﻿Object.values
+
+```javascript
+console.log(Object.values(animalsHabitat))
+```
+
+W﻿ith **values** works the same and you also get an array.
