@@ -15,11 +15,7 @@ export default {
           'https://platform-api.sharethis.com/js/sharethis.js#property=5ff064f32bc64600181b0f01&product=sop',
         async: 'async',
       },
-      {
-        type: 'text/javascript',
-        src:
-          'window.$crisp=[];window.CRISP_WEBSITE_ID="d2fd4e85-84fb-4dee-9fc1-2ad0c79c3cb8";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})()'
-      }
+
     ],
     title: 'Talking about code, building in public and more',
     meta: [
@@ -98,7 +94,7 @@ export default {
   /**
    * Plugins
    */
-  plugins: [{ src: '~/plugins/lazyload' }, { src: '~/plugins/prism' }],
+  plugins: [{ src: '~/plugins/lazyload' }, { src: '~/plugins/prism' }, { src: "~plugins/crisp.js", mode: "client" }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
