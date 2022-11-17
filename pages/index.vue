@@ -15,13 +15,13 @@
         <div class="text">
           <h3>Good Stuff Creations</h3>
           <p class="websites__paragraph">
-            Websites, landing pages, logos and more. Full service for the real
-            estate business
+            Websites, landing pages, logos, presentations and more. The limit is
+            your imagination
           </p>
           <a class="gscreations__button" href="http://gscreations.io/">
             <button class="button__contact">Website</button></a
           >
-          <p class="card__footer">Web development, Wordpress, SEO</p>
+          <p class="card__footer">Web development, Webflow, Canva</p>
         </div>
         <div class="gscreations_image">
           <img src="~/assets/images/gscreations_mockup.png" />
@@ -29,29 +29,10 @@
       </article>
       <article class="websites">
         <div class="text">
-          <h3>Landing pages and Websites</h3>
-          <p class="websites__paragraph">
-            When a simple website or a landing page is more than enough, come
-            this way.
-          </p>
-          <a
-            class="gscreations__button"
-            href="https://landingwebsites.carrd.co/"
-          >
-            <button class="button__contact">Website</button></a
-          >
-          <p class="card__footer">Landing Page, Carrd</p>
-        </div>
-        <div class="gscreations_image">
-          <img src="~/assets/images/portfolio.png" />
-        </div>
-      </article>
-      <article class="websites">
-        <div class="text">
           <h3>Good Stuff Foods</h3>
           <p class="websites__paragraph">
             A new food experience. Eat the world locally. You can find more on
-            the Instagram page (Planned for Autumn 2022)
+            the Instagram page (On development)
           </p>
           <a
             class="gscreations__button"
@@ -69,16 +50,18 @@
         <div class="text">
           <h3>BizBox</h3>
           <p class="websites__paragraph">
-            The platform to help you grow your business. Digital products that
-            make me happy
+            Helping every solopreneur, indie hacker, or small business in their
+            journey to success.
           </p>
           <a class="gscreations__button" href="https://bizbox.club/">
             <button class="button__contact">Website</button></a
           >
-          <p class="card__footer">Business, tools, templates, noCode</p>
+          <p class="card__footer">
+            Business, tools, templates, noCode, digital products
+          </p>
         </div>
         <div class="gscreations_image">
-          <img src="~/assets/images/bixboz_all.png" />
+          <img src="~/assets/images/bizbox_all.png" />
         </div>
       </article>
     </section>

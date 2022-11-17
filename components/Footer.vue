@@ -33,8 +33,9 @@ a {
     flex-direction: row;
     height: 100%;
     width: 100%;
+    padding: 0 30px 0 30px;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding-top: 2rem;
     color: black;
   }

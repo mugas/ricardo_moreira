@@ -16,36 +16,37 @@
         </div>
         <div class="text">
           <p>
-            My name is Ricardo Moreira and I am a web developer and
-            entrepreneur. I was born in Portugal but I live in Finland with my
-            wife and 2 daughters.
+            My name is Ricardo Moreira, a web developer, indie hacker and cook.I
+            was born in Portugal but I live in Finland with my wife and 2
+            daughters.
           </p>
           <p>
-            The best part of it, as a developer and a person that loves grow a
-            business, is that allows me to create different products and ideas.
+            After many years working on hospitality, on 2018 I decided that
+            wanted to learn more and change my life and went to learn web
+            development.
           </p>
           <p>
-            There for, I created
-            <a href="https://www.gscreations.io/">GS Creations</a>. A product
-            that gives a full service for the real estate business.
+            It hasn't been always easy, learning new skills and putting them in
+            practice while holding a day job and still have time for your family
+            but has been totally worth it.
           </p>
           <p>
-            One of my passions besides web development is food. It's where I
-            have been working mostly all my life. So in my spare time, I am
-            starting a digital theme food box, for food lovers. As testing, I am
-            creating
+            First, I created
+            <a href="https://www.gscreations.io/">GS Creations</a>. From
+            websites to landing pages and mostly all web development related.
+          </p>
+          <p>
+            One of my passions besides web development is food. It's on pause
+            now but not for long. As testing, I am creating
             <a href="https://www.instagram.com/goodstuffoods/"> menus</a> that
             use mostly produces by local producers in Finland.
           </p>
           <p>
             Learning is growing. After hearing more and more about noCode
-            platforms I decided to give it a go. With that I am creating
-            templates, dashboards, e-books, and many.
-          </p>
-          <p>
-            This year I decided that web 3.0 and all this new worls is something
-            that I want to learn and try. So wait for it too see what I will be
-            building with that
+            platforms I decided to give it a go. In
+            <a href="https://bizbox.club/">BizBox</a> I created digital products
+            and run a podcast and website that helps solopreneurs to run their
+            business.
           </p>
           <p>
             Feel free to connect with me

@@ -5,7 +5,7 @@ export default {
   mode: 'universal',
 
   /*
-   ** Headers of the page
+   **   ers of the page
    */
   head: {
     script: [
@@ -15,6 +15,11 @@ export default {
           'https://platform-api.sharethis.com/js/sharethis.js#property=5ff064f32bc64600181b0f01&product=sop',
         async: 'async',
       },
+      {
+        type: 'text/javascript',
+        src:
+          'window.$crisp=[];window.CRISP_WEBSITE_ID="d2fd4e85-84fb-4dee-9fc1-2ad0c79c3cb8";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})()'
+      }
     ],
     title: 'Talking about code, building in public and more',
     meta: [
@@ -101,6 +106,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
+
+  buildmodules: [
+    '@nuxtjs/fontawesome',
+  ],
   modules: [
     ['@nuxtjs/google-tag-manager', { id: 'GTM-PV76V8S' }],
     '@nuxtjs/pwa',
@@ -113,6 +122,7 @@ export default {
   plausible: {
     domain: 'ricardomoreira.io',
   },
+
 
   /**
    * Google fonts
@@ -127,6 +137,13 @@ export default {
    * Font Awesome
    */
   fontawesome: {
+    component: 'Fa',
+
+
+    icons: {
+
+      brands: true,
+    },
     imports: [
       {
         set: '@fortawesome/free-brands-svg-icons',
@@ -144,8 +161,14 @@ export default {
           'faYarn',
           'faFirefox',
           'faLinkedin',
-        ],
+        ]
       },
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: [
+          'faUser'
+        ]
+      }
     ],
   },
 
