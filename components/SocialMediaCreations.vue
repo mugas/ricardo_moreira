@@ -34,7 +34,7 @@ ul {
 a {
   padding: 1rem;
   text-decoration: none;
-  color: rgb(200, 136, 45);
+  color: #793000;
 }
 
 li :first-child {

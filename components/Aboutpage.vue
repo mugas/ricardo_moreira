@@ -88,7 +88,7 @@ body {
   font-size: 18px;
 }
 a {
-  color: #d45113;
+  color: #793000;
 }
 a {
   margin: 0;
@@ -123,7 +123,7 @@ p {
   }
 }
 aside {
-  background-color: #d45113;
+  background-color: #793000;
   color: white;
   display: flex;
   margin-top: 8%;
@@ -135,7 +135,7 @@ aside {
 
 @media (min-width: 700px) {
   aside {
-    background-color: #d45113;
+    background-color: #793000;
     color: white;
     display: flex;
     flex-direction: column;
@@ -241,7 +241,7 @@ article {
 }
 .text p:first-child:first-letter {
   float: left;
-  color: #d45113;
+  color: #793000;
   font-size: 4em;
   line-height: 35px;
   padding: 19px 10px 10px 0;

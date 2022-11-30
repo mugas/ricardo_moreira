@@ -15,6 +15,12 @@ export default {
           'https://platform-api.sharethis.com/js/sharethis.js#property=5ff064f32bc64600181b0f01&product=sop',
         async: 'async',
       },
+      {
+        type: 'text/javascript',
+        src:
+          'https://consent.cookiebot.com/uc.js" data-cbid="3511b233-1d8a-4beb-8016-4c5df55ab1a7',
+        id: "Cookiebot",
+      }
 
     ],
     title: 'Talking about code, building in public and more',

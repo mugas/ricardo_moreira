@@ -32,7 +32,7 @@
   position: relative;
   font-size: 1.25em;
   transition: all 265ms ease-out;
-  color: #a64e43;
+  color: #793000;
 }
 
 .social-icons a:hover:before {
