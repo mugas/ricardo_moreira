@@ -70,6 +70,19 @@
 
 <script>
 export default {
+  head() {
+      return {
+        script: [
+          {
+            type: 'text/javascript',
+            src: 'https://consent.cookiebot.com/3511b233-1d8a-4beb-8016-4c5df55ab1a7/cd.js',
+            id:"CookieDeclaration",
+            type: 'text/javascript',
+
+          }
+        ],
+      }
+    },
   layout: 'empty',
   data() {
     return {
