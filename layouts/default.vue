@@ -5,7 +5,6 @@
     <main class="main-content">
       <nuxt />
     </main>
-    <Cookiebox />
     <Footer />
   </div>
 </template>
