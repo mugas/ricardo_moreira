@@ -49,6 +49,10 @@ h1 {
   margin-top: 2rem;
 }
 
+h2 {
+  color: #28430a;
+}
+
 .subtitle {
   color: #28430a;
   font-size: 1.5em;
